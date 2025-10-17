@@ -1,0 +1,101 @@
+[
+  {
+    "id": 101,
+    "name": "Tabasheer Eau de Parfum 50 ml",
+    "code": "1544096",
+    "price": 449.9,
+    "category": "Fragrance",
+    "image": "images/products/tabasheer-50.jpg",
+    "description": "Chypre floral with rose & lily of the valley on musk & patchouli."
+  },
+  {
+    "id": 102,
+    "name": "Tabasheer Gold Eau de Parfum 50 ml",
+    "code": "1546229",
+    "price": 449.9,
+    "category": "Fragrance",
+    "image": "images/products/tabasheer-gold-50.jpg",
+    "description": "Floriental fruity with freesia, patchouli & vanilla."
+  },
+  {
+    "id": 103,
+    "name": "Cantare Eau de Parfum 50 ml",
+    "code": "1320816",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/products/cantare-50.jpg",
+    "description": "Floriental ambery with jasmine, vanilla & rosewood."
+  },
+  {
+    "id": 104,
+    "name": "Bella Rose Eau de Parfum 50 ml",
+    "code": "1521086",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/products/bella-rose-50.jpg",
+    "description": "Floral fruity gourmand \u2014 rose, vanilla, praline."
+  },
+  {
+    "id": 105,
+    "name": "Carpe Diem Eau de Parfum 100 ml",
+    "code": "1544105",
+    "price": 499.9,
+    "category": "Men's",
+    "image": "images/products/carpe-diem-100.jpg",
+    "description": "Foug\u00e8re ambery citrus with citrus, vanilla & sandalwood."
+  },
+  {
+    "id": 106,
+    "name": "Red Extreme Cologne 100 ml",
+    "code": "04400",
+    "price": 499.9,
+    "category": "Men's",
+    "image": "images/products/red-extreme-100.jpg",
+    "description": "Chypre citrus with bergamot, pepper & vetiver."
+  },
+  {
+    "id": 201,
+    "name": "Tissue Oil Original 100 ml",
+    "code": "1544158",
+    "price": 159.9,
+    "category": "Bath & Body",
+    "image": "images/products/tissue-oil-100.jpg",
+    "description": "Helps reduce appearance of scars & stretch marks in 2 weeks."
+  },
+  {
+    "id": 202,
+    "name": "Tissue Oil UV Defend SPF15 100 ml",
+    "code": "1505208",
+    "price": 179.9,
+    "category": "Bath & Body",
+    "image": "images/products/tissue-oil-uv-100.jpg",
+    "description": "The only Tissue Oil with SPF; helps reduce UV photodamage in 48h."
+  },
+  {
+    "id": 203,
+    "name": "Derma Roller 0.25 mm",
+    "code": "1576021",
+    "price": 99.9,
+    "category": "Tools",
+    "image": "images/products/derma-roller.jpg",
+    "description": "Gentle home microneedling device to boost absorption & smoothness."
+  },
+  {
+    "id": 204,
+    "name": "A-Firm Hydro Plus Plumping Serum 30 ml",
+    "code": "1382323",
+    "price": 349.9,
+    "category": "Skincare",
+    "image": "images/products/hydro-plus-serum.jpg",
+    "description": "Hyaluronic acid complex for dewy, plumper-looking skin."
+  },
+  {
+    "id": 205,
+    "name": "A-Firm Brightening Day Cream SPF15 50 ml",
+    "code": "27958",
+    "price": 379.9,
+    "category": "Skincare",
+    "image": "images/products/brightening-day.jpg",
+    "description": "Brightens tone in 7 days with active botanicals."
+  }
+]

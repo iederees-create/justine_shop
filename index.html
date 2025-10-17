@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justine Shop — October Offers</title>
+  <meta name="description" content="Shop selected Justine favourites — fragrances, Tissue Oil, skincare & more. Order fast via WhatsApp." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Tailwind for quick layout -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-black/80 backdrop-blur border-b border-white/10">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-white/10 grid place-items-center text-xs font-semibold">JS</div>
+        <div>
+          <h1 class="text-lg font-bold tracking-wide">Justine Shop</h1>
+          <p class="text-[10px] text-white/60 -mt-1">Independent Consultant</p>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#catalog" class="hover:text-indigo-300 transition">Shop</a>
+        <a href="#how" class="hover:text-indigo-300 transition">How to order</a>
+        <a href="#faq" class="hover:text-indigo-300 transition">FAQ</a>
+        <a href="C10 October Brochure 2025_LR.pdf" class="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 transition">Brochure (PDF)</a>
+      </nav>
+      <button id="cartButton" class="relative px-4 py-2 rounded-xl bg-white text-black font-semibold">
+        Cart <span id="cartCount" class="ml-1">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden border-b border-white/10">
+    <div class="container mx-auto px-4 py-10 md:py-16 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">Start selling today.<br/><span class="text-indigo-300">Fast check-out via WhatsApp.</span></h2>
+        <p class="mt-4 text-white/80 max-w-xl">Curated October picks — fragrances, Tissue Oil, skincare & season gifts. Tap a product to add to cart and complete your order in WhatsApp.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#catalog" class="btn-primary">Shop October Deals</a>
+          <a href="C10 October Brochure 2025_LR.pdf" class="btn-secondary">View Brochure PDF</a>
+        </div>
+        <p class="mt-3 text-xs text-white/60">Prices based on October 2025 brochure. Subject to availability & change.</p>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/3] w-full rounded-3xl border border-white/10 overflow-hidden">
+          <!-- Replace this with your own hero image -->
+          <img src="images/hero.jpg" alt="Justine October" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Controls -->
+  <section id="catalog" class="container mx-auto px-4 py-8">
+    <div class="flex flex-col md:flex-row md:items-end gap-4 md:gap-6">
+      <div class="grow">
+        <label for="search" class="sr-only">Search</label>
+        <input id="search" type="search" placeholder="Search products, e.g. 'Tissue Oil', 'Carpe Diem'..."
+               class="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/15 outline-none focus:ring-2 focus:ring-indigo-400" />
+      </div>
+      <div>
+        <label for="category" class="block text-xs uppercase tracking-wide text-white/60 mb-1">Category</label>
+        <select id="category" class="px-4 py-3 rounded-xl bg-white/10 border border-white/15">
+          <option value="all">All</option>
+          <option>Fragrance</option>
+          <option>Skincare</option>
+          <option>Bath & Body</option>
+          <option>Men's</option>
+          <option>Style Store</option>
+          <option>Tools</option>
+        </select>
+      </div>
+      <div>
+        <label for="sort" class="block text-xs uppercase tracking-wide text-white/60 mb-1">Sort by</label>
+        <select id="sort" class="px-4 py-3 rounded-xl bg-white/10 border border-white/15">
+          <option value="featured">Featured</option>
+          <option value="price_asc">Price: Low → High</option>
+          <option value="price_desc">Price: High → Low</option>
+          <option value="alpha">Alphabetical</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Product grid -->
+    <div id="grid" class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"></div>
+
+    <!-- Empty state -->
+    <div id="empty" class="hidden mt-10 text-center text-white/70">No products found.</div>
+  </section>
+
+  <!-- How to order -->
+  <section id="how" class="border-t border-white/10">
+    <div class="container mx-auto px-4 py-12 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h3 class="text-2xl md:text-3xl font-bold">How checkout works</h3>
+        <ol class="mt-4 space-y-3 text-white/80 list-decimal list-inside">
+          <li>Browse and add items to your cart.</li>
+          <li>Open your cart, add your contact/delivery details.</li>
+          <li>Press “Order via WhatsApp” — your order is sent to me instantly.</li>
+        </ol>
+        <p class="mt-4 text-sm text-white/60">Prefer email? Use the “Order via Email” button in the cart.</p>
+      </div>
+      <div class="rounded-2xl border border-white/10 p-6 bg-white/[0.03]">
+        <h4 class="font-semibold mb-2">October 2025 brochure highlights</h4>
+        <ul class="text-sm text-white/80 space-y-2">
+          <li>Carpe Diem & Red Extreme fragrance deals</li>
+          <li>Original Tissue Oil & new UV Defend SPF 15</li>
+          <li>Derma Roller, A-Firm regimens & Hydro Plus</li>
+          <li>Gifting & Style Store limited editions</li>
+        </ul>
+        <a href="C10 October Brochure 2025_LR.pdf" class="btn-secondary mt-4 inline-block">Open Brochure</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="border-t border-white/10">
+    <div class="container mx-auto px-4 py-12">
+      <h3 class="text-2xl md:text-3xl font-bold">FAQ</h3>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <div class="rounded-2xl border border-white/10 p-5">
+          <p class="font-semibold">Are prices fixed?</p>
+          <p class="text-white/80 mt-2">Prices reflect the October 2025 brochure. Promos change monthly; I’ll confirm totals on order.</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 p-5">
+          <p class="font-semibold">How do I pay?</p>
+          <p class="text-white/80 mt-2">EFT or cash on delivery/collection. Delivery options will be confirmed on WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+    <div class="container mx-auto px-4 py-8 text-center text-xs text-white/60">
+      <p>© 2025 Independent Justine Consultant. “Avon Justine” and product names are trademarks of Avon Justine (Pty) Ltd.</p>
+      <p class="mt-1">This site is a personal sales page. Not an official Avon Justine website.</p>
+    </div>
+  </footer>
+
+  <!-- Cart Drawer -->
+  <aside id="cart" class="cart-drawer">
+    <div class="flex items-center justify-between border-b border-white/10 p-4">
+      <h3 class="text-lg font-semibold">Your Cart</h3>
+      <button id="closeCart" class="text-white/70 hover:text-white">✕</button>
+    </div>
+    <div id="cartItems" class="p-4 space-y-4 overflow-y-auto grow"></div>
+    <div class="p-4 border-t border-white/10 space-y-3">
+      <div class="flex items-center justify-between">
+        <span class="text-white/70">Subtotal</span>
+        <span id="subtotal" class="font-semibold">R0.00</span>
+      </div>
+      <details class="rounded-xl border border-white/10 p-3">
+        <summary class="cursor-pointer font-medium">Your details</summary>
+        <div class="grid grid-cols-1 gap-3 mt-3">
+          <input id="custName" class="field" placeholder="Full name" />
+          <input id="custPhone" class="field" placeholder="Phone number" />
+          <input id="custEmail" class="field" placeholder="Email (optional)" />
+          <input id="custAddress" class="field" placeholder="Delivery address (optional)" />
+          <textarea id="custNotes" class="field" placeholder="Notes (shade/scent preferences, etc.)"></textarea>
+        </div>
+      </details>
+      <button id="waOrder" class="btn-primary w-full">Order via WhatsApp</button>
+      <button id="emailOrder" class="btn-secondary w-full">Order via Email</button>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
