@@ -9,6 +9,7 @@ const els = {
   grid: document.getElementById('grid'),
   empty: document.getElementById('empty'),
   search: document.getElementById('search'),
+  brand: document.getElementById('brand'),
   category: document.getElementById('category'),
   sort: document.getElementById('sort'),
   cartBtn: document.getElementById('cartButton'),
@@ -24,58 +25,68 @@ const els = {
   custEmail: document.getElementById('custEmail'),
   custAddress: document.getElementById('custAddress'),
   custNotes: document.getElementById('custNotes'),
-  loadError: document.getElementById('loadError')
 };
 
-/** ===== LOAD & SANITIZE PRODUCTS ===== **/
+/** ===== LOAD BOTH DATASETS ===== **/
 async function loadProducts() {
-  let raw = null;
+  const sources = [
+    { url: 'products.json', brand: 'Justine' },
+    { url: 'avon-products.json', brand: 'Avon' }
+  ];
 
-  // try products.json
-  try {
-    const res = await fetch('products.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    raw = await res.json();
-  } catch (err) {
-    // fallback to embedded JSON if you add it in index.html
-    const embed = document.getElementById('productsData');
-    if (embed && embed.textContent.trim()) {
-      try { raw = JSON.parse(embed.textContent); }
-      catch(e2){ return showLoadError(`Could not parse embedded products JSON: ${e2.message}`); }
-    } else {
-      return showLoadError(`Could not load products.json (${err.message}). If you opened the file directly (file://), run a local server or paste your JSON into the embedded block.`);
+  const lists = [];
+  for (const src of sources) {
+    try {
+      const res = await fetch(src.url);
+      if (!res.ok) throw new Error(`${src.url} not found`);
+      const raw = await res.json();
+      const tagged = Array.isArray(raw) ? raw.map(r => ({ ...r, brand: r.brand || src.brand })) : [];
+      lists.push(tagged);
+    } catch (e) {
+      // Non-fatal: missing file just means 0 items from that source
+      console.warn('Load warning:', e.message);
     }
   }
 
-  const cleaned = sanitizeProducts(raw);
+  const merged = lists.flat();
+  const cleaned = sanitizeProducts(merged);
   state.products = cleaned;
+  attachFilters();
   render();
 }
 
-function showLoadError(msg){
-  console.error(msg);
-  if (els.loadError) {
-    els.loadError.textContent = msg;
-    els.loadError.classList.remove('hidden');
-  } else {
-    alert(msg);
-  }
+function attachFilters(){
+  ['input','change'].forEach(ev=>{
+    els.search.addEventListener(ev, render);
+    els.brand.addEventListener(ev, render);
+    els.category.addEventListener(ev, render);
+    els.sort.addEventListener(ev, render);
+  });
 }
 
+/** ===== SANITIZE ===== **/
 function sanitizeProducts(list) {
-  const normalized = list.map(normalizeEntry).filter(validProduct);
+  const normalized = list
+    .map(normalizeEntry)
+    .filter(validProduct);
 
-  // dedupe by code or name
+  // Dedupe by (brand + code) then by normalized name
   const seen = new Map();
   for (const p of normalized) {
-    const key = p.code ? `code:${p.code}` : `name:${slug(p.name)}`;
+    const key = p.code ? `${p.brand}|code:${p.code}` : `${p.brand}|name:${slug(p.name)}`;
     if (!seen.has(key)) {
       seen.set(key, p);
     } else {
       const existing = seen.get(key);
+      // keep lower (promo) price
       if (p.price < existing.price) seen.set(key, { ...existing, price: p.price });
+      // prefer specific category over "General"
       if (existing.category === 'General' && p.category !== 'General') {
         seen.set(key, { ...seen.get(key), category: p.category });
+      }
+      // prefer image if missing
+      if ((!existing.image || existing.image.includes('placeholder')) && p.image) {
+        seen.set(key, { ...seen.get(key), image: p.image });
       }
     }
   }
@@ -87,12 +98,11 @@ function sanitizeProducts(list) {
 
 function normalizeEntry(e) {
   const originalName = (e.name || "").trim();
-
   let extractedCode = "";
   const codeMatch = originalName.match(/\bCode\s+(\d{4,8})\b/i);
   if (codeMatch) extractedCode = codeMatch[1];
 
-  let code = (String(e.code || "").match(/^\d{4,8}$/) ? String(e.code) : "") || extractedCode;
+  let code = (String(e.code || "").match(/^\d{3,10}$/) ? String(e.code) : "") || extractedCode;
 
   let name = originalName
     .replace(/(\d)\s*(ml|g|kg|l)\b/gi, "$1 $2")
@@ -105,15 +115,18 @@ function normalizeEntry(e) {
 
   let price = Number(e.price);
   if (!isFinite(price)) price = 0;
-  if (price >= 1000) price = Math.round(price) / 100; // 49990 -> 499.90
+  if (price >= 10000) price = Math.round(price) / 100; // bad importer numbers
   if (price > 2000) price = 0;
 
-  const category = guessCategory(name);
+  // Category + brand
+  const category = e.category && e.category !== 'General' ? e.category : guessCategory(name);
+  const brand = (e.brand || '').trim() || guessBrand(name);
+
   const image = e.image && e.image.trim() ? e.image : "images/placeholder.svg";
-  const id = Number.isFinite(Number(e.id)) ? Number(e.id) : Math.abs(hashCode(code || name));
+  const id = Number.isFinite(Number(e.id)) ? Number(e.id) : Math.abs(hashCode((brand||'') + (code||'') + name));
   const description = (e.description || "").trim();
 
-  return { id, name, code, price: round2(price), category, image, description };
+  return { id, brand, name, code, price: round2(price), category, image, description };
 }
 
 function removePromoPhrases(s) {
@@ -121,11 +134,11 @@ function removePromoPhrases(s) {
     /\bREGULAR PRICE\b/gi, /\bLOWER PRICE\b/gi, /\bGREAT DEAL\b/gi, /\bBESTSELLER\b/gi,
     /\bSAVE\b/gi, /\bUP TO\b/gi, /\bONLY\b/gi, /\bBOTH FOR\b/gi, /\bEACH\b/gi,
     /\bWHEN YOU BUY\b/gi, /\bBUY( THE)?\b/gi, /\b& GET\b/gi, /\bFREE\b/gi,
-    /\bORDER CODE\s+\d{4,8}\b/gi, /\bOCTOBE?R?\s*2025?\b/gi
+    /\bORDER CODE\s+\d{3,10}\b/gi, /\bOCTOBE?R?\s*2025?\b/gi
   ];
   for (const r of kill) s = s.replace(r, " ").trim();
   if (/^\d+\s*(ml|g|kg|l)\b/i.test(s) && s.split(" ").length <= 3) s = "";
-  s = s.replace(/\bCode\s+\d{4,8}\b/gi, "").replace(/\s{2,}/g, " ").trim();
+  s = s.replace(/\bCode\s+\d{3,10}\b/gi, "").replace(/\s{2,}/g, " ").trim();
   return s;
 }
 
@@ -144,12 +157,17 @@ function fixCasing(s) {
 function guessCategory(name) {
   const n = name.toLowerCase();
   if (/(eau de parfum|eau de toilette|cologne|deodorant spray|parfum)/i.test(n)) return "Fragrance";
-  if (/(serum|cream|spf|day cream|night cream|moisturi[sz]er|cleanser|toner|mask|eye cream|pigmentation|brightening)/i.test(n)) return "Skincare";
-  if (/(tissue oil|body (wash|butter|lotion|cr[eè]me)|shower cr[eè]me|intimate wash|cleansing bar|bath cr[eè]me)/i.test(n)) return "Bath & Body";
+  if (/(serum|cream|spf|day cream|night cream|moisturi[sz]er|cleanser|toner|mask|eye cream|pigmentation|brightening|foundation|concealer|lip|mascara|eyeliner|brow|palette|blush|powder|nail)/i.test(n)) return "Makeup";
+  if (/(tissue oil|body (wash|butter|lotion|cr[eè]me)|shower cr[eè]me|intimate wash|cleansing bar|bath cr[eè]me|bubble bath)/i.test(n)) return "Bath & Body";
   if (/\bmen('|’)?s\b/.test(n)) return "Men's";
-  if (/(handbag|watch|earrings|necklace|bracelet|scarf|bag|weekender|pouch|wallet)/i.test(n)) return "Style Store";
-  if (/(derma roller|applicator|tool|brush)/i.test(n)) return "Tools";
-  return "General";
+  if (/(handbag|watch|earrings|necklace|bracelet|scarf|bag|weekender|pouch|wallet|jewellery|jewelry)/i.test(n)) return "Style Store";
+  if (/(derma roller|applicator|tool|brush|grooming set)/i.test(n)) return "Tools";
+  return "Skincare";
+}
+
+function guessBrand(name) {
+  // loose fallback if needed
+  return /tissue oil|justine/i.test(name) ? "Justine" : "Avon";
 }
 
 function validProduct(p) {
@@ -157,25 +175,30 @@ function validProduct(p) {
   const promoWords = /\b(SAVE|ONLY|UP TO|BOTH FOR|GREAT DEAL|EACH|ORDER CODE|BUY|FREE)\b/i;
   if (promoWords.test(p.name)) return false;
   if (!(p.price >= 25 && p.price <= 2000)) return false;
-  if (p.category === "General" && !/(eau|cream|serum|oil|lotion|spray|deodorant|bar|cr[eè]me|handbag|watch|earrings|necklace|bracelet|bag|scarf)/i.test(p.name)) {
-    return false;
-  }
-  if (p.code && !/^\d{4,8}$/.test(p.code)) p.code = "";
+  if (p.code && !/^\d{3,10}$/.test(p.code)) p.code = "";
+  if (!p.brand) p.brand = "Avon";
   return true;
 }
 
 function slug(s) { return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); }
-function round2(n) { return Math.round((Number(n) || 0) * 100) / 100; }
-function hashCode(str) { let h = 0; for (let i=0;i<str.length;i++) { h=((h<<5)-h)+str.charCodeAt(i); h|=0; } return h; }
+function round2(n){ return Math.round((Number(n)||0)*100)/100 }
+function hashCode(str){ let h=0; for(let i=0;i<str.length;i++){ h=((h<<5)-h)+str.charCodeAt(i); h|=0;} return h; }
 
-/** ===== RENDERING ===== **/
+/** ===== RENDER ===== **/
 function render(){
   const q = (els.search.value || "").trim().toLowerCase();
   const cat = els.category.value;
+  const brand = els.brand.value;
+
   let items = [...state.products];
 
+  if (brand && brand !== 'all') items = items.filter(p => p.brand === brand);
   if (cat && cat !== 'all') items = items.filter(p => p.category === cat);
-  if (q) items = items.filter(p => [p.name, p.code, p.description].join(' ').toLowerCase().includes(q));
+  if (q) {
+    items = items.filter(p =>
+      [p.name, p.code, p.description, p.brand].join(' ').toLowerCase().includes(q)
+    );
+  }
 
   const sort = els.sort.value;
   if (sort === 'price_asc') items.sort((a,b)=>a.price - b.price);
@@ -183,11 +206,17 @@ function render(){
   if (sort === 'alpha') items.sort((a,b)=>a.name.localeCompare(b.name));
 
   els.grid.innerHTML = '';
-  if (!items.length){ els.empty.classList.remove('hidden'); return; } else { els.empty.classList.add('hidden'); }
+  if (!items.length){
+    els.empty.classList.remove('hidden');
+    return;
+  } else {
+    els.empty.classList.add('hidden');
+  }
 
   items.forEach(p => {
     const card = document.createElement('div');
     card.className = 'card';
+    const brandBadgeClass = p.brand ? `brand-${p.brand}` : '';
     card.innerHTML = `
       <div class="img">
         <img src="${p.image || 'images/placeholder.svg'}"
@@ -198,7 +227,7 @@ function render(){
       <div class="body">
         <div class="flex items-start justify-between gap-3">
           <h4 class="text-base">${escapeHtml(p.name)}</h4>
-          <span class="badge">${p.category}</span>
+          <span class="badge ${brandBadgeClass}">${p.brand || ''}</span>
         </div>
         ${p.description ? `<p class="small mt-1">${escapeHtml(p.description)}</p>` : ''}
         <div class="mt-3 flex items-center justify-between">
@@ -221,7 +250,7 @@ function render(){
 
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c =>
-    ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]
+    ({'&':'&','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c] || c
   );
 }
 
@@ -232,7 +261,8 @@ function addToCart(id){
   const found = state.cart.find(x => x.id === p.id);
   if (found) found.qty += 1;
   else state.cart.push({ ...p, qty: 1 });
-  updateCart(); openCart();
+  updateCart();
+  openCart();
 }
 
 function removeFromCart(id){
@@ -260,7 +290,7 @@ function updateCart(){
     row.innerHTML = `
       <div>
         <div class="font-semibold">${escapeHtml(item.name)}</div>
-        <div class="small">${item.code ? `Code: ${item.code}` : ''}</div>
+        <div class="small">${[item.brand, item.code ? `Code: ${item.code}` : ''].filter(Boolean).join(' • ')}</div>
         <div class="small">${money(item.price)} × ${item.qty} = <span class="font-semibold">${money(line)}</span></div>
         <div class="remove mt-1" data-id="${item.id}">Remove</div>
         <hr class="sep" />
@@ -297,10 +327,10 @@ els.closeCart.addEventListener('click', closeCart);
 /** ===== CHECKOUT ===== **/
 function buildMessage(){
   const lines = [];
-  lines.push(`*New Order — Justine Shop*`);
+  lines.push(`*New Order — Avon + Justine Shop*`);
   lines.push('');
   state.cart.forEach(i=>{
-    lines.push(`• ${i.name} ${i.code ? `(Code ${i.code}) ` : ''}× ${i.qty} — R${(i.price*i.qty).toFixed(2)}`);
+    lines.push(`• ${i.brand ? `[${i.brand}] ` : ''}${i.name} ${i.code ? `(Code ${i.code}) ` : ''}× ${i.qty} — R${(i.price*i.qty).toFixed(2)}`);
   });
   const total = state.cart.reduce((s,x)=>s+x.price*x.qty,0);
   lines.push('');
@@ -331,7 +361,7 @@ function sendWhatsApp(){
 function sendEmail(){
   if (!state.cart.length){ alert('Your cart is empty.'); return; }
   const to = ''; // optional: set your email
-  const subject = encodeURIComponent("New Order — Justine Shop");
+  const subject = encodeURIComponent("New Order — Avon + Justine Shop");
   const body = buildMessage();
   const mailto = `mailto:${to}?subject=${subject}&body=${body}`;
   window.location.href = mailto;
