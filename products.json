@@ -1,2054 +1,977 @@
-[
-  {
-    "name": "Regular Price Tissue Oil Sleep Therapy Body Butter200 ml Code 1438550Regular Price ONLY EACH",
-    "code": "00751",
-    "price": 229.9,
-    "category": "Bath & Body",
-    "id": 1001,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price Tissue Oil Sleep Therapy Body Butter200 ml Code 1438550Regular Price ONLY EACH",
-    "code": "00751",
-    "price": 14990.0,
-    "category": "Bath & Body",
-    "id": 1002,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE",
-    "code": "00751",
-    "price": 80.0,
-    "category": "General",
-    "id": 1003,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "OCTOBEStart the",
-    "code": "",
-    "price": 2025.0,
-    "category": "General",
-    "id": 1004,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ALL 3 FOR SAVE",
-    "code": "",
-    "price": 49990.0,
-    "category": "General",
-    "id": 1005,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ORDER CODE 860962CHYPRE FLORAL SCENT",
-    "code": "",
-    "price": 20280.0,
-    "category": "General",
-    "id": 1006,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BESTSELLER",
-    "code": "1544097",
-    "price": 59990.0,
-    "category": "General",
-    "id": 1007,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tabasheer Anti-PerspirantRoll-On Deodorant50 ml Code 1574571",
-    "code": "1321267",
-    "price": 6990.0,
-    "category": "General",
-    "id": 1008,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "UP TO",
-    "code": "1321267",
-    "price": 3290.0,
-    "category": "General",
-    "id": 1009,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tabasheer Eau de Parfum 50 ml Code 1544096",
-    "code": "1499865",
-    "price": 29990.0,
-    "category": "Fragrance",
-    "id": 1010,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tabasheer Perfumed Body Lotion100 ml Code 1522145",
-    "code": "1499865",
-    "price": 44990.0,
-    "category": "Bath & Body",
-    "id": 1011,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "0 ml30 ml",
-    "code": "1544096",
-    "price": 79905.0,
-    "category": "General",
-    "id": 1012,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ALL 3 FOR SAVE",
-    "code": "86096350",
-    "price": 39990.0,
-    "category": "General",
-    "id": 1013,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ORDER CODE 86096350 ml",
-    "code": "86096350",
-    "price": 16280.0,
-    "category": "General",
-    "id": 1014,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tabasheer Gold Perfumed Body Lotion100 ml Code 1526319",
-    "code": "1546229",
-    "price": 44990.0,
-    "category": "Bath & Body",
-    "id": 1015,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "FLORIENTAL FRUITY SCENT",
-    "code": "1546229",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1016,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "GIFT",
-    "code": "1504523",
-    "price": 3290.0,
-    "category": "Style Store",
-    "id": 1017,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "30 mlReveal your natural",
-    "code": "1465324",
-    "price": 29990.0,
-    "category": "General",
-    "id": 1018,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ALL 3 FOR SAVE",
-    "code": "860964",
-    "price": 15990.0,
-    "category": "General",
-    "id": 1019,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ORDER CODE 860964",
-    "code": "860964",
-    "price": 2280.0,
-    "category": "General",
-    "id": 1020,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "CantareParfum Body Spray100 ml Code 1321145",
-    "code": "1522176",
-    "price": 7990.0,
-    "category": "Fragrance",
-    "id": 1021,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Cantare Anti-PerspirantRoll-On Deodorant50 ml Code 1320814",
-    "code": "1522176",
-    "price": 6990.0,
-    "category": "General",
-    "id": 1022,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "GIFT",
-    "code": "1321145",
-    "price": 3290.0,
-    "category": "Style Store",
-    "id": 1023,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "50 mlUnleash your natural",
-    "code": "1320816",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1024,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Bella RoseEau de Parfum50 ml Code 1521086",
-    "code": "1518681",
-    "price": 7990.0,
-    "category": "Fragrance",
-    "id": 1025,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "FLORAL FRUITY GOURMAND SCENT",
-    "code": "1518681",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1026,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "GIFT",
-    "code": "1518679",
-    "price": 6990.0,
-    "category": "Style Store",
-    "id": 1027,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BUY EDT FOR & GET",
-    "code": "",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1028,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "LOTION & BODY SPRAY FREESAVE",
-    "code": "860966",
-    "price": 14980.0,
-    "category": "Fragrance",
-    "id": 1029,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "scarf with large /f_loral design. 70 cm L x 70 cm WCode 1585295Regular Price",
-    "code": "",
-    "price": 199.9,
-    "category": "General",
-    "id": 1030,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "WHEN YOU BUY",
-    "code": "",
-    "price": 14990.0,
-    "category": "General",
-    "id": 1031,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BELLA ROSE OFFER FOR",
-    "code": "",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1032,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price WOODY SPICY SCENT",
-    "code": "04160",
-    "price": 499.9,
-    "category": "General",
-    "id": 1033,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BUY",
-    "code": "",
-    "price": 29990.0,
-    "category": "General",
-    "id": 1034,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE FOR ONLYMagnate",
-    "code": "",
-    "price": 200.0,
-    "category": "General",
-    "id": 1035,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BESTSELLER",
-    "code": "1544105",
-    "price": 49990.0,
-    "category": "General",
-    "id": 1036,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ALL 3 FOR SAVE",
-    "code": "1542546",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1037,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ALL 3 FOR SAVE",
-    "code": "1542546",
-    "price": 39990.0,
-    "category": "General",
-    "id": 1038,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ORDER CODE 860967",
-    "code": "1542546",
-    "price": 21280.0,
-    "category": "General",
-    "id": 1039,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Anti-Perspirant Roll-On Deodorant 50 ml Code 1444955",
-    "code": "1444955",
-    "price": 3290.0,
-    "category": "General",
-    "id": 1040,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "50 ml",
-    "code": "1544157",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1041,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Red Extreme",
-    "code": "04400",
-    "price": 49990.0,
-    "category": "General",
-    "id": 1042,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "FREE+",
-    "code": "1542584",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1043,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BUY EDT FOR & GET",
-    "code": "1542584",
-    "price": 49990.0,
-    "category": "General",
-    "id": 1044,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "DEODORANT SPRAY & ROLL-ON FREESAVE",
-    "code": "860968",
-    "price": 11280.0,
-    "category": "Fragrance",
-    "id": 1045,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "UP TO",
-    "code": "1574572",
-    "price": 3290.0,
-    "category": "General",
-    "id": 1046,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Men’s watch with grey faux-leatherstrap & contrasting stitching.Face: 4.1 cm diameterWatch length: 25.8 cmCode 1582521",
-    "code": "1582521",
-    "price": 29990.0,
-    "category": "General",
-    "id": 1047,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BUY THE",
-    "code": "",
-    "price": 9990.0,
-    "category": "General",
-    "id": 1048,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE FOR ONLY",
-    "code": "",
-    "price": 30.0,
-    "category": "General",
-    "id": 1049,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Roller: 13 cm L x 3 cm WNeedles: 0.25 mm LCode 1576021Regular Price",
-    "code": "",
-    "price": 129.9,
-    "category": "General",
-    "id": 1050,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "1.A-Firm Platinum Pro Ageless Day Cream SPF 25 50 ml Code 14216182.A-Firm Platinum Pro Ageless Night Cream 50 ml Code 1421528BESTSELLER",
-    "code": "1424064",
-    "price": 44990.0,
-    "category": "Skincare",
-    "id": 1051,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "EACH",
-    "code": "",
-    "price": 44990.0,
-    "category": "General",
-    "id": 1052,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "roller for",
-    "code": "",
-    "price": 9990.0,
-    "category": "General",
-    "id": 1053,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "A-Firm Time Reversal",
-    "code": "04600",
-    "price": 28990.0,
-    "category": "General",
-    "id": 1054,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "A ﬁrming eye cream",
-    "code": "04739",
-    "price": 39990.0,
-    "category": "Skincare",
-    "id": 1055,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "EACH",
-    "code": "",
-    "price": 39990.0,
-    "category": "General",
-    "id": 1056,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "2.A-Firm Brightening Even Tone Night Cream 50 ml Code 41969",
-    "code": "27958",
-    "price": 37990.0,
-    "category": "Skincare",
-    "id": 1057,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Skin RegimenThe Even-Tone",
-    "code": "27958",
-    "price": 37990.0,
-    "category": "General",
-    "id": 1058,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "",
-    "price": 22990.0,
-    "category": "General",
-    "id": 1059,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE",
-    "code": "28744",
-    "price": 40.0,
-    "category": "General",
-    "id": 1060,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "A-Firm BrighteningTargeted Pigmentation & Dark Spot Corrector 20 ml Code 28824",
-    "code": "28744",
-    "price": 37990.0,
-    "category": "General",
-    "id": 1061,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BOTH FOR",
-    "code": "860969",
-    "price": 17990.0,
-    "category": "General",
-    "id": 1062,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R17990BOTH FOR",
-    "code": "860969",
-    "price": 57990.0,
-    "category": "General",
-    "id": 1063,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Plumping Serum 30 ml Code 1382323",
-    "code": "1382323",
-    "price": 34990.0,
-    "category": "Skincare",
-    "id": 1064,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "1.A-Firm Hydro Plus Plumping Day Cream SPF 15 50 ml Code 1566232",
-    "code": "1566232",
-    "price": 34990.0,
-    "category": "Skincare",
-    "id": 1065,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "2.A-Firm Hydro Plus Plumping Night Cream 50 ml Code 1382139",
-    "code": "1382139",
-    "price": 34990.0,
-    "category": "Skincare",
-    "id": 1066,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BOTH FOR",
-    "code": "",
-    "price": 15990.0,
-    "category": "General",
-    "id": 1067,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R15990BOTH FOR",
-    "code": "",
-    "price": 53990.0,
-    "category": "General",
-    "id": 1068,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price",
-    "code": "1507430",
-    "price": 129.9,
-    "category": "General",
-    "id": 1069,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price R129.90",
-    "code": "1507430",
-    "price": 10990.0,
-    "category": "General",
-    "id": 1070,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE",
-    "code": "1576006",
-    "price": 20.0,
-    "category": "General",
-    "id": 1071,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price",
-    "code": "1576006",
-    "price": 89.9,
-    "category": "General",
-    "id": 1072,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price R89.90",
-    "code": "1576006",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1073,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price",
-    "code": "1507433",
-    "price": 159.9,
-    "category": "General",
-    "id": 1074,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price R159.90",
-    "code": "1507433",
-    "price": 12990.0,
-    "category": "General",
-    "id": 1075,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE",
-    "code": "1507429",
-    "price": 30.0,
-    "category": "General",
-    "id": 1076,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Oil ControlAnti-Blemish Facial Scrub 150 ml Code 1507429",
-    "code": "1507429",
-    "price": 12990.0,
-    "category": "General",
-    "id": 1077,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price",
-    "code": "74257",
-    "price": 129.9,
-    "category": "General",
-    "id": 1078,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price R129.90",
-    "code": "74257",
-    "price": 10990.0,
-    "category": "General",
-    "id": 1079,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE",
-    "code": "",
-    "price": 20.0,
-    "category": "General",
-    "id": 1080,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "FortiGrain®",
-    "code": "54212",
-    "price": 17990.0,
-    "category": "General",
-    "id": 1081,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Facial Scrub 100 ml Code 08261",
-    "code": "08261",
-    "price": 17990.0,
-    "category": "General",
-    "id": 1082,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "1.FortiGrain®",
-    "code": "54199",
-    "price": 29990.0,
-    "category": "General",
-    "id": 1083,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price",
-    "code": "53220",
-    "price": 319.9,
-    "category": "General",
-    "id": 1084,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price ONLY EACH",
-    "code": "54101",
-    "price": 319.9,
-    "category": "General",
-    "id": 1085,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price ONLY EACH",
-    "code": "54101",
-    "price": 29990.0,
-    "category": "General",
-    "id": 1086,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE GREAT DEAL",
-    "code": "54101",
-    "price": 20.0,
-    "category": "General",
-    "id": 1087,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price Daily Hydrating Day Cream SPF 1550 ml Code 1546853",
-    "code": "1543628",
-    "price": 129.9,
-    "category": "Skincare",
-    "id": 1088,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price Formulated to deliver a burst of",
-    "code": "1543628",
-    "price": 149.9,
-    "category": "General",
-    "id": 1089,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BOTH FOR",
-    "code": "",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1090,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R7990BOTH FOR",
-    "code": "",
-    "price": 19990.0,
-    "category": "General",
-    "id": 1091,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price Daily Nourishing Day Cream SPF 1550 ml Code 1546593",
-    "code": "1532092",
-    "price": 129.9,
-    "category": "Skincare",
-    "id": 1092,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price Nourish & replenish your skin",
-    "code": "1532092",
-    "price": 149.9,
-    "category": "General",
-    "id": 1093,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BOTH FOR",
-    "code": "860972",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1094,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R7990BOTH FOR",
-    "code": "860972",
-    "price": 19990.0,
-    "category": "General",
-    "id": 1095,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price",
-    "code": "1543627",
-    "price": 129.9,
-    "category": "General",
-    "id": 1096,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price Formulated to improve skin tone & balance",
-    "code": "1546591",
-    "price": 149.9,
-    "category": "General",
-    "id": 1097,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price ALL",
-    "code": "1546595",
-    "price": 149.9,
-    "category": "General",
-    "id": 1098,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BOTH FOR",
-    "code": "86097321",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1099,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R7990BOTH FOR",
-    "code": "86097321",
-    "price": 19990.0,
-    "category": "General",
-    "id": 1100,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "86097321",
-    "price": 10990.0,
-    "category": "General",
-    "id": 1101,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE GREAT DEAL",
-    "code": "86097321",
-    "price": 40.0,
-    "category": "General",
-    "id": 1102,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price",
-    "code": "1444160",
-    "price": 449.9,
-    "category": "General",
-    "id": 1103,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "1522175",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1104,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "1522175",
-    "price": 29990.0,
-    "category": "General",
-    "id": 1105,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE GREAT DEAL",
-    "code": "1522175",
-    "price": 150.0,
-    "category": "General",
-    "id": 1106,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Anti-Perspirant Roll-On Deodorant 50 ml Code 82378",
-    "code": "82378",
-    "price": 3290.0,
-    "category": "General",
-    "id": 1107,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tabasheer RougeParfum Body Spray100 ml Code 1322454",
-    "code": "1322454",
-    "price": 6990.0,
-    "category": "Fragrance",
-    "id": 1108,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ALL 3 FOR SAVE",
-    "code": "1322454",
-    "price": 15990.0,
-    "category": "General",
-    "id": 1109,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ORDER CODE 860974",
-    "code": "860974",
-    "price": 2280.0,
-    "category": "General",
-    "id": 1110,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "UP TO",
-    "code": "76587",
-    "price": 59990.0,
-    "category": "General",
-    "id": 1111,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tabasheer Rouge Eau de Parfum 50 ml Code 1546473",
-    "code": "1522218",
-    "price": 7990.0,
-    "category": "Fragrance",
-    "id": 1112,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "50 ml",
-    "code": "1522218",
-    "price": 44990.0,
-    "category": "General",
-    "id": 1113,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tabasheer Noir Perfumed Body Lotion100 ml Code 1526280",
-    "code": "1546328",
-    "price": 44990.0,
-    "category": "Bath & Body",
-    "id": 1114,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "You Decide How",
-    "code": "1546328",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1115,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "1 FOR lANY 2 FOR",
-    "code": "",
-    "price": 13990.0,
-    "category": "General",
-    "id": 1116,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "1 FOR lANY 2 FOR",
-    "code": "",
-    "price": 19990.0,
-    "category": "General",
-    "id": 1117,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE GREAT DEAL",
-    "code": "",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1118,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Bella Eau de Parfum30 ml Code 34065",
-    "code": "43663",
-    "price": 34990.0,
-    "category": "Fragrance",
-    "id": 1119,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "FLORIENTAL",
-    "code": "43663",
-    "price": 24990.0,
-    "category": "General",
-    "id": 1120,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BOTH FOR",
-    "code": "",
-    "price": 11990.0,
-    "category": "General",
-    "id": 1121,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R11990BOTH FOR",
-    "code": "43660",
-    "price": 29990.0,
-    "category": "General",
-    "id": 1122,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "GIFT",
-    "code": "43660",
-    "price": 6990.0,
-    "category": "Style Store",
-    "id": 1123,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Dare to WishEau de Toilette 75 ml Code 1301216",
-    "code": "1526320",
-    "price": 7990.0,
-    "category": "Fragrance",
-    "id": 1124,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Dare to LoveEau de Toilette 75 ml Code 33329",
-    "code": "1526320",
-    "price": 24990.0,
-    "category": "Fragrance",
-    "id": 1125,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price Dare to LovePerfumed Body Lotion 100 ml Code 1522219",
-    "code": "1301216",
-    "price": 249.9,
-    "category": "Bath & Body",
-    "id": 1126,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "CHYPRE",
-    "code": "33329",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1127,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "",
-    "price": 19990.0,
-    "category": "General",
-    "id": 1128,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE RUB",
-    "code": "",
-    "price": 50.0,
-    "category": "General",
-    "id": 1129,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "CelestialEau de Parfum 50 ml Code 1558164",
-    "code": "1454676",
-    "price": 44990.0,
-    "category": "Fragrance",
-    "id": 1130,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "WOODY CITRUS",
-    "code": "1454676",
-    "price": 44990.0,
-    "category": "General",
-    "id": 1131,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ORIENTAL VANILLA",
-    "code": "1321389",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1132,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "EACHFeel Delightfully Feminine",
-    "code": "",
-    "price": 3290.0,
-    "category": "General",
-    "id": 1133,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Roll-On Deodorants 50 ml EACH",
-    "code": "",
-    "price": 6990.0,
-    "category": "General",
-    "id": 1134,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BUY 100 ML EDP FOR",
-    "code": "",
-    "price": 49990.0,
-    "category": "General",
-    "id": 1135,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "& GET ONE FREESAVE",
-    "code": "860976",
-    "price": 49990.0,
-    "category": "General",
-    "id": 1136,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "50 ml",
-    "code": "1544919",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1137,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Eau de Parfum 100 ml Code 1545205",
-    "code": "1545205",
-    "price": 49990.0,
-    "category": "Fragrance",
-    "id": 1138,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Anti-Perspirant Roll-On Deodorant 50 ml Code 1444956",
-    "code": "1444956",
-    "price": 3290.0,
-    "category": "General",
-    "id": 1139,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Carpe Diem After Dark Eau de Parfum 50 m l Code 1545206",
-    "code": "1545206",
-    "price": 34990.0,
-    "category": "Fragrance",
-    "id": 1140,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "00 ml",
-    "code": "1542581",
-    "price": 79901.0,
-    "category": "General",
-    "id": 1141,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BOTH FOR",
-    "code": "860977",
-    "price": 9990.0,
-    "category": "General",
-    "id": 1142,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "A scent to help him connect to himself.",
-    "code": "1482873",
-    "price": 44990.0,
-    "category": "General",
-    "id": 1143,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Eau de Parfum100 ml Code 1545207",
-    "code": "1545207",
-    "price": 49990.0,
-    "category": "Fragrance",
-    "id": 1144,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Eau de Parfum100 ml Code 1321390",
-    "code": "1321390",
-    "price": 54990.0,
-    "category": "Fragrance",
-    "id": 1145,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Icon Man IntenseDeodorant Spray 150 ml Code 1542583",
-    "code": "74456",
-    "price": 39990.0,
-    "category": "Fragrance",
-    "id": 1146,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R39990 Icon Man IntenseDeodorant Spray 150 ml Code 1542583",
-    "code": "74456",
-    "price": 7990.0,
-    "category": "Fragrance",
-    "id": 1147,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "UP TO",
-    "code": "74461",
-    "price": 3290.0,
-    "category": "General",
-    "id": 1148,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BOTH FOR",
-    "code": "860978",
-    "price": 9990.0,
-    "category": "General",
-    "id": 1149,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Welcome the",
-    "code": "06196",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1150,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "EACH",
-    "code": "00632",
-    "price": 8990.0,
-    "category": "General",
-    "id": 1151,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "EACH",
-    "code": "1542546",
-    "price": 3290.0,
-    "category": "General",
-    "id": 1152,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "EACHSCENTED",
-    "code": "1542584",
-    "price": 7990.0,
-    "category": "General",
-    "id": 1153,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "both in light brown faux leather with stitching details. Wallet: 10.7 cm L x 7 .3 cm W x 1 cm H Face: 4.3 cm diameterWatch length: 25.9 cmCode 1579902",
-    "code": "1579902",
-    "price": 49990.0,
-    "category": "General",
-    "id": 1154,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Brown faux-leather bucket bag with drawstring closure, grab handle & removable shoulder strap.26 cm L x 17 cm W x 29 cm HCode 1579897",
-    "code": "1579897",
-    "price": 49990.0,
-    "category": "Bath & Body",
-    "id": 1155,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Boost your colour conﬁdence with",
-    "code": "1582655",
-    "price": 39990.0,
-    "category": "General",
-    "id": 1156,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Mustard-yellow crossbody bag withgold-toned chain & front pocket.22.5 cm L x 8.5 cm W x 15 cm HCode 1555560Regular Price MAGNETIC",
-    "code": "",
-    "price": 349.9,
-    "category": "Bath & Body",
-    "id": 1157,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "",
-    "price": 24990.0,
-    "category": "General",
-    "id": 1158,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE MAGNETIC",
-    "code": "",
-    "price": 100.0,
-    "category": "General",
-    "id": 1159,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Black faux-leather handbag with multiple compartments, front zippocket & zip closure.24 cm L x 17 cm W x 30 cm HCode 1561293Regular Price ADJUSTABLE",
-    "code": "1576018",
-    "price": 499.9,
-    "category": "Bath & Body",
-    "id": 1160,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "The Aisha HandbagBrown mock-croc handbag with chain shoulder strap that can be doubled up.23.5 cm L x 6 cm W x 13 cm HCode 1576018",
-    "code": "1576018",
-    "price": 39990.0,
-    "category": "Bath & Body",
-    "id": 1161,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "1576018",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1162,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE CAN FIT A",
-    "code": "",
-    "price": 150.0,
-    "category": "General",
-    "id": 1163,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Llilac cellphone pouch with removable strap.Features front pocket & 12 card slots.21.5 cm L x 3 cm W x 12.5 cm HCode 1555301Regular Price ONLY",
-    "code": "",
-    "price": 329.9,
-    "category": "General",
-    "id": 1164,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Llilac cellphone pouch with removable strap.Features front pocket & 12 card slots.21.5 cm L x 3 cm W x 12.5 cm HCode 1555301Regular Price ONLY",
-    "code": "",
-    "price": 22990.0,
-    "category": "General",
-    "id": 1165,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE Wear as crossbody",
-    "code": "",
-    "price": 100.0,
-    "category": "Bath & Body",
-    "id": 1166,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "The Imka WeekenderSpacious black faux-leather weekender with woven details, grab handles & adjustable strap.48 cm L x 24 cm W x 35 cm HCode 1580306",
-    "code": "1579896",
-    "price": 37990.0,
-    "category": "Bath & Body",
-    "id": 1167,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Contents not included.",
-    "code": "1579896",
-    "price": 64990.0,
-    "category": "General",
-    "id": 1168,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Genuine leather ladies’ watch with green dial detail.Face: 4.6 cm L x 3.2 cm WWatch length: 24.6 cmCode 1579898",
-    "code": "1579898",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1169,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Halfmoon-shaped beige& gold-toned watch withfaux-leather strap.Face: 3.7 cm diameterWatch length: 23.9 cmCode 1555298",
-    "code": "1555298",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1170,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "STRAP!The Amari WatchUnique ladies’ watch with gold-toned face & interchangeable straps in green, black & maroon.Face: 3.5 cm x 2.4 cmWatch length: 23 cmCode 1576016",
-    "code": "1576016",
-    "price": 39990.0,
-    "category": "General",
-    "id": 1171,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Classics",
-    "code": "1582587",
-    "price": 34990.0,
-    "category": "General",
-    "id": 1172,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Gold-toned & black 2-piece set with link details.Necklace: 42 cm + 9 cm extenderPendant: 4 cm L x 2.8 cm WEarrings: 3.5 cm L x 2.5 cm WCode 1579901",
-    "code": "1579901",
-    "price": 19990.0,
-    "category": "General",
-    "id": 1173,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "The Quinn Bracelet SetGold-toned set featuring awishbone bangle & circular ring.Bracelet: 18.5 cm + 2.5 cm extenderRing: size 8 (1.8 cm internal diameter)Code 1579899",
-    "code": "1579899",
-    "price": 14990.0,
-    "category": "General",
-    "id": 1174,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "The Ntando EarringsTwo sets of gold-tonedheritage-style earrings withorange & black rope details.Orange: 2.7 cm x 2.7 cmBlack: 2 cm x 2.9 cmCode 1547925Regular Price 2-PAIR",
-    "code": "",
-    "price": 199.9,
-    "category": "Style Store",
-    "id": 1175,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "1511760",
-    "price": 14990.0,
-    "category": "General",
-    "id": 1176,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE",
-    "code": "1511760",
-    "price": 50.0,
-    "category": "General",
-    "id": 1177,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "The Belinda Jewellery SetSliver-toned & faux-emerald necklace &earring set with diamanté surround.Necklace: 42 cm + 9 cm extenderPendant: 2 cm L x 1 cm WEarrings: 1.7 cm L x 0.8 cm WCode 1511760",
-    "code": "1511760",
-    "price": 12990.0,
-    "category": "General",
-    "id": 1178,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "18CT",
-    "code": "1576019",
-    "price": 19990.0,
-    "category": "General",
-    "id": 1179,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "18CT",
-    "code": "1576020",
-    "price": 14990.0,
-    "category": "General",
-    "id": 1180,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Home Comforts",
-    "code": "1579903",
-    "price": 29990.0,
-    "category": "General",
-    "id": 1181,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "GIFT",
-    "code": "1570396",
-    "price": 34990.0,
-    "category": "Style Store",
-    "id": 1182,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "GREAT DEAL",
-    "code": "",
-    "price": 14990.0,
-    "category": "General",
-    "id": 1183,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ORDER CODE 860979SAVE",
-    "code": "",
-    "price": 3990.0,
-    "category": "General",
-    "id": 1184,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Body Balance Naturally Even Body Lotion400 ml Code 1530669",
-    "code": "1542791",
-    "price": 8990.0,
-    "category": "Bath & Body",
-    "id": 1185,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "BATH & BODY",
-    "code": "1542791",
-    "price": 9990.0,
-    "category": "Bath & Body",
-    "id": 1186,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Body Balance Naturally Firming Body Oil200 ml Code 1542617",
-    "code": "1382414",
-    "price": 9990.0,
-    "category": "Bath & Body",
-    "id": 1187,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Body Balance Naturally Firming Body Lotion400 ml Code 1530376",
-    "code": "1382414",
-    "price": 16990.0,
-    "category": "Bath & Body",
-    "id": 1188,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R16990Body Balance Naturally Firming Body Lotion400 ml Code 1530376",
-    "code": "1542617",
-    "price": 9990.0,
-    "category": "Bath & Body",
-    "id": 1189,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Body Balance Naturally Soft Shower Crème400 ml Code 1530378",
-    "code": "1530377",
-    "price": 8990.0,
-    "category": "Bath & Body",
-    "id": 1190,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Dermatologically",
-    "code": "1530377",
-    "price": 8990.0,
-    "category": "General",
-    "id": 1191,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Naturally GentleFeminine Intimate Wash250 ml Code 1535185",
-    "code": "1535185",
-    "price": 7990.0,
-    "category": "Bath & Body",
-    "id": 1192,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "1 FOR ANY 2 FOR",
-    "code": "",
-    "price": 3690.0,
-    "category": "General",
-    "id": 1193,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "1 FOR ANY 2 FOR",
-    "code": "",
-    "price": 6490.0,
-    "category": "General",
-    "id": 1194,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Body Balance Men Hydro Cool Body Lotion400 ml Code 1530374",
-    "code": "1530375",
-    "price": 8990.0,
-    "category": "Bath & Body",
-    "id": 1195,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R8990Body Balance Men Hydro Cool Body Lotion400 ml Code 1530374",
-    "code": "1530375",
-    "price": 8990.0,
-    "category": "Bath & Body",
-    "id": 1196,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tissue OilUV Defend SPF 15100 ml Code 1505208",
-    "code": "1505163",
-    "price": 13990.0,
-    "category": "Bath & Body",
-    "id": 1197,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "60 ml 100 ml",
-    "code": "1505163",
-    "price": 17990.0,
-    "category": "General",
-    "id": 1198,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tissue Oil Original60 ml Code 1544159",
-    "code": "1544158",
-    "price": 15990.0,
-    "category": "Bath & Body",
-    "id": 1199,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R15990Tissue Oil Original60 ml Code 1544159",
-    "code": "1544158",
-    "price": 11990.0,
-    "category": "Bath & Body",
-    "id": 1200,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "",
-    "price": 38990.0,
-    "category": "General",
-    "id": 1201,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE Tissue Oil Gold",
-    "code": "1321154",
-    "price": 40.0,
-    "category": "Bath & Body",
-    "id": 1202,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Botanical Facial Sculpting Serum 30 ml Code 1321822Regular Price",
-    "code": "1321154",
-    "price": 429.9,
-    "category": "Skincare",
-    "id": 1203,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "LOWER PRICE",
-    "code": "1321154",
-    "price": 25990.0,
-    "category": "General",
-    "id": 1204,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tissue OilSkin Repair Face Creamfor All Skin Types SPF 2050 ml Code 1526278",
-    "code": "1576477",
-    "price": 12990.0,
-    "category": "Bath & Body",
-    "id": 1205,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tissue OilSkin Repair Face Cream for Oily Skin SPF 25 30 ml Code 1505162",
-    "code": "1576477",
-    "price": 16990.0,
-    "category": "Bath & Body",
-    "id": 1206,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R16990Tissue OilSkin Repair Face Cream for Oily Skin SPF 25 30 ml Code 1505162",
-    "code": "1526278",
-    "price": 12990.0,
-    "category": "Bath & Body",
-    "id": 1207,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Lip Therapy4 g Code 1301213",
-    "code": "1301213",
-    "price": 12990.0,
-    "category": "General",
-    "id": 1208,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tissue OilFacial Cleansing Bar150 g Code 07435",
-    "code": "07435",
-    "price": 13990.0,
-    "category": "Bath & Body",
-    "id": 1209,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tissue Oil Multipurpose Moisture Balm 30 g Code 1343779",
-    "code": "1387323",
-    "price": 15990.0,
-    "category": "Bath & Body",
-    "id": 1210,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "R15990Tissue Oil Multipurpose Moisture Balm 30 g Code 1343779",
-    "code": "1387323",
-    "price": 14990.0,
-    "category": "Bath & Body",
-    "id": 1211,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Cleansing Bar 150 g Code 00753",
-    "code": "00753",
-    "price": 9990.0,
-    "category": "General",
-    "id": 1212,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tissue OilFoaming Bath Crème 300 ml Code 19075",
-    "code": "19075",
-    "price": 17990.0,
-    "category": "Bath & Body",
-    "id": 1213,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "GREAT DEAL",
-    "code": "",
-    "price": 22990.0,
-    "category": "General",
-    "id": 1214,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ORDER CODE 860980SAVE",
-    "code": "",
-    "price": 4990.0,
-    "category": "General",
-    "id": 1215,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY EACH",
-    "code": "",
-    "price": 14990.0,
-    "category": "General",
-    "id": 1216,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE",
-    "code": "",
-    "price": 30.0,
-    "category": "General",
-    "id": 1217,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price . 90Tissue Oil Sleep Therapy Bath Crème300 ml Code 1438551Regular Price . 90LOWER PRICE",
-    "code": "1439032",
-    "price": 179.0,
-    "category": "Bath & Body",
-    "id": 1218,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Tissue OilSleep Therapy Oil 100 ml Code 1382415",
-    "code": "1439031",
-    "price": 15990.0,
-    "category": "Bath & Body",
-    "id": 1219,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "1 FOR",
-    "code": "1439031",
-    "price": 15990.0,
-    "category": "General",
-    "id": 1220,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "2 FOR",
-    "code": "1382415",
-    "price": 21990.0,
-    "category": "General",
-    "id": 1221,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE GREAT DEAL",
-    "code": "",
-    "price": 9990.0,
-    "category": "General",
-    "id": 1222,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "",
-    "price": 17990.0,
-    "category": "General",
-    "id": 1223,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE GREAT DEAL",
-    "code": "",
-    "price": 70.0,
-    "category": "General",
-    "id": 1224,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price Lavender",
-    "code": "1501566",
-    "price": 249.9,
-    "category": "General",
-    "id": 1225,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "Regular Price",
-    "code": "1544399",
-    "price": 249.9,
-    "category": "General",
-    "id": 1226,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "ONLY",
-    "code": "1544399",
-    "price": 17990.0,
-    "category": "General",
-    "id": 1227,
-    "image": "images/placeholder.svg",
-    "description": ""
-  },
-  {
-    "name": "SAVE GREAT DEALBESTSELLER",
-    "code": "",
-    "price": 70.0,
-    "category": "General",
-    "id": 1228,
-    "image": "images/placeholder.svg",
-    "description": ""
-  }
-]
+	
+0	
+id	1218
+brand	"Justine"
+name	". 90Tissue Oil Sleep Therapy Bath Crème300 ml Code 1438551Regular Price . 90LOWER PRICE"
+code	"1439032"
+price	179.0JS:179
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+1	
+id	1188
+brand	"Justine"
+name	"Body Balance Naturally Firming Body Lotion400 ml"
+code	"1382414"
+price	169.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+2	
+id	1207
+brand	"Justine"
+name	"R16990Tissue OilSkin Repair Face Cream for Oily Skin SPF 25 30 ml"
+code	"1526278"
+price	129.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+3	
+id	1015
+brand	"Justine"
+name	"Tabasheer Gold Perfumed Body Lotion100 ml"
+code	"1546229"
+price	449.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+4	
+id	1114
+brand	"Justine"
+name	"Tabasheer Noir Perfumed Body Lotion100 ml"
+code	"1546328"
+price	449.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+5	
+id	1202
+brand	"Justine"
+name	"Tissue Oil Gold"
+code	"1321154"
+price	40.0JS:40
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+6	
+id	1210
+brand	"Justine"
+name	"Tissue Oil Multipurpose Moisture Balm 30 g"
+code	"1387323"
+price	149.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+7	
+id	1199
+brand	"Justine"
+name	"Tissue Oil Original60 ml"
+code	"1544158"
+price	119.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+8	
+id	1001
+brand	"Justine"
+name	"Tissue Oil Sleep Therapy Body Butter200 ml Code 1438550Regular Price"
+code	"00751"
+price	149.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+9	
+id	1209
+brand	"Justine"
+name	"Tissue OilFacial Cleansing Bar150 g"
+code	"07435"
+price	139.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+10	
+id	1213
+brand	"Justine"
+name	"Tissue OilFoaming Bath Crème 300 ml"
+code	"19075"
+price	179.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+11	
+id	1205
+brand	"Justine"
+name	"Tissue OilSkin Repair Face Creamfor All Skin Types SPF 2050 ml"
+code	"1576477"
+price	129.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+12	
+id	1219
+brand	"Justine"
+name	"Tissue OilSleep Therapy Oil 100 ml"
+code	"1439031"
+price	159.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+13	
+id	1197
+brand	"Justine"
+name	"Tissue OilUV Defend SPF 15100 ml"
+code	"1505163"
+price	139.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+14	
+id	1119
+brand	"Justine"
+name	"Bella Eau de Parfum30 ml"
+code	"43663"
+price	349.9
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+15	
+id	1140
+brand	"Justine"
+name	"Carpe Diem After Dark Eau de Parfum 50 m l"
+code	"1545206"
+price	349.9
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+16	
+id	1130
+brand	"Justine"
+name	"CelestialEau de Parfum 50 ml"
+code	"1454676"
+price	449.9
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+17	
+id	1010
+brand	"Justine"
+name	"Tabasheer Eau de Parfum 50 ml"
+code	"1499865"
+price	299.9
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+18	
+id	1065
+brand	"Justine"
+name	"1.A-Firm Hydro Plus Plumping Day Cream SPF 15 50 ml"
+code	"1566232"
+price	349.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+19	
+id	1051
+brand	"Justine"
+name	"1.A-Firm Platinum Pro Ageless Day Cream SPF 25 50 ml .A-Firm Platinum Pro Ageless Night Cream 50 ml Code 1421528BESTSELLER"
+code	"1424064"
+price	449.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+20	
+id	1083
+brand	"Justine"
+name	"1.FortiGrain®"
+code	"54199"
+price	299.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+21	
+id	1057
+brand	"Justine"
+name	"2.A-Firm Brightening Even Tone Night Cream 50 ml"
+code	"27958"
+price	379.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+22	
+id	1066
+brand	"Justine"
+name	"2.A-Firm Hydro Plus Plumping Night Cream 50 ml"
+code	"1382139"
+price	349.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+23	
+id	1061
+brand	"Justine"
+name	"A-Firm BrighteningTargeted Pigmentation & Dark Spot Corrector 20 ml"
+code	"28744"
+price	379.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+24	
+id	1054
+brand	"Justine"
+name	"A-Firm Time Reversal"
+code	"04600"
+price	289.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+25	
+id	1032
+brand	"Justine"
+name	"BELLA ROSE OFFER FOR"
+code	""
+price	349.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+26	
+id	1081
+brand	"Justine"
+name	"FortiGrain®"
+code	"54212"
+price	179.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+
+
+
+	
+0	
+id	1160
+brand	"Avon"
+name	"Black faux-leather handbag with multiple compartments, front zippocket & zip closure.24 cm L x 17 cm W x 30 cm HCode 1561293Regular Price ADJUSTABLE"
+code	"1576018"
+price	399.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+1	
+id	1155
+brand	"Avon"
+name	"Brown faux-leather bucket bag with drawstring closure, grab handle & removable shoulder strap.26 cm L x 17 cm W x 29 cm HCode 1579897"
+code	"1579897"
+price	499.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+2	
+id	1126
+brand	"Avon"
+name	"Dare to LovePerfumed Body Lotion 100 ml"
+code	"1301216"
+price	249.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+3	
+id	1157
+brand	"Avon"
+name	"Mustard-yellow crossbody bag withgold-toned chain & front pocket.22.5 cm L x 8.5 cm W x 15 cm HCode 1555560Regular Price MAGNETIC"
+code	""
+price	349.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+4	
+id	1167
+brand	"Avon"
+name	"The Imka WeekenderSpacious black faux-leather weekender with woven details, grab handles & adjustable strap.48 cm L x 24 cm W x 35 cm HCode 1580306"
+code	"1579896"
+price	379.9
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+5	
+id	1166
+brand	"Avon"
+name	"Wear as crossbody"
+code	""
+price	100.0JS:100
+category	"Bath & Body"
+image	"images/placeholder.svg"
+description	""
+6	
+id	1125
+brand	"Avon"
+name	"Dare to LoveEau de Toilette 75 ml"
+code	"1526320"
+price	249.9
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+7	
+id	1045
+brand	"Avon"
+name	"Deodorant SPRAY & Roll-On FREESAVE"
+code	"860968"
+price	112.8
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+8	
+id	1138
+brand	"Avon"
+name	"Eau de Parfum 100 ml"
+code	"1545205"
+price	499.9
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+9	
+id	1144
+brand	"Avon"
+name	"Eau de Parfum100 ml"
+code	"1545207"
+price	499.9
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+10	
+id	1145
+brand	"Avon"
+name	"Eau de Parfum100 ml"
+code	"1321390"
+price	549.9
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+11	
+id	1146
+brand	"Avon"
+name	"Icon Man IntenseDeodorant Spray 150 ml"
+code	"74456"
+price	399.9
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+12	
+id	1029
+brand	"Avon"
+name	"LOTION & Body Spray FREESAVE"
+code	"860966"
+price	149.8
+category	"Fragrance"
+image	"images/placeholder.svg"
+description	""
+13	
+id	1208
+brand	"Avon"
+name	"Lip Therapy4 g"
+code	"1301213"
+price	129.9
+category	"Makeup"
+image	"images/placeholder.svg"
+description	""
+14	
+id	1154
+brand	"Avon"
+name	"both in light brown faux leather with stitching details. Wallet: 10.7 cm L x 7 .3 cm W x 1 cm H Face: 4.3 cm diameterWatch length: 25.9 cmCode 1579902"
+code	"1579902"
+price	499.9
+category	"Makeup"
+image	"images/placeholder.svg"
+description	""
+15	
+id	1047
+brand	"Avon"
+name	"Men’s watch with grey faux-leatherstrap & contrasting stitching.Face: 4.1 cm diameterWatch length: 25.8 cmCode 1582521"
+code	"1582521"
+price	299.9
+category	"Men's"
+image	"images/placeholder.svg"
+description	""
+16	
+id	1136
+brand	"Avon"
+name	"& GET ONE FREESAVE"
+code	"860976"
+price	499.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+17	
+id	1012
+brand	"Avon"
+name	"0 ml30 ml"
+code	"1544096"
+price	799.05
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+18	
+id	1116
+brand	"Avon"
+name	"1 FOR lANY 2 FOR"
+code	""
+price	139.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+19	
+id	1135
+brand	"Avon"
+name	"100 ML EDP FOR"
+code	""
+price	499.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+20	
+id	1018
+brand	"Avon"
+name	"30 mlReveal your natural"
+code	"1465324"
+price	299.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+21	
+id	1024
+brand	"Avon"
+name	"50 mlUnleash your natural"
+code	"1320816"
+price	349.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+22	
+id	1198
+brand	"Avon"
+name	"60 ml 100 ml"
+code	"1505163"
+price	179.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+23	
+id	1143
+brand	"Avon"
+name	"A scent to help him connect to himself."
+code	"1482873"
+price	449.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+24	
+id	1055
+brand	"Avon"
+name	"A ﬁrming eye cream"
+code	"04739"
+price	399.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+25	
+id	1005
+brand	"Avon"
+name	"ALL 3 FOR"
+code	""
+price	499.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+26	
+id	1013
+brand	"Avon"
+name	"ALL 3 FOR"
+code	"86096350"
+price	399.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+27	
+id	1019
+brand	"Avon"
+name	"ALL 3 FOR"
+code	"860964"
+price	159.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+28	
+id	1038
+brand	"Avon"
+name	"ALL 3 FOR"
+code	"1542546"
+price	399.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+29	
+id	1109
+brand	"Avon"
+name	"ALL 3 FOR"
+code	"1322454"
+price	159.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+30	
+id	1007
+brand	"Avon"
+name	"BESTSELLER"
+code	"1544097"
+price	599.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+31	
+id	1036
+brand	"Avon"
+name	"BESTSELLER"
+code	"1544105"
+price	499.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+32	
+id	1156
+brand	"Avon"
+name	"Boost your colour conﬁdence with"
+code	"1582655"
+price	399.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+33	
+id	1163
+brand	"Avon"
+name	"CAN FIT A"
+code	""
+price	150.0JS:150
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+34	
+id	1172
+brand	"Avon"
+name	"Classics"
+code	"1582587"
+price	349.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+35	
+id	1088
+brand	"Avon"
+name	"Daily Hydrating Day Cream SPF 1550 ml"
+code	"1543628"
+price	129.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+36	
+id	1092
+brand	"Avon"
+name	"Daily Nourishing Day Cream SPF 1550 ml"
+code	"1532092"
+price	129.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+37	
+id	1028
+brand	"Avon"
+name	"EDT FOR & GET"
+code	""
+price	349.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+38	
+id	1044
+brand	"Avon"
+name	"EDT FOR & GET"
+code	"1542584"
+price	499.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+39	
+id	1026
+brand	"Avon"
+name	"FLORAL FRUITY GOURMAND SCENT"
+code	"1518681"
+price	349.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+40	
+id	1120
+brand	"Avon"
+name	"FLORIENTAL"
+code	"43663"
+price	249.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+41	
+id	1035
+brand	"Avon"
+name	"FOR ONLYMagnate"
+code	""
+price	200.0JS:200
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+42	
+id	1082
+brand	"Avon"
+name	"Facial Scrub 100 ml"
+code	"08261"
+price	179.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+43	
+id	1097
+brand	"Avon"
+name	"Formulated to improve skin tone & balance"
+code	"1546591"
+price	149.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+44	
+id	1228
+brand	"Avon"
+name	"GREAT DEALBESTSELLER"
+code	""
+price	70.0JS:70
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+45	
+id	1181
+brand	"Avon"
+name	"Home Comforts"
+code	"1579903"
+price	299.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+46	
+id	1204
+brand	"Avon"
+name	"LOWER PRICE"
+code	"1321154"
+price	259.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+47	
+id	1225
+brand	"Avon"
+name	"Lavender"
+code	"1501566"
+price	249.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+48	
+id	1159
+brand	"Avon"
+name	"MAGNETIC"
+code	""
+price	100.0JS:100
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+49	
+id	1132
+brand	"Avon"
+name	"ORIENTAL VANILLA"
+code	"1321389"
+price	349.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+50	
+id	1077
+brand	"Avon"
+name	"Oil ControlAnti-Blemish Facial Scrub 150 ml"
+code	"1507429"
+price	129.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+51	
+id	1064
+brand	"Avon"
+name	"Plumping Serum 30 ml"
+code	"1382323"
+price	349.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+52	
+id	1122
+brand	"Avon"
+name	"R11990BOTH FOR"
+code	"43660"
+price	299.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+53	
+id	1068
+brand	"Avon"
+name	"R15990BOTH FOR"
+code	""
+price	539.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+54	
+id	1063
+brand	"Avon"
+name	"R17990BOTH FOR"
+code	"860969"
+price	579.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+55	
+id	1091
+brand	"Avon"
+name	"R7990BOTH FOR"
+code	""
+price	199.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+56	
+id	1095
+brand	"Avon"
+name	"R7990BOTH FOR"
+code	"860972"
+price	199.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+57	
+id	1100
+brand	"Avon"
+name	"R7990BOTH FOR"
+code	"86097321"
+price	199.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+58	
+id	1042
+brand	"Avon"
+name	"Red Extreme"
+code	"04400"
+price	499.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+59	
+id	1069
+brand	"Avon"
+name	"Regular Price"
+code	"1507430"
+price	109.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+60	
+id	1072
+brand	"Avon"
+name	"Regular Price"
+code	"1576006"
+price	89.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+61	
+id	1074
+brand	"Avon"
+name	"Regular Price"
+code	"1507433"
+price	129.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+62	
+id	1078
+brand	"Avon"
+name	"Regular Price"
+code	"74257"
+price	109.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+63	
+id	1084
+brand	"Avon"
+name	"Regular Price"
+code	"53220"
+price	319.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+64	
+id	1096
+brand	"Avon"
+name	"Regular Price"
+code	"1543627"
+price	129.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+65	
+id	1103
+brand	"Avon"
+name	"Regular Price"
+code	"1444160"
+price	449.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+66	
+id	1226
+brand	"Avon"
+name	"Regular Price"
+code	"1544399"
+price	249.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+67	
+id	1058
+brand	"Avon"
+name	"Skin RegimenThe Even-Tone"
+code	"27958"
+price	379.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+68	
+id	1131
+brand	"Avon"
+name	"WOODY CITRUS"
+code	"1454676"
+price	449.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+69	
+id	1033
+brand	"Avon"
+name	"WOODY SPICY SCENT"
+code	"04160"
+price	499.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+70	
+id	1150
+brand	"Avon"
+name	"Welcome the"
+code	"06196"
+price	349.9
+category	"Skincare"
+image	"images/placeholder.svg"
+description	""
+71	
+id	1169
+brand	"Avon"
+name	"Genuine leather ladies’ watch with green dial detail.Face: 4.6 cm L x 3.2 cm WWatch length: 24.6 cmCode 1579898"
+code	"1579898"
+price	349.9
+category	"Style Store"
+image	"images/placeholder.svg"
+description	""
+72	
+id	1173
+brand	"Avon"
+name	"Gold-toned & black 2-piece set with link details.Necklace: 42 cm + 9 cm extenderPendant: 4 cm L x 2.8 cm WEarrings: 3.5 cm L x 2.5 cm WCode 1579901"
+code	"1579901"
+price	199.9
+category	"Style Store"
+image	"images/placeholder.svg"
+description	""
+73	
+id	1170
+brand	"Avon"
+name	"Halfmoon-shaped beige& gold-toned watch withfaux-leather strap.Face: 3.7 cm diameterWatch length: 23.9 cmCode 1555298"
+code	"1555298"
+price	349.9
+category	"Style Store"
+image	"images/placeholder.svg"
+description	""
+74	
+id	1164
+brand	"Avon"
+name	"Llilac cellphone pouch with removable strap.Features front pocket & 12 card slots.21.5 cm L x 3 cm W x 12.5 cm HCode 1555301Regular Price"
+code	""
+price	229.9
+category	"Style Store"
+image	"images/placeholder.svg"
+description	""
+75	
+id	1171
+brand	"Avon"
+name	"STRAP!The Amari WatchUnique ladies’ watch with gold-toned face & interchangeable straps in green, black & maroon.Face: 3.5 cm x 2.4 cmWatch length: 23 cmCode 1576016"
+code	"1576016"
+price	399.9
+category	"Style Store"
+image	"images/placeholder.svg"
+description	""
+76	
+id	1178
+brand	"Avon"
+name	"The Belinda Jewellery SetSliver-toned & faux-emerald necklace &earring set with diamanté surround.Necklace: 42 cm + 9 cm extenderPendant: 2 cm L x 1 cm WEarrings: 1.7 cm L x 0.8 cm WCode 1511760"
+code	"1511760"
+price	129.9
+category	"Style Store"
+image	"images/placeholder.svg"
+description	""
+77	
+id	1175
+brand	"Avon"
+name	"The Ntando EarringsTwo sets of gold-tonedheritage-style earrings withorange & black rope details.Orange: 2.7 cm x 2.7 cmBlack: 2 cm x 2.9 cmCode 1547925Regular Price 2-PAIR"
+code	""
+price	199.9
+category	"Style Store"
+image	"images/placeholder.svg"
+description	""
+78	
+id	1174
+brand	"Avon"
+name	"The Quinn Bracelet SetGold-toned set featuring awishbone bangle & circular ring.Bracelet: 18.5 cm + 2.5 cm extenderRing: size 8 (1.8 cm internal diameter)"
+code	"1579899"
+price	149.9
+category	"Style Store"
+image	"images/placeholder.svg"
+description	""
+79	
+id	1030
+brand	"Avon"
+name	"scarf with large /f_loral design. 70 cm L x 70 cm WCode 1585295Regular Price"
+code	""
+price	199.9
+category	"Style Store"
+image	"images/placeholder.svg"
+description	""
+80	
+id	1050
+brand	"Avon"
+name	"Roller: 13 cm L x 3 cm WNeedles: 0.25 mm LCode 1576021Regular Price"
+code	""
+price	129.9
+category	"Tools"
+image	"images/placeholder.svg"
+description	""
