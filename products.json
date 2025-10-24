@@ -1,6 +1,98 @@
 [
   
   {
+    "id": 1307,
+    "brand": "Avon",
+    "name": "Full Speed Quantum Eau de Toilette",
+    "code": "1569646",
+    "price": 379.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.55 PM (1).jpeg",
+    "description": "Full Speed Quantum Eau de Toilette. Fresh crispness of frozen apple with an exclusive, electrifying adrenaline accord. New look, same scent."
+  },
+  {
+    "id": 1308,
+    "brand": "Avon",
+    "name": "Full Speed Eau de Toilette",
+    "code": "1569640",
+    "price": 379.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.55 PM (1).jpeg",
+    "description": "Full Speed Eau de Toilette. With an exclusive, lasting adrenaline accord for freshness like no other. New look, same scent."
+  },
+  {
+    "id": 1309,
+    "brand": "Avon",
+    "name": "Full Speed Max Turbo Eau de Toilette",
+    "code": "1569649",
+    "price": 299.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.55 PM (1).jpeg",
+    "description": "Full Speed Max Turbo Eau de Toilette. Get your adrenaline pumping with the fresh crispness of frozen apple, explosive citrus notes & luxe leather. Big on thrills, bigger in mls — now 100 ml (was 75 ml)."
+  },
+  {
+    "id": 1310,
+    "brand": "Avon",
+    "name": "Full Speed Max Turbo Hair & Body Wash",
+    "code": "1569650",
+    "price": 65.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.55 PM (1).jpeg",
+    "description": "Full Speed Max Turbo Hair & Body Wash. Revved up with explosive citrus notes & luxe leather. Perfect companion to the fragrance for a full grooming experience."
+  },
+
+  {
+    "id": 1302,
+    "brand": "Avon",
+    "name": "Senses Ocean Surge For Men - 2in1 Hair & Body Wash",
+    "code": "1566263",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.41 PM.jpeg",
+    "description": "Ocean surge scent for men. 2in1 hair & body wash enriched with naturally derived extracts & vitamin complex. Recyclable packaging."
+  },
+  {
+    "id": 1303,
+    "brand": "Avon",
+    "name": "Senses White Lily Shower Cream",
+    "code": "1566127",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.41 PM.jpeg",
+    "description": "White lily shower cream. White lily & musk scent. Enriched with natural extracts. Recyclable packaging."
+  },
+  {
+    "id": 1304,
+    "brand": "Avon",
+    "name": "Senses Secret Lagoon Shower Gel",
+    "code": "1566265",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.41 PM.jpeg",
+    "description": "Secret lagoon shower gel. Water fruits & musk scent. Enriched with natural extracts. Recyclable packaging."
+  },
+  {
+    "id": 1305,
+    "brand": "Avon",
+    "name": "Senses Simply Luxurious Shower Cream",
+    "code": "1554074",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.41 PM.jpeg",
+    "description": "Simply luxurious shower cream. White peach & vanilla orchid scent. Enriched with natural extracts. Recyclable packaging."
+  },
+  {
+    "id": 1306,
+    "brand": "Avon",
+    "name": "Senses Lemon Burst Shower Gel",
+    "code": "1573911",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.41 PM.jpeg",
+    "description": "Lemon burst shower gel. Lemon & basil scent. With vitamins & electrolytes to energise your skin. Recyclable packaging."
+  },
+
+  {
     "id": 1298,
     "brand": "Avon",
     "name": "Senses Raspberry Delight Bubble Bath",
