@@ -1,6 +1,157 @@
 [
 
 
+  {
+    "id": 1352,
+    "brand": "Avon",
+    "name": "Attraction Closer for Him Eau de Toilette",
+    "code": "1550889",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Attraction Closer for Him Eau de Toilette. A scent boost to start the day. Grab it before it's gone."
+  },
+  {
+    "id": 1353,
+    "brand": "Avon",
+    "name": "Wild Country Eau de Toilette",
+    "code": "1549029",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Wild Country Eau de Toilette. A scent boost to start the day. SA code: 1549029, non-SA code: 1582429."
+  },
+  {
+    "id": 1354,
+    "brand": "Avon",
+    "name": "Luck for Him Eau de Toilette",
+    "code": "1490322",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Luck for Him Eau de Toilette. A scent boost to start the day."
+  },
+  {
+    "id": 1355,
+    "brand": "Avon",
+    "name": "Black Suede Eau de Toilette",
+    "code": "1553140",
+    "price": 379.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Black Suede Eau de Toilette. A scent boost to start the day."
+  },
+  {
+    "id": 1356,
+    "brand": "Avon",
+    "name": "Black Suede Charm Eau de Toilette",
+    "code": "1550085",
+    "price": 379.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Black Suede Charm Eau de Toilette. New. A scent boost to start the day. Grab it before it's gone."
+  },
+  {
+    "id": 1357,
+    "brand": "Avon",
+    "name": "Black Suede Secret Eau de Toilette",
+    "code": "1553142",
+    "price": 379.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Black Suede Secret Eau de Toilette. A scent boost to start the day. SA code: 1553142, non-SA code: 1582424."
+  },
+  {
+    "id": 1358,
+    "brand": "Avon",
+    "name": "Black Suede Real Eau de Toilette",
+    "code": "1553117",
+    "price": 379.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Black Suede Real Eau de Toilette. A scent boost to start the day. SA code: 1553117, non-SA code: 1582426."
+  },
+  {
+    "id": 1359,
+    "brand": "Avon",
+    "name": "Individual Blue Eau de Toilette",
+    "code": "1491019",
+    "price": 209.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Individual Blue Eau de Toilette. A scent boost to start the day. SA code: 1491019, non-SA code: 1582424."
+  },
+  {
+    "id": 1360,
+    "brand": "Avon",
+    "name": "Attraction for Him Eau de Toilette 30 ml",
+    "code": "1446453",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Attraction for Him Eau de Toilette 30 ml. 30 ml fragrances for him. Grab it before it's gone."
+  },
+  {
+    "id": 1361,
+    "brand": "Avon",
+    "name": "Black Suede Eau de Toilette 30 ml",
+    "code": "1580627",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Black Suede Eau de Toilette 30 ml. 30 ml fragrances for him."
+  },
+  {
+    "id": 1362,
+    "brand": "Avon",
+    "name": "Black Suede Touch Eau de Toilette 30 ml",
+    "code": "1580840",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Black Suede Touch Eau de Toilette 30 ml. 30 ml fragrances for him. SA code: 1580840, non-SA code: 1582416."
+  },
+  {
+    "id": 1363,
+    "brand": "Avon",
+    "name": "Black Suede Real Eau de Toilette 30 ml",
+    "code": "1552986",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Black Suede Real Eau de Toilette 30 ml. 30 ml fragrances for him. SA code: 1552986, non-SA code: 1582426."
+  },
+  {
+    "id": 1364,
+    "brand": "Avon",
+    "name": "Full Speed Max Turbo Eau de Toilette 30 ml",
+    "code": "1491019",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Full Speed Max Turbo Eau de Toilette 30 ml. 30 ml fragrances for him. New. Grab it before it's gone."
+  },
+  {
+    "id": 1365,
+    "brand": "Avon",
+    "name": "Elite Gentleman Quest Eau de Toilette",
+    "code": "1519170",
+    "price": 299.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Elite Gentleman Quest Eau de Toilette. A blend of time & hard work is how you excel. Excel in everything you do with ginger, coffee oil & cedarwood. Woody, Spicy, Oriental scent."
+  },
+  {
+    "id": 1366,
+    "brand": "Avon",
+    "name": "Elite Gentleman Quest Hair & Body Wash",
+    "code": "1563491",
+    "price": 65.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM.jpeg",
+    "description": "Elite Gentleman Quest Hair & Body Wash. A blend of time & hard work is how you excel. Excel in everything you do with ginger, coffee oil & cedarwood."
+  },
+
   
   {
     "id": 1350,
