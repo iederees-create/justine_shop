@@ -1,6 +1,47 @@
 [
   
   {
+    "id": 1286,
+    "brand": "Avon",
+    "name": "Men's Grooming Set Limited Edition",
+    "code": "1534585",
+    "price": 119.9,
+    "category": "Tools",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.39 PM.jpeg",
+    "description": "Limited Edition grooming set in a convenient case. Includes a comb, scissors, tweezers & nail clipper with nail file. Size: 11.8 cm x 7.5 cm x 2 cm."
+  },
+  {
+    "id": 1287,
+    "brand": "Avon",
+    "name": "Care Men Essential 3-in-1 Shampoo, Conditioner & Body Wash",
+    "code": "1380774",
+    "price": 65.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.39 PM.jpeg",
+    "description": "Essential 3-in-1 for men. Cleans hair, conditions, and washes body in one step. Contains active ingredients for clean, fresh skin."
+  },
+  {
+    "id": 1288,
+    "brand": "Avon",
+    "name": "Senses Ocean Surge For Men - 2in1 Hair & Body Wash",
+    "code": "1566154",
+    "price": 79.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.39 PM.jpeg",
+    "description": "Ocean surge scent for men. 2in1 hair & body wash enriched with natural extracts & vitamin complex. Refreshing & invigorating."
+  },
+  {
+    "id": 1289,
+    "brand": "Avon",
+    "name": "Care Essential Moisture Almond Milk Body Lotion",
+    "code": "1560158",
+    "price": 75.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.39 PM.jpeg",
+    "description": "Almond milk body lotion for 48H moisture. Non-greasy formula. Ideal for normal to extra dry skin."
+  },
+
+  {
     "id": 1280,
     "brand": "Avon",
     "name": "Pro Detangling Brush Limited Edition",
