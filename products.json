@@ -1,6 +1,138 @@
 [
   
   {
+    "id": 1265,
+    "brand": "Avon",
+    "name": "Senses Lavender Calm Body Mist",
+    "code": "1566053",
+    "price": 55.9,
+    "category": "Fragrance",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM.jpeg",
+    "description": "Lavender calm body mist. Lavender blossom & musk scent. Refresh your skin, revive your linen, uplift your room."
+  },
+  {
+    "id": 1266,
+    "brand": "Avon",
+    "name": "Senses White Lily Body Mist",
+    "code": "1566178",
+    "price": 55.9,
+    "category": "Fragrance",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM.jpeg",
+    "description": "White lily body mist. White lily & musk scent. Enriched with natural extracts."
+  },
+  {
+    "id": 1267,
+    "brand": "Avon",
+    "name": "Senses Raspberry Delight Body Mist",
+    "code": "1566240",
+    "price": 55.9,
+    "category": "Fragrance",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM.jpeg",
+    "description": "Raspberry delight body mist. Raspberry & cassis scent. Enriched with natural extracts."
+  },
+  {
+    "id": 1268,
+    "brand": "Avon",
+    "name": "Senses Simply Luxurious Body Mist",
+    "code": "1566283",
+    "price": 55.9,
+    "category": "Fragrance",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM.jpeg",
+    "description": "Simply luxurious body mist. White peach & vanilla orchid scent. Enriched with natural extracts."
+  },
+  {
+    "id": 1269,
+    "brand": "Avon",
+    "name": "Senses Velvet Seduction Body Mist",
+    "code": "1528532",
+    "price": 55.9,
+    "category": "Fragrance",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM.jpeg",
+    "description": "Velvet seduction body mist. Blueberry & orchid scent. Enriched with natural extracts."
+  },
+  {
+    "id": 1270,
+    "brand": "Avon",
+    "name": "Senses Oriental Escape Body Mist",
+    "code": "1570709",
+    "price": 55.9,
+    "category": "Fragrance",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM.jpeg",
+    "description": "Oriental escape body mist. Orange blossom & patchouli scent. Enriched with natural extracts."
+  },
+  {
+    "id": 1271,
+    "brand": "Avon",
+    "name": "Senses Maldives Sands Body Mist",
+    "code": "1564625",
+    "price": 55.9,
+    "category": "Fragrance",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM.jpeg",
+    "description": "Maldives sands body mist. Sea salt & frangipani scent. Enriched with natural extracts."
+  }
+
+  {
+    "id": 1259,
+    "brand": "Avon",
+    "name": "Senses Raspberry Delight Bubble Bath 1L",
+    "code": "1561902",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.37 PM.jpeg",
+    "description": "Raspberry delight bubble bath. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1260,
+    "brand": "Avon",
+    "name": "Senses Pretty Peony Bubble Bath 1L",
+    "code": "1559265",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.37 PM.jpeg",
+    "description": "Pretty peony bubble bath. Peony & magnolia scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1261,
+    "brand": "Avon",
+    "name": "Senses Maldives Sands Bubble Bath 1L",
+    "code": "1564624",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.37 PM.jpeg",
+    "description": "Maldives sands bubble bath. Sea salt & frangipani scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1262,
+    "brand": "Avon",
+    "name": "Senses Maldives Oasis Bubble Bath 1L",
+    "code": "1564626",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.37 PM.jpeg",
+    "description": "Maldives oasis bubble bath. Sea salt & frangipani scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1263,
+    "brand": "Avon",
+    "name": "Senses Goodnight Sweetheart Bubble Bath 1L",
+    "code": "1557030",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.37 PM.jpeg",
+    "description": "Goodnight sweetheart bubble bath. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1264,
+    "brand": "Avon",
+    "name": "Senses Oriental Escape Bubble Bath 1L",
+    "code": "1570707",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.37 PM.jpeg",
+    "description": "Oriental escape bubble bath. Orange blossom & patchouli scent. Enriched with naturally derived extracts & vitamin complex."
+  }
+
+  {
     "id": 1252,
     "brand": "Avon",
     "name": "Senses Lavender Calm Bubble Bath",
