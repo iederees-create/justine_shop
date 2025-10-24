@@ -1,5 +1,309 @@
 [
   {
+    "id": 1316,
+    "brand": "Avon",
+    "name": "Black Suede SA",
+    "code": "1545031",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Black Suede SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1317,
+    "brand": "Avon",
+    "name": "Black Suede non-SA",
+    "code": "1582374",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Black Suede non-SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1318,
+    "brand": "Avon",
+    "name": "Black Suede Dark",
+    "code": "1545029",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Black Suede Dark roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1319,
+    "brand": "Avon",
+    "name": "Black Suede Secret SA",
+    "code": "1545034",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Black Suede Secret SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1320,
+    "brand": "Avon",
+    "name": "Black Suede Secret non-SA",
+    "code": "1582376",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Black Suede Secret non-SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1321,
+    "brand": "Avon",
+    "name": "Black Suede Touch SA",
+    "code": "1545033",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Black Suede Touch SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1322,
+    "brand": "Avon",
+    "name": "Black Suede Touch non-SA",
+    "code": "1582375",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Black Suede Touch non-SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1323,
+    "brand": "Avon",
+    "name": "Black Suede Charm",
+    "code": "1558910",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Black Suede Charm roll-on anti-perspirant deodorant. New. Grab it before it's gone. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1324,
+    "brand": "Avon",
+    "name": "Black Suede Real",
+    "code": "1545030",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Black Suede Real roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1325,
+    "brand": "Avon",
+    "name": "Full Speed Max Turbo",
+    "code": "1569651",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Full Speed Max Turbo roll-on anti-perspirant deodorant. New. High-energy scent. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1326,
+    "brand": "Avon",
+    "name": "Full Speed Quantum",
+    "code": "1569648",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Full Speed Quantum roll-on anti-perspirant deodorant. New. Fresh crispness of frozen apple. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1327,
+    "brand": "Avon",
+    "name": "Musk Rain",
+    "code": "1564774",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Musk Rain roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1328,
+    "brand": "Avon",
+    "name": "Individual Blue",
+    "code": "1517326",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Individual Blue roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1329,
+    "brand": "Avon",
+    "name": "Aspire Man SA",
+    "code": "1419470",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Aspire Man SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1330,
+    "brand": "Avon",
+    "name": "Aspire Man non-SA",
+    "code": "1582359",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Aspire Man non-SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1331,
+    "brand": "Avon",
+    "name": "Far Away SA",
+    "code": "1574575",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Far Away SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1332,
+    "brand": "Avon",
+    "name": "Far Away non-SA",
+    "code": "1582377",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Far Away non-SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1333,
+    "brand": "Avon",
+    "name": "Far Away Glamour SA",
+    "code": "1544905",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Far Away Glamour SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1334,
+    "brand": "Avon",
+    "name": "Far Away Glamour non-SA",
+    "code": "1583597",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Far Away Glamour non-SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1335,
+    "brand": "Avon",
+    "name": "Little Black Dress SA",
+    "code": "1482219",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Little Black Dress SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1336,
+    "brand": "Avon",
+    "name": "Little Black Dress non-SA",
+    "code": "1582414",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Little Black Dress non-SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1337,
+    "brand": "Avon",
+    "name": "Imari Free",
+    "code": "1561971",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Imari Free roll-on anti-perspirant deodorant. New. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1338,
+    "brand": "Avon",
+    "name": "Imari Queen",
+    "code": "1545970",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Imari Queen roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1339,
+    "brand": "Avon",
+    "name": "Imari Corset SA",
+    "code": "07798",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Imari Corset SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1340,
+    "brand": "Avon",
+    "name": "Imari Corset non-SA",
+    "code": "1582413",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Imari Corset non-SA roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1341,
+    "brand": "Avon",
+    "name": "Imari Naturelle",
+    "code": "1544201",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Imari Naturelle roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+  {
+    "id": 1342,
+    "brand": "Avon",
+    "name": "Imari 40 ml",
+    "code": "72336",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (1).jpeg",
+    "description": "Imari 40 ml roll-on anti-perspirant deodorant. 24-hour anti-perspirant protection. Scented with perfume."
+  },
+
+  {
+    "id": 1313,
+    "brand": "Avon",
+    "name": "Full Speed Deodorant Body Spray",
+    "code": "1388878",
+    "price": 65.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (2).jpeg",
+    "description": "Full Speed Deodorant Body Spray. A high-energy scent with juniper berry, cypress & sandalwood — the rush he needs to get the most from every day. Fougère & Citrus notes."
+  },
+  {
+    "id": 1314,
+    "brand": "Avon",
+    "name": "Full Speed Eau de Toilette Limited Edition",
+    "code": "1580698",
+    "price": 239.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (2).jpeg",
+    "description": "Full Speed Eau de Toilette Limited Edition. A high-energy scent with juniper berry, cypress & sandalwood. Perfect for everyday wear. Regular price R249.90."
+  },
+  {
+    "id": 1315,
+    "brand": "Avon",
+    "name": "Black Suede Secret Gift Set",
+    "code": "1580261",
+    "price": 359.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM (2).jpeg",
+    "description": "Black Suede Secret Gift Set. A woody-amber blend that reveals his seductive side. Includes: Eau de Toilette 100 ml, Hair & Body Wash 250 ml, Roll-On Anti-Perspirant Deodorant 50 ml. Regular price R469.90. Limited Edition."
+  },
+
+
+  
+  {
     "id": 1311,
     "brand": "Avon",
     "name": "Far Away Beyond the Moon Parfum",
