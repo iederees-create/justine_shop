@@ -1,4 +1,28 @@
 [
+
+
+  
+  {
+    "id": 1350,
+    "brand": "Avon",
+    "name": "Imari Free Eau de Toilette",
+    "code": "1561608",
+    "price": 179.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM (1).jpeg",
+    "description": "Imari Free Eau de Toilette. Free your sensuality with the deep allure of the ocean. Laminaria seaweed complements your free & fresh take on sensuality. A burst of sparkling Italian bergamot oil freshens the scent further & warm amber notes add a deeper layer of sensuousness. Floral, Fresh, Chypre scent."
+  },
+  {
+    "id": 1351,
+    "brand": "Avon",
+    "name": "Pur Blanca Petal Eau de Toilette",
+    "code": "1575856",
+    "price": 129.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM (1).jpeg",
+    "description": "Pur Blanca Petal Eau de Toilette. Shine with natural grace. Infused with the delicate notes of mandarin blossom, gardenia & silky musk essence, this fragrance captures the beauty of petals, reflecting your effortless sophistication. Floral, Fruity, Musk scent."
+  },
+
   {
     "id": 1346,
     "brand": "Avon",
