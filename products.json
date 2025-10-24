@@ -1,4 +1,36 @@
 [
+
+  {
+    "id": 1343,
+    "brand": "Avon",
+    "name": "TTA Today Eau de Parfum",
+    "code": "1491054",
+    "price": 229.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM.jpeg",
+    "description": "TTA Today Eau de Parfum. A floral scent for magical moments. Bonus offer: Buy TTA Today, Tomorrow or Wonder EDP for just R229.90 with every R200 spent in this brochure."
+  },
+  {
+    "id": 1344,
+    "brand": "Avon",
+    "name": "TTA Tomorrow Eau de Parfum",
+    "code": "1491056",
+    "price": 229.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM.jpeg",
+    "description": "TTA Tomorrow Eau de Parfum. An oriental & woody scent for lasting love. Bonus offer: Buy TTA Today, Tomorrow or Wonder EDP for just R229.90 with every R200 spent in this brochure."
+  },
+  {
+    "id": 1345,
+    "brand": "Avon",
+    "name": "TTA Wonder Eau de Parfum",
+    "code": "1499417",
+    "price": 229.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.54 PM.jpeg",
+    "description": "TTA Wonder Eau de Parfum. A floral & musk scent for budgetproof beauty. Bonus offer: Buy TTA Today, Tomorrow or Wonder EDP for just R229.90 with every R200 spent in this brochure."
+  },
+
   {
     "id": 1316,
     "brand": "Avon",
