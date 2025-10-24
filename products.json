@@ -1,5 +1,45 @@
 [
 
+  {
+    "id": 1370,
+    "brand": "Avon",
+    "name": "Aspire Man Eau de Toilette",
+    "code": "1419468",
+    "price": 179.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.52 PM.jpeg",
+    "description": "Aspire Man Eau de Toilette. Say it with... A Power Couple Move. An exceptionally masculine blend, exuding charm with fresh bergamot, ginger root & warm sandalwood. Citrus & Woody scent. Lowest price of the year. SA code: 1419468, non-SA code: 1582361."
+  },
+  {
+    "id": 1371,
+    "brand": "Avon",
+    "name": "Aspire for Her Roll-On Anti-Perspirant",
+    "code": "92796",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.52 PM.jpeg",
+    "description": "Aspire for Her Roll-On Anti-Perspirant. Reach new heights & boost your confidence with bold jasmine, rich woods & precious musk. Floral & Oriental scent. SA code: 92796, non-SA code: 1582360."
+  },
+  {
+    "id": 1372,
+    "brand": "Avon",
+    "name": "Aspire for Her Perfumed Body Spray",
+    "code": "1388869",
+    "price": 59.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.52 PM.jpeg",
+    "description": "Aspire for Her Perfumed Body Spray. Reach new heights & boost your confidence with bold jasmine, rich woods & precious musk. Floral & Oriental scent."
+  },
+  {
+    "id": 1373,
+    "brand": "Avon",
+    "name": "Aspire for Her Eau de Toilette",
+    "code": "10820",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.52 PM.jpeg",
+    "description": "Aspire for Her Eau de Toilette. Reach new heights & boost your confidence with bold jasmine, rich woods & precious musk. Floral & Oriental scent. Regular price R249.90."
+  },
 
   {
     "id": 1369,
