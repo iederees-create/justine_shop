@@ -1,6 +1,87 @@
 [
   
   {
+    "id": 1290,
+    "brand": "Avon",
+    "name": "Senses Ocean Surge For Men - 2in1 Hair & Body Wash",
+    "code": "1566150",
+    "price": 49.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM.jpeg",
+    "description": "Ocean surge scent for men. 2in1 hair & body wash enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1291,
+    "brand": "Avon",
+    "name": "Senses Simply Luxurious Shower Cream",
+    "code": "1566219",
+    "price": 49.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM.jpeg",
+    "description": "Simply luxurious shower cream. White peach & vanilla orchid scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1292,
+    "brand": "Avon",
+    "name": "Senses White Lily Shower Cream",
+    "code": "1566189",
+    "price": 49.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM.jpeg",
+    "description": "White lily shower cream. White lily & musk scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1293,
+    "brand": "Avon",
+    "name": "Senses Raspberry Delight Shower Gel",
+    "code": "1566243",
+    "price": 49.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM.jpeg",
+    "description": "Raspberry delight shower gel. Raspberry & cassis scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1294,
+    "brand": "Avon",
+    "name": "Senses Maldives Sands Shower Cream",
+    "code": "1564621",
+    "price": 49.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM.jpeg",
+    "description": "Maldives sands shower cream. Sea salt & frangipani scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1295,
+    "brand": "Avon",
+    "name": "Senses Oriental Escape Shower Cream",
+    "code": "1570716",
+    "price": 49.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM.jpeg",
+    "description": "Oriental escape shower cream. Orange blossom & patchouli scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1296,
+    "brand": "Avon",
+    "name": "Senses Spiced Plum Shower Gel",
+    "code": "1573909",
+    "price": 49.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM.jpeg",
+    "description": "Spiced plum shower gel. Poached plum & spiced orange scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1297,
+    "brand": "Avon",
+    "name": "Senses Velvet Joy Shower Gel",
+    "code": "1580695",
+    "price": 49.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM.jpeg",
+    "description": "Velvet joy shower gel. Blackberries & red chocolate cake scented. Enriched with naturally derived extracts & vitamin complex."
+  },
+
+  {
     "id": 1286,
     "brand": "Avon",
     "name": "Men's Grooming Set Limited Edition",
