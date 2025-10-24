@@ -2,6 +2,17 @@
 
 
   {
+    "id": 1369,
+    "brand": "Avon",
+    "name": "Treselle Eau de Parfum",
+    "code": "1531433",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.52 PM (1).jpeg",
+    "description": "Treselle Eau de Parfum. Utter elegance in every moment. A sensual floral scent that combines the head notes of pepper berries & liquorice with the heart notes of tuberanthia, lotus & rose. The base strongly supports with accents of musk, tiger orchid & iris. Lasts up to 8 hours. Customer testimonial: 'Feminine & so divine! A new-found favourite added to my collection!' — Ronel R., Customer."
+  },
+
+  {
     "id": 1367,
     "brand": "Avon",
     "name": "Attraction for Him Deodorant Body Spray",
