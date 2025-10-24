@@ -2,6 +2,27 @@
 
 
   {
+    "id": 1367,
+    "brand": "Avon",
+    "name": "Attraction for Him Deodorant Body Spray",
+    "code": "1436719",
+    "price": 65.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.52 PM (2).jpeg",
+    "description": "Attraction for Him Deodorant Body Spray. Dare to feel — a spark so undeniable it's as magnetic as our musks. Featuring magnetic musks, intense fiery ginger root, smouldering smokey woods. Proven to last up to 8 hours*."
+  },
+  {
+    "id": 1368,
+    "brand": "Avon",
+    "name": "Attraction for Him Eau de Toilette",
+    "code": "1493848",
+    "price": 299.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.52 PM (2).jpeg",
+    "description": "Attraction for Him Eau de Toilette. Dare to feel — a spark so undeniable it's as magnetic as our musks. Featuring magnetic musks, intense fiery ginger root, smouldering smokey woods. Regular price R349.90."
+  },
+
+  {
     "id": 1352,
     "brand": "Avon",
     "name": "Attraction Closer for Him Eau de Toilette",
