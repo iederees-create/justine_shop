@@ -1,6 +1,67 @@
 [
   
   {
+    "id": 1280,
+    "brand": "Avon",
+    "name": "Pro Detangling Brush Limited Edition",
+    "code": "1579712",
+    "price": 99.9,
+    "category": "Tools",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.38 PM (2).jpeg",
+    "description": "Limited Edition detangling brush for kids. Perfect for gentle, tangle-free hair care."
+  },
+  {
+    "id": 1281,
+    "brand": "Avon",
+    "name": "Kids Fruity 2in1 Shampoo & Conditioner",
+    "code": "1550725",
+    "price": 69.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.38 PM (2).jpeg",
+    "description": "Fruity scent 2in1 shampoo & conditioner for kids. Gentle formula for everyday use."
+  },
+  {
+    "id": 1282,
+    "brand": "Avon",
+    "name": "Kids Fruity Detangling Spray",
+    "code": "1550726",
+    "price": 79.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.38 PM (2).jpeg",
+    "description": "Fruity scent detangling spray for kids' hair. Makes combing easy and fun."
+  },
+  {
+    "id": 1283,
+    "brand": "Avon",
+    "name": "Kids Fresh 2in1 Shampoo & Body Wash",
+    "code": "1550727",
+    "price": 69.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.38 PM (2).jpeg",
+    "description": "Fresh scent 2in1 shampoo & body wash for kids. Dermatologist and ophthalmologist tested."
+  },
+  {
+    "id": 1284,
+    "brand": "Avon",
+    "name": "Kids Fresh Cologne Spritz",
+    "code": "1550729",
+    "price": 99.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.38 PM (2).jpeg",
+    "description": "Fresh scent cologne spritz for kids. Light, playful fragrance perfect for daily wear."
+  },
+  {
+    "id": 1285,
+    "brand": "Avon",
+    "name": "Kids Fresh Hair Gel",
+    "code": "1550728",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.38 PM (2).jpeg",
+    "description": "Fresh scent hair gel for kids. Provides hold without stickiness. Dermatologist and ophthalmologist tested."
+  },
+
+  {
     "id": 1272,
     "brand": "Avon",
     "name": "Senses Nature's Edge 3in1 Body, Hair & Face Wash for Men",
