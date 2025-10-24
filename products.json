@@ -1,4 +1,44 @@
 [
+  {
+    "id": 1346,
+    "brand": "Avon",
+    "name": "Musk Metropolitano Eau de Toilette",
+    "code": "1573725",
+    "price": 169.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM (2).jpeg",
+    "description": "Musk Metropolitano Eau de Toilette. Harness the power of nature with a blend of sparkling cedar leaf, cypress oil & vibrant urban jungle accord. Woody & Aromatic scent."
+  },
+  {
+    "id": 1347,
+    "brand": "Avon",
+    "name": "Musk Rain Eau de Toilette",
+    "code": "1564432",
+    "price": 169.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM (2).jpeg",
+    "description": "Musk Rain Eau de Toilette. Breathe out the day with the fresh, earthy scent of air after rainfall. Awaken your senses with zesty mandarin oil & cedarwood. Aromatic & Fougère scent."
+  },
+  {
+    "id": 1348,
+    "brand": "Avon",
+    "name": "Musk Marine Roll-On Anti-Perspirant Deodorant",
+    "code": "1577331",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM (2).jpeg",
+    "description": "Musk Marine Roll-On Anti-Perspirant Deodorant. Harness the ocean’s strength with vibrant Italian bergamot, fresh mint & bold French lavender oil. 24-hour anti-perspirant protection. Fougère & Watery scent."
+  },
+  {
+    "id": 1349,
+    "brand": "Avon",
+    "name": "Musk Marine Eau de Toilette",
+    "code": "1573370",
+    "price": 169.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.53 PM (2).jpeg",
+    "description": "Musk Marine Eau de Toilette. Harness the ocean’s strength with vibrant Italian bergamot, fresh mint & bold French lavender oil. Fougère & Watery scent."
+  },
 
   {
     "id": 1343,
