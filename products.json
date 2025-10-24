@@ -1,6 +1,47 @@
 [
   
   {
+    "id": 1298,
+    "brand": "Avon",
+    "name": "Senses Raspberry Delight Bubble Bath",
+    "code": "1555718",
+    "price": 69.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM (1).jpeg",
+    "description": "Raspberry delight bubble bath. Create a full routine of gifts to show her that she deserves to take the time for a little pampering."
+  },
+  {
+    "id": 1299,
+    "brand": "Avon",
+    "name": "Senses Raspberry Delight Body Mist",
+    "code": "1566240",
+    "price": 55.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM (1).jpeg",
+    "description": "Raspberry delight body mist. Light, refreshing scent to uplift your day."
+  },
+  {
+    "id": 1300,
+    "brand": "Avon",
+    "name": "Care Antioxidant Cherry Body Lotion",
+    "code": "1558849",
+    "price": 75.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM (1).jpeg",
+    "description": "Cherry-scented body lotion with antioxidants. Provides 48H moisture for normal to dry skin. Non-greasy formula."
+  },
+  {
+    "id": 1301,
+    "brand": "Avon",
+    "name": "Care Antioxidant Cherry Hand Cream",
+    "code": "1558911",
+    "price": 39.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.40 PM (1).jpeg",
+    "description": "Cherry-scented hand cream with antioxidants. Nourishes and softens hands. Quick absorption, non-greasy."
+  },
+
+  {
     "id": 1290,
     "brand": "Avon",
     "name": "Senses Ocean Surge For Men - 2in1 Hair & Body Wash",
