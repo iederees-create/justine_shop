@@ -1,5 +1,24 @@
 [
-  
+  {
+    "id": 1311,
+    "brand": "Avon",
+    "name": "Far Away Beyond the Moon Parfum",
+    "code": "1544899",
+    "price": 299.9,
+    "category": "Fragrance",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.55 PM.jpeg",
+    "description": "Far Away Beyond the Moon Parfum. Feel the extraordinary allure & intrigue of the exclusive, sustainably sourced Belle de Nuit — a mysterious nocturnal flower that blooms in the full intensity of moonlight, paired with wild cherry & sandalwood. Lasts all day. Lowest price of the year."
+  },
+  {
+    "id": 1312,
+    "brand": "Avon",
+    "name": "Far Away Beyond the Moon Body Lotion",
+    "code": "1548352",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/productimages/WhatsApp Image 2025-10-20 at 1.43.55 PM.jpeg",
+    "description": "Far Away Beyond the Moon Body Lotion. Complements the parfum with an oriental floral scent concentration. Enriched to nourish skin and extend the fragrance experience. Tested to last up to 8hrs."
+  },
   {
     "id": 1307,
     "brand": "Avon",
