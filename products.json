@@ -1,6 +1,87 @@
 [
   
   {
+    "id": 1272,
+    "brand": "Avon",
+    "name": "Senses Nature's Edge 3in1 Body, Hair & Face Wash for Men",
+    "code": "1566129",
+    "price": 79.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM (1).jpeg",
+    "description": "Nature's edge 3in1 body, hair & face wash for men. Charcoal scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1273,
+    "brand": "Avon",
+    "name": "Senses Lemon Burst Shower Gel",
+    "code": "1530708",
+    "price": 79.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM (1).jpeg",
+    "description": "Lemon burst shower gel. Lemon & basil scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1274,
+    "brand": "Avon",
+    "name": "Senses Raspberry Delight Shower Gel",
+    "code": "1566247",
+    "price": 79.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM (1).jpeg",
+    "description": "Raspberry delight shower gel. Raspberry & cassis scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1275,
+    "brand": "Avon",
+    "name": "Senses Maldives Oasis Shower Gel",
+    "code": "1564627",
+    "price": 79.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM (1).jpeg",
+    "description": "Maldives oasis shower gel. Sea salt & pear flower scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1276,
+    "brand": "Avon",
+    "name": "Senses Maldives Sands Shower Cream",
+    "code": "1564622",
+    "price": 79.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM (1).jpeg",
+    "description": "Maldives sands shower cream. Sea salt & frangipani scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1277,
+    "brand": "Avon",
+    "name": "Senses Crisp Forest 3in1 Body, Hair & Face Wash for Men",
+    "code": "1580972",
+    "price": 79.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM (1).jpeg",
+    "description": "Crisp forest 3in1 body, hair & face wash for men. Rhubarb & sandalwood scent. Feel refreshed with crisp, earthy, woody scent."
+  },
+  {
+    "id": 1278,
+    "brand": "Avon",
+    "name": "Senses Monaco Nights 3in1 Body, Hair & Face Wash for Men",
+    "code": "1564620",
+    "price": 79.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM (1).jpeg",
+    "description": "Monaco nights 3in1 body, hair & face wash for men. Mandarin & cedarwood scent. Shower in style with this fresh & elegant scent."
+  },
+  {
+    "id": 1279,
+    "brand": "Avon",
+    "name": "Senses Jungle Rainburst Shower Gel",
+    "code": "1566111",
+    "price": 79.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.38 PM (1).jpeg",
+    "description": "Jungle rainburst shower gel. Enriched with naturally derived extracts & vitamin complex."
+  },
+
+  {
     "id": 1265,
     "brand": "Avon",
     "name": "Senses Lavender Calm Body Mist",
