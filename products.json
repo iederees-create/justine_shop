@@ -1,4 +1,56 @@
 [
+
+  {
+    "id": 1220,
+    "brand": "Avon",
+    "name": "Senses Ocean Surge For Men - 2in1 Hair & Body Wash",
+    "code": "1566263",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.41 PM.jpeg",
+    "description": "Enriched with naturally derived extracts & vitamin complex. Recyclable packaging."
+  },
+  {
+    "id": 1221,
+    "brand": "Avon",
+    "name": "Senses White Lily Shower Cream",
+    "code": "1566127",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.41 PM.jpeg",
+    "description": "White lily & musk scent. Enriched with natural extracts."
+  },
+  {
+    "id": 1222,
+    "brand": "Avon",
+    "name": "Senses Secret Lagoon Shower Gel",
+    "code": "1566265",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.41 PM.jpeg",
+    "description": "Water fruits & musk scent. Enriched with natural extracts."
+  },
+  {
+    "id": 1223,
+    "brand": "Avon",
+    "name": "Senses Simply Luxurious Shower Cream",
+    "code": "1554074",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.41 PM.jpeg",
+    "description": "White peach & vanilla orchid scent. Enriched with natural extracts."
+  },
+  {
+    "id": 1224,
+    "brand": "Avon",
+    "name": "Senses Lemon Burst Shower Gel",
+    "code": "1573911",
+    "price": 99.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.41 PM.jpeg",
+    "description": "Lemon & basil scent. With vitamins & electrolytes to energise your skin."
+  },
+
   {
     "id": 1126,
     "brand": "Avon",
