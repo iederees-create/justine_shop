@@ -1,4 +1,75 @@
 [
+  
+  {
+    "id": 1252,
+    "brand": "Avon",
+    "name": "Senses Lavender Calm Bubble Bath",
+    "code": "1561880",
+    "price": 69.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.36 PM.jpeg",
+    "description": "Lavender calm bubble bath. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1253,
+    "brand": "Avon",
+    "name": "Senses L'Amour Sunrise Bubble Bath",
+    "code": "1566261",
+    "price": 69.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.36 PM.jpeg",
+    "description": "L'Amour sunrise bubble bath. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1254,
+    "brand": "Avon",
+    "name": "Senses Goodnight Sweetheart Bubble Bath",
+    "code": "1566276",
+    "price": 69.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.36 PM.jpeg",
+    "description": "Goodnight sweetheart bubble bath. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1255,
+    "brand": "Avon",
+    "name": "Senses Raspberry Delight Bubble Bath",
+    "code": "1555718",
+    "price": 69.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.36 PM.jpeg",
+    "description": "Raspberry delight bubble bath. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1256,
+    "brand": "Avon",
+    "name": "Senses Simply Luxurious Bubble Bath",
+    "code": "1566214",
+    "price": 69.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.36 PM.jpeg",
+    "description": "Simply luxurious bubble bath. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1257,
+    "brand": "Avon",
+    "name": "Senses Maldives Sands Bubble Bath",
+    "code": "1564623",
+    "price": 69.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.36 PM.jpeg",
+    "description": "Maldives sands bubble bath. Sea salt & frangipani scent. Enriched with naturally derived extracts & vitamin complex."
+  },
+  {
+    "id": 1258,
+    "brand": "Avon",
+    "name": "Senses Oriental Escape Bubble Bath",
+    "code": "1570708",
+    "price": 69.9,
+    "category": "Bath & Body",
+    "image": "images/products/WhatsApp Image 2025-10-20 at 1.43.36 PM.jpeg",
+    "description": "Oriental escape bubble bath. Orange blossom & patchouli scent. Enriched with naturally derived extracts & vitamin complex."
+  },
 
   {
     "id": 1220,
