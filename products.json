@@ -1,4 +1,349 @@
 [
+  
+  {
+    "id": 1403,
+    "brand": "Avon",
+    "name": "Full Speed Surfer Eau de Toilette",
+    "code": "1569658",
+    "price": 269.9,
+    "category": "Fragrance",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.45 PM.jpeg",
+    "description": "Full Speed Surfer Eau de Toilette. Feel the rush, before the drop. With a scent inspired by the thrill of big wave surfing. Ride a wave of adrenaline infused with invigorating fresh ozonic notes, a thrilling jolt of bracing peppermint, & a woody intensity that'll leave you feeling exhilarated. Big on thrills, bigger in mls — now 100 ml (was 75 ml)."
+  },
+  {
+    "id": 1404,
+    "brand": "Avon",
+    "name": "Full Speed Surfer Roll-On Anti-Perspirant Deodorant",
+    "code": "1569655",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.45 PM.jpeg",
+    "description": "Full Speed Surfer Roll-On Anti-Perspirant Deodorant. Feel the rush, before the drop. With a scent inspired by the thrill of big wave surfing. Ride a wave of adrenaline infused with invigorating fresh ozonic notes, a thrilling jolt of bracing peppermint, & a woody intensity that'll leave you feeling exhilarated."
+  },
+  {
+    "id": 1405,
+    "brand": "Avon",
+    "name": "Full Speed Surfer Hair & Body Wash",
+    "code": "1569644",
+    "price": 65.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.45 PM.jpeg",
+    "description": "Full Speed Surfer Hair & Body Wash. Feel the rush, before the drop. With a scent inspired by the thrill of big wave surfing. Ride a wave of adrenaline infused with invigorating fresh ozonic notes, a thrilling jolt of bracing peppermint, & a woody intensity that'll leave you feeling exhilarated."
+  },
+  {
+    "id": 1406,
+    "brand": "Avon",
+    "name": "Black Suede Dark Eau de Toilette",
+    "code": "1553141",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.45 PM.jpeg",
+    "description": "Black Suede Dark Eau de Toilette. Intimacy meets mystery. Oriental scents to take you on a deeply personal scent journey. Spicy, seductive & bold, the choice is yours. Oriental & Woody scent. Lasts all day*."
+  },
+  {
+    "id": 1407,
+    "brand": "Avon",
+    "name": "Black Suede Touch Eau de Toilette",
+    "code": "1545032",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.45 PM.jpeg",
+    "description": "Black Suede Touch Eau de Toilette. Intimacy meets mystery. Oriental scents to take you on a deeply personal scent journey. Spicy, seductive & bold, the choice is yours. Oriental & Spicy scent. Lasts all day*."
+  },
+
+  {
+    "id": 1399,
+    "brand": "Avon",
+    "name": "Attraction for Her Eau de Parfum",
+    "code": "1490703",
+    "price": 269.9,
+    "category": "Fragrance",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM (2).jpeg",
+    "description": "Attraction for Her Eau de Parfum. Dare to feel — a spark so undeniable it's as magnetic as our musks. Warm magnetic musks, sugary pear syrup, lasting sensual silky tonka powder. Proven to last up to 8 hours*. SA code: 1490703, non-SA code: 1582364."
+  },
+  {
+    "id": 1400,
+    "brand": "Avon",
+    "name": "Attraction for Her Purse Spray",
+    "code": "1550214",
+    "price": 99.9,
+    "category": "Fragrance",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM (2).jpeg",
+    "description": "Attraction for Her Purse Spray. Featuring magnetic musks. Evoke a sense of attraction that goes beyond words. Warm magnetic musks, sugary pear syrup, lasting sensual silky tonka powder."
+  },
+  {
+    "id": 1401,
+    "brand": "Avon",
+    "name": "Attraction for Her Body Lotion",
+    "code": "1549787",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM (2).jpeg",
+    "description": "Attraction for Her Body Lotion. Featuring magnetic musks. Evoke a sense of attraction that goes beyond words. Warm magnetic musks, sugary pear syrup, lasting sensual silky tonka powder."
+  },
+  {
+    "id": 1402,
+    "brand": "Avon",
+    "name": "Attraction for Her Perfumed Body Spray",
+    "code": "1387455",
+    "price": 59.9,
+    "category": "Fragrance",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM (2).jpeg",
+    "description": "Attraction for Her Perfumed Body Spray. Featuring magnetic musks. Evoke a sense of attraction that goes beyond words. Warm magnetic musks, sugary pear syrup, lasting sensual silky tonka powder."
+  },
+
+  {
+    "id": 1395,
+    "brand": "Avon",
+    "name": "LOVIU Eau de Parfum Limited Edition",
+    "code": "1579822",
+    "price": 199.9,
+    "category": "Fragrance",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM (1).jpeg",
+    "description": "LOVIU Eau de Parfum Limited Edition. Say it with... A Juicy Scent & Popping Colour. Feel the loving embrace of sweet raspberry nectar settling in warm cashmere wood & tender love apple. Floral & Fruity scent."
+  },
+  {
+    "id": 1396,
+    "brand": "Avon",
+    "name": "Power Stay 8-Days Gel Nail Enamel Pink Caprice",
+    "code": "1556012",
+    "price": 89.9,
+    "category": "Tools",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM (1).jpeg",
+    "description": "Power Stay 8-Days Gel Nail Enamel Pink Caprice. Everyday spoils to ensure you stay on her mind & in her heart. Made in France."
+  },
+  {
+    "id": 1397,
+    "brand": "Avon",
+    "name": "Far Away Infinity Body Lotion",
+    "code": "1549457",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM (1).jpeg",
+    "description": "Far Away Infinity Body Lotion. Say it with... Layers of an Oriental Floral Scent. Infused with sustainably sourced Indian jasmine buds that reveal a signature floral scent of the highest quality & vanilla for a lasting, glamorous finish. Oriental & Floral scent."
+  },
+  {
+    "id": 1398,
+    "brand": "Avon",
+    "name": "Far Away Infinity Eau de Parfum",
+    "code": "1552756",
+    "price": 239.9,
+    "category": "Fragrance",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM (1).jpeg",
+    "description": "Far Away Infinity Eau de Parfum. Say it with... Layers of an Oriental Floral Scent. Infused with sustainably sourced Indian jasmine buds that reveal a signature floral scent of the highest quality & vanilla for a lasting, glamorous finish. Oriental & Floral scent. SA code: 1552756, non-SA code: 1583828."
+  },
+
+  {
+    "id": 1376,
+    "brand": "Avon",
+    "name": "Imari Queen Body Lotion",
+    "code": "1505676",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Imari Queen Body Lotion. Luxurious hand & body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1377,
+    "brand": "Avon",
+    "name": "Imari Naturelle Body Lotion",
+    "code": "1544202",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Imari Naturelle Body Lotion. Luxurious hand & body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1378,
+    "brand": "Avon",
+    "name": "Imari Corset Body Lotion",
+    "code": "1554067",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Imari Corset Body Lotion. Luxurious hand & body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1379,
+    "brand": "Avon",
+    "name": "Imari Free Body Lotion",
+    "code": "1561972",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Imari Free Body Lotion. New. Luxurious hand & body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1380,
+    "brand": "Avon",
+    "name": "Attraction Closer for Her Body Lotion",
+    "code": "1552750",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Attraction Closer for Her Body Lotion. Luxurious hand & body lotions for her. Grab it before it's gone. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1381,
+    "brand": "Avon",
+    "name": "LOVIU Together Body Lotion",
+    "code": "1550082",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "LOVIU Together Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1382,
+    "brand": "Avon",
+    "name": "LOVIU Body Lotion",
+    "code": "1561863",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "LOVIU Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1383,
+    "brand": "Avon",
+    "name": "Little Black Dress Lace Body Lotion",
+    "code": "1549790",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Little Black Dress Lace Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1384,
+    "brand": "Avon",
+    "name": "Little Black Dress Body Lotion",
+    "code": "1549393",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Little Black Dress Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1385,
+    "brand": "Avon",
+    "name": "Rare Pearls Body Lotion",
+    "code": "1562239",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Rare Pearls Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1386,
+    "brand": "Avon",
+    "name": "TTA Today Body Lotion",
+    "code": "1563051",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "TTA Today Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1387,
+    "brand": "Avon",
+    "name": "TTA Tomorrow Body Lotion",
+    "code": "1562229",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "TTA Tomorrow Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1388,
+    "brand": "Avon",
+    "name": "TTA Wonder Body Lotion",
+    "code": "1563481",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "TTA Wonder Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1389,
+    "brand": "Avon",
+    "name": "TTA Radiance Body Lotion",
+    "code": "1564775",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "TTA Radiance Body Lotion. New. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1390,
+    "brand": "Avon",
+    "name": "Luck for Her Body Lotion",
+    "code": "1555589",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Luck for Her Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1391,
+    "brand": "Avon",
+    "name": "Far Away Body Lotion",
+    "code": "1548353",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Far Away Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1392,
+    "brand": "Avon",
+    "name": "Far Away Rebel Body Lotion",
+    "code": "1548818",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Far Away Rebel Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1393,
+    "brand": "Avon",
+    "name": "Far Away Glamour Body Lotion",
+    "code": "1548516",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Far Away Glamour Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+  {
+    "id": 1394,
+    "brand": "Avon",
+    "name": "Far Away Shine Body Lotion",
+    "code": "1544912",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.44 PM.jpeg",
+    "description": "Far Away Shine Body Lotion. Perfumed body lotions for her. Scented with perfume. 24-hour moisture*."
+  },
+
+  {
+    "id": 1374,
+    "brand": "Avon",
+    "name": "Attraction Instinct Body Lotion",
+    "code": "1577002",
+    "price": 59.9,
+    "category": "Bath & Body",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.43 PM.jpeg",
+    "description": "Attraction Instinct Body Lotion. Discover new Attraction Instinct — an intense scent to help inspire you to act on your instincts. Aphrodisiac red orchid, deliciously sweet strawberry, delectable salty vanilla. Proven to last up to 8 hours*."
+  },
+  {
+    "id": 1375,
+    "brand": "Avon",
+    "name": "Attraction Instinct for Her Eau de Parfum",
+    "code": "1579596",
+    "price": 299.9,
+    "category": "Fragrance",
+    "image": "images/WhatsApp Image 2025-10-20 at 1.43.43 PM.jpeg",
+    "description": "Attraction Instinct for Her Eau de Parfum. Discover new Attraction Instinct — an intense scent to help inspire you to act on your instincts. Aphrodisiac red orchid, deliciously sweet strawberry, delectable salty vanilla. Regular price R349.90."
+  },
 
   {
     "id": 1370,
