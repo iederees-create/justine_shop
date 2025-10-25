@@ -1,6 +1,537 @@
 [
   
   {
+    "id": 1374,
+    "brand": "Avon",
+    "name": "Black Suede Deodorant Body Spray",
+    "code": "1531315",
+    "price": 65.0,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.49 PM (1).jpeg",
+    "description": "Black Suede Deodorant Body Spray. Attraction goes deeper than looks with a multilayered scent of sensual leather, fresh greens & warm woods. Oriental & Leather scent. 150 ml. Regular Price R65."
+  },
+  {
+    "id": 1375,
+    "brand": "Avon",
+    "name": "Black Suede Eau de Toilette",
+    "code": "1531479",
+    "price": 319.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.49 PM (1).jpeg",
+    "description": "Black Suede Eau de Toilette. Attraction goes deeper than looks with a multilayered scent of sensual leather, fresh greens & warm woods. Oriental & Leather scent. 100 ml. Regular Price R479.90, now R319.90, save over 25%."
+  },
+  {
+    "id": 1376,
+    "brand": "Avon",
+    "name": "Far Away Rebel Eau de Parfum",
+    "code": "1551622",
+    "price": 219.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.52 PM (1).jpeg",
+    "description": "Far Away Rebel Eau de Parfum. Say it with... A Spritz & A Swipe. A dessert-inspired fragrance & delectable lipstick shades - two ingredients for a memorable gift. Oriental & Fruity scent. 30 ml. Regular Price R249.90, now R219.90, save R169.90."
+  },
+  {
+    "id": 1377,
+    "brand": "Avon",
+    "name": "Far Away Shine Eau de Parfum",
+    "code": "1549406",
+    "price": 269.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.52 PM (1).jpeg",
+    "description": "Far Away Shine Eau de Parfum. Light up the world with powerful pink pepper & luminous golden musk, expertly crafted exotic Ispahan rose. Oriental & Gourmand scent. 50 ml. Regular Price R349.90, now R269.90, save R80."
+  },
+  {
+    "id": 1378,
+    "brand": "Avon",
+    "name": "Treselle Eau de Parfum",
+    "code": "1531433",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.51 PM.jpeg",
+    "description": "Treselle Eau de Parfum. Utter elegance in every moment. A sensual floral scent that combines the head notes of pepper berries & liqueur with the heart notes of tuberanthia, lotus & rose. The base strongly supports with accents of musk, tiger orchid & iris. Floral scent. 50 ml. Regular Price R499.90, now R349.90, save over 25%."
+  },
+  {
+    "id": 1379,
+    "brand": "Avon",
+    "name": "Pur Blanca Eau de Toilette",
+    "code": "156032",
+    "price": 149.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Pur Blanca Eau de Toilette. Choose your favourite scent in a handy 30 ml size. Floral scent. Regular Price R149.90."
+  },
+  {
+    "id": 1380,
+    "brand": "Avon",
+    "name": "Soft Musk Eau de Toilette",
+    "code": "1560933",
+    "price": 149.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Soft Musk Eau de Toilette. Choose your favourite scent in a handy 30 ml size. Floral scent. Regular Price R149.90."
+  },
+  {
+    "id": 1381,
+    "brand": "Avon",
+    "name": "Blue Party Eau de Cologne",
+    "code": "156657",
+    "price": 149.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Blue Party Eau de Cologne. Choose your favourite scent in a handy 30 ml size. Floral scent. Regular Price R149.90."
+  },
+  {
+    "id": 1382,
+    "brand": "Avon",
+    "name": "Eau de Cologne",
+    "code": "156590",
+    "price": 149.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Eau de Cologne. Choose your favourite scent in a handy 30 ml size. Floral scent. Regular Price R149.90."
+  },
+  {
+    "id": 1383,
+    "brand": "Avon",
+    "name": "Platischa Talk Eau de Cologne",
+    "code": "156656",
+    "price": 149.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Platischa Talk Eau de Cologne. Choose your favourite scent in a handy 30 ml size. Floral scent. Regular Price R149.90."
+  },
+  {
+    "id": 1384,
+    "brand": "Avon",
+    "name": "Pur Blanca Eau de Toilette",
+    "code": "1560983",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Pur Blanca Eau de Toilette. Experience the scent of the rarest treasures. Floral scent. 50 ml. Regular Price R349.90."
+  },
+  {
+    "id": 1385,
+    "brand": "Avon",
+    "name": "Attraction Closer for Her Eau de Parfum",
+    "code": "156067",
+    "price": 99.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Attraction Closer for Her Eau de Parfum. Enhance your scent trail with 10 ml travel-size scents. Regular Price R99.90."
+  },
+  {
+    "id": 1386,
+    "brand": "Avon",
+    "name": "Little Black Dress Eau de Parfum",
+    "code": "149106",
+    "price": 99.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Little Black Dress Eau de Parfum. Enhance your scent trail with 10 ml travel-size scents. Regular Price R99.90."
+  },
+  {
+    "id": 1387,
+    "brand": "Avon",
+    "name": "Lace Eau de Parfum",
+    "code": "158207",
+    "price": 99.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Lace Eau de Parfum. Enhance your scent trail with 10 ml travel-size scents. Regular Price R99.90."
+  },
+  {
+    "id": 1388,
+    "brand": "Avon",
+    "name": "TTA Radiance Eau de Parfum",
+    "code": "156290",
+    "price": 99.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "TTA Radiance Eau de Parfum. Enhance your scent trail with 10 ml travel-size scents. Regular Price R99.90."
+  },
+  {
+    "id": 1389,
+    "brand": "Avon",
+    "name": "TTA This Love Eau de Parfum",
+    "code": "149066",
+    "price": 99.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "TTA This Love Eau de Parfum. Enhance your scent trail with 10 ml travel-size scents. Regular Price R99.90."
+  },
+  {
+    "id": 1390,
+    "brand": "Avon",
+    "name": "Far Away Beyond the Moon Eau de Parfum",
+    "code": "154901",
+    "price": 99.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Far Away Beyond the Moon Eau de Parfum. Enhance your scent trail with 10 ml travel-size scents. Regular Price R99.90."
+  },
+  {
+    "id": 1391,
+    "brand": "Avon",
+    "name": "Far Away Rebel Eau de Parfum",
+    "code": "154576",
+    "price": 99.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Far Away Rebel Eau de Parfum. Enhance your scent trail with 10 ml travel-size scents. Regular Price R99.90."
+  },
+  {
+    "id": 1392,
+    "brand": "Avon",
+    "name": "Rare Gold Eau de Parfum",
+    "code": "149072",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Rare Gold Eau de Parfum. Experience the scent of the rarest treasures. 50 ml. Regular Price R349.90."
+  },
+  {
+    "id": 1393,
+    "brand": "Avon",
+    "name": "Rare Pearls Eau de Parfum",
+    "code": "158227",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Rare Pearls Eau de Parfum. Experience the scent of the rarest treasures. 50 ml. Regular Price R349.90."
+  },
+  {
+    "id": 1394,
+    "brand": "Avon",
+    "name": "Attraction for Her Eau de Parfum",
+    "code": "1580413",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Attraction for Her Eau de Parfum. Choose your favourite scent in a handy 30 ml size. Regular Price R249.90."
+  },
+  {
+    "id": 1395,
+    "brand": "Avon",
+    "name": "Luck for Her Eau de Parfum",
+    "code": "1581069",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Luck for Her Eau de Parfum. Choose your favourite scent in a handy 30 ml size. Regular Price R249.90."
+  },
+  {
+    "id": 1396,
+    "brand": "Avon",
+    "name": "Far Away Eau de Parfum",
+    "code": "1582755",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Far Away Eau de Parfum. Choose your favourite scent in a handy 30 ml size. Regular Price R249.90."
+  },
+  {
+    "id": 1397,
+    "brand": "Avon",
+    "name": "Far Away Glamour Eau de Parfum",
+    "code": "1582417",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Far Away Glamour Eau de Parfum. Choose your favourite scent in a handy 30 ml size. Regular Price R249.90."
+  },
+  {
+    "id": 1398,
+    "brand": "Avon",
+    "name": "Little Black Dress Eau de Parfum",
+    "code": "1582363",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Little Black Dress Eau de Parfum. Choose your favourite scent in a handy 30 ml size. Regular Price R249.90."
+  },
+  {
+    "id": 1399,
+    "brand": "Avon",
+    "name": "Imari Eclipse Eau de Toilette",
+    "code": "1582363",
+    "price": 179.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Imari Eclipse Eau de Toilette. Choose your favourite scent in a handy 30 ml size. Regular Price R179.90."
+  },
+  {
+    "id": 1400,
+    "brand": "Avon",
+    "name": "Aspire for Her Eau de Toilette",
+    "code": "15868",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/newimagestoadd/WhatsApp Image 2025-10-20 at 1.43.50 PM.jpeg",
+    "description": "Aspire for Her Eau de Toilette. Choose your favourite scent in a handy 30 ml size. Regular Price R249.90."
+  },
+  
+  {
+    "id": 1408,
+    "brand": "Avon",
+    "name": "Attraction Instinct for Him Eau de Toilette",
+    "code": "1581159",
+    "price": 269.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.46 PM (1).jpeg",
+    "description": "Attraction Instinct for Him Eau de Toilette. Discover new Attraction Instinct — featuring aphrodisiac red chilli peppers. An intense scent to help inspire you to act on your instincts. Proven to last up to 8 hours*. Regular price R349.90."
+  },
+  {
+    "id": 1409,
+    "brand": "Avon",
+    "name": "Imari Naturelle Gift Set",
+    "code": "1580390",
+    "price": 229.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.46 PM.jpeg",
+    "description": "Imari Naturelle Gift Set. Say it with... Warm, Sensual Florals. A mesmerising mix of bergamot, iris & jasmine at the top; rose & oakmoss at the heart; & warm amber & tempting vanilla at the base. Gift box includes: Eau de Toilette 50 ml, Roll-On Anti-Perspirant Deodorant 50 ml. Regular price R329.90."
+  },
+  {
+    "id": 1410,
+    "brand": "Avon",
+    "name": "Rare Pearls Gift Set",
+    "code": "1579205",
+    "price": 379.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.46 PM.jpeg",
+    "description": "Rare Pearls Gift Set. Say it with... A Timeless Floral Scent. Aromatic rosewood, pearlescent flower & magnolia, all perfectly complemented by the sensual undertones of pearl musk & sandalwood. Gift box includes: Eau de Parfum 50 ml, Body Mist 100 ml, Body Lotion 125 ml. Regular price R489.90. All Limited Edition."
+  },
+  {
+    "id": 1411,
+    "brand": "Avon",
+    "name": "Imari Corset Eau de Toilette",
+    "code": "1557028",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.47 PM.jpeg",
+    "description": "Imari Corset Eau de Toilette. Your secret weapon of seduction. Revel in the scent of tantalising, juicy wild berries, exotic purple orchid, earthy patchouli & delicious vanilla beans. SA code: 1557028, non-SA code: 1582423."
+  },
+  {
+    "id": 1412,
+    "brand": "Avon",
+    "name": "Imari Queen Eau de Toilette",
+    "code": "1514234",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.47 PM.jpeg",
+    "description": "Imari Queen Eau de Toilette. Your secret weapon of seduction. Revel in the scent of tantalising, juicy wild berries, exotic purple orchid, earthy patchouli & delicious vanilla beans."
+  },
+  {
+    "id": 1413,
+    "brand": "Avon",
+    "name": "Imari Naturelle Eau de Toilette",
+    "code": "1540065",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.47 PM.jpeg",
+    "description": "Imari Naturelle Eau de Toilette. Your secret weapon of seduction. Revel in the scent of tantalising, juicy wild berries, exotic purple orchid, earthy patchouli & delicious vanilla beans."
+  },
+  {
+    "id": 1414,
+    "brand": "Avon",
+    "name": "Imari Seduction Hand & Body Lotion",
+    "code": "1449203",
+    "price": 65.9,
+    "category": "Bath & Body",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.47 PM.jpeg",
+    "description": "Imari Seduction Hand & Body Lotion. Your secret weapon of seduction. Revel in the scent of tantalising, juicy wild berries, exotic purple orchid, earthy patchouli & delicious vanilla beans. 24-hour moisture*."
+  },
+  {
+    "id": 1415,
+    "brand": "Avon",
+    "name": "Imari Seduction Eau de Toilette",
+    "code": "1420698",
+    "price": 249.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.47 PM.jpeg",
+    "description": "Imari Seduction Eau de Toilette. Your secret weapon of seduction. Revel in the scent of tantalising, juicy wild berries, exotic purple orchid, earthy patchouli & delicious vanilla beans. 24-hour anti-perspirant protection**."
+  },
+  {
+    "id": 1416,
+    "brand": "Avon",
+    "name": "Imari Seduction Roll-On Anti-Perspirant Deodorant",
+    "code": "1568498",
+    "price": 29.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.47 PM.jpeg",
+    "description": "Imari Seduction Roll-On Anti-Perspirant Deodorant. Your secret weapon of seduction. Revel in the scent of tantalising, juicy wild berries, exotic purple orchid, earthy patchouli & delicious vanilla beans. 24-hour anti-perspirant protection**. Oriental & Fruity scent."
+  },
+  {
+    "id": 1417,
+    "brand": "Avon",
+    "name": "Wild Country Deodorant Body Spray for Him",
+    "code": "1391196",
+    "price": 65.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Wild Country Deodorant Body Spray for Him. Delightful Body Sprays. 150 ml. Scented with perfume."
+  },
+  {
+    "id": 1418,
+    "brand": "Avon",
+    "name": "Individual Blue Deodorant Body Spray for Him",
+    "code": "1387315",
+    "price": 65.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Individual Blue Deodorant Body Spray for Him. Delightful Body Sprays. 150 ml. Scented with perfume."
+  },
+  {
+    "id": 1419,
+    "brand": "Avon",
+    "name": "Luck for Him Deodorant Body Spray for Him",
+    "code": "1436829",
+    "price": 65.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Luck for Him Deodorant Body Spray for Him. Delightful Body Sprays. 150 ml. Scented with perfume."
+  },
+  {
+    "id": 1420,
+    "brand": "Avon",
+    "name": "Aspire Man Deodorant Body Spray for Him",
+    "code": "1436718",
+    "price": 65.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Aspire Man Deodorant Body Spray for Him. Delightful Body Sprays. 150 ml. Scented with perfume."
+  },
+  {
+    "id": 1421,
+    "brand": "Avon",
+    "name": "Black Suede Deodorant Body Spray for Him",
+    "code": "1561851",
+    "price": 65.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Black Suede Deodorant Body Spray for Him. Delightful Body Sprays. 150 ml. Scented with perfume."
+  },
+  {
+    "id": 1422,
+    "brand": "Avon",
+    "name": "Black Suede Touch Deodorant Body Spray for Him",
+    "code": "1561852",
+    "price": 65.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Black Suede Touch Deodorant Body Spray for Him. Delightful Body Sprays. 150 ml. Scented with perfume."
+  },
+  {
+    "id": 1423,
+    "brand": "Avon",
+    "name": "Full Speed Max Turbo Deodorant Body Spray for Him",
+    "code": "1569925",
+    "price": 65.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Full Speed Max Turbo Deodorant Body Spray for Him. Delightful Body Sprays. 150 ml. Scented with perfume. New packaging, same scent."
+  },
+  {
+    "id": 1424,
+    "brand": "Avon",
+    "name": "Little Black Dress Perfumed Body Spray for Her",
+    "code": "1388870",
+    "price": 59.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Little Black Dress Perfumed Body Spray for Her. Delightful Body Sprays. 90 ml. Scented with perfume. 24-hour deodorant protection*."
+  },
+  {
+    "id": 1425,
+    "brand": "Avon",
+    "name": "Treselle Perfumed Body Spray for Her",
+    "code": "1436716",
+    "price": 59.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Treselle Perfumed Body Spray for Her. Delightful Body Sprays. 90 ml. Scented with perfume. 24-hour deodorant protection*."
+  },
+  {
+    "id": 1426,
+    "brand": "Avon",
+    "name": "Far Away Perfumed Body Spray for Her",
+    "code": "1534067",
+    "price": 59.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Far Away Perfumed Body Spray for Her. Delightful Body Sprays. 90 ml. Scented with perfume. 24-hour deodorant protection*."
+  },
+  {
+    "id": 1427,
+    "brand": "Avon",
+    "name": "Luck for Her Perfumed Body Spray for Her",
+    "code": "1387313",
+    "price": 59.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Luck for Her Perfumed Body Spray for Her. Delightful Body Sprays. 90 ml. Scented with perfume. 24-hour deodorant protection*."
+  },
+  {
+    "id": 1428,
+    "brand": "Avon",
+    "name": "Soft Musk Perfumed Body Spray for Her",
+    "code": "1388871",
+    "price": 59.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.48 PM.jpeg",
+    "description": "Soft Musk Perfumed Body Spray for Her. Delightful Body Sprays. 90 ml. Scented with perfume. 24-hour deodorant protection*."
+  },
+  {
+    "id": 1429,
+    "brand": "Avon",
+    "name": "Perfect Nonsense Bamboozie Cocktail Eau de Parfum",
+    "code": "1570701",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.49 PM.jpeg",
+    "description": "Perfect Nonsense Bamboozie Cocktail Eau de Parfum. No.1 Avon — The Bestselling Fragrance Brand in the World. Gin's zesty juniper & citrus energy encounters calm & earthy bamboo for a boozy cocktail that'll bamboozle all your senses."
+  },
+  {
+    "id": 1430,
+    "brand": "Avon",
+    "name": "Perfect Nonsense Choco Tuberose Eau de Parfum",
+    "code": "1570702",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.49 PM.jpeg",
+    "description": "Perfect Nonsense Choco Tuberose Eau de Parfum. Delightfully sweet chocolate crashes into the opulence & elegance of tuberose like a surprise mash-up you didn't know you needed."
+  },
+  {
+    "id": 1431,
+    "brand": "Avon",
+    "name": "Perfect Nonsense Peppery Peaches Eau de Parfum",
+    "code": "1570699",
+    "price": 349.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.49 PM.jpeg",
+    "description": "Perfect Nonsense Peppery Peaches Eau de Parfum. Peppery peaches comes in with a fiery kick that'll have your spine buzzing, then BAM ... peach arrives, so fresh & juicy, with a vibe you can taste."
+  },
+  {
+    "id": 1432,
+    "brand": "Avon",
+    "name": "Perfect Nonsense Ginger Blaze Eau de Parfum Limited Edition",
+    "code": "1576133",
+    "price": 299.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.49 PM.jpeg",
+    "description": "Perfect Nonsense Ginger Blaze Eau de Parfum Limited Edition. Ginger meets Hay. Ginger brings its cool character to the party with a sharpness you'll find hard to shake ... until Hay flips the script arriving all earthy, calm & dry - it's the perfect unexpected match: cool meets warm. Regular price R349.90."
+  },
+  {
+    "id": 1433,
+    "brand": "Avon",
+    "name": "Perfect Nonsense Ginger Blaze Eau de Parfum Sample Vial",
+    "code": "1576134",
+    "price": 9.9,
+    "category": "Fragrance",
+    "image": "images/imagesnewproducts/WhatsApp Image 2025-10-20 at 1.43.49 PM.jpeg",
+    "description": "Perfect Nonsense Ginger Blaze Eau de Parfum Sample Vial. Limited Edition. 0.6 ml. Regular price R9.90."
+  },
+  {
     "id": 1403,
     "brand": "Avon",
     "name": "Full Speed Surfer Eau de Toilette",
