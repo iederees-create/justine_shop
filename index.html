@@ -7,6 +7,16 @@
   <meta name="description" content="Shop Avon and Justine — fragrances, skincare, bath & body, makeup, gifts. Fast checkout via WhatsApp." />
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* ✅ Inline fade-in animation for the consultant section */
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(25px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    #consultant {
+      animation: fadeInUp 1s ease-out both;
+    }
+  </style>
 </head>
 
 <body class="bg-black text-white">
@@ -46,7 +56,7 @@
       </p>
 
       <!-- ✅ Become a Consultant Section -->
-      <div id="consultant" class="mt-6 p-5 rounded-2xl border border-white/15 bg-white/[0.03]">
+      <div id="consultant" class="mt-8 p-5 rounded-2xl border border-white/15 bg-white/[0.03]">
         <h3 class="text-lg font-bold mb-2 text-[var(--accent)]">Become a Consultant or Rep</h3>
         <p class="text-sm text-white/80 mb-4">
           Want to start your own Avon & Justine business? Join today and earn from beauty, skincare & fragrance sales.
@@ -60,7 +70,7 @@
         </form>
       </div>
 
-      <div class="mt-6 flex flex-wrap gap-3">
+      <div class="mt-8 flex flex-wrap gap-3">
         <a href="#catalog" class="btn-primary">Shop October Deals</a>
       </div>
       <p class="mt-3 text-xs text-white/60">Prices based on October 2025 brochures. Subject to availability & change.</p>
@@ -130,26 +140,29 @@
   <div id="empty" class="hidden mt-10 text-center text-white/70">No products found.</div>
 </section>
 
-<!-- Other Sections (How to order, FAQ, Footer) remain unchanged -->
-
+<!-- ✅ Inline JS (placed BEFORE external script.js to ensure products load after DOM ready) -->
 <script>
-/* ✅ Inline JS for Become a Rep Button */
-document.getElementById("repSubmit").addEventListener("click", function() {
-  const name = document.getElementById("repName").value.trim();
-  const surname = document.getElementById("repSurname").value.trim();
-  const age = document.getElementById("repAge").value.trim();
+document.addEventListener("DOMContentLoaded", function() {
+  // Product script initialization (your external script.js)
+  const script = document.createElement("script");
+  script.src = "script.js";
+  document.body.appendChild(script);
 
-  if (!name || !surname || !age) {
-    alert("Please fill in your full name, surname, and age before submitting.");
-    return;
-  }
-
-  const message = `I would like to become a re-seller of Avon and Justine.%0AName: ${name}%0ASurname: ${surname}%0AAge: ${age}`;
-  const waLink = `https://wa.me/27845272182?text=${message}`;
-  window.open(waLink, "_blank");
+  // WhatsApp rep form
+  document.getElementById("repSubmit").addEventListener("click", function() {
+    const name = document.getElementById("repName").value.trim();
+    const surname = document.getElementById("repSurname").value.trim();
+    const age = document.getElementById("repAge").value.trim();
+    if (!name || !surname || !age) {
+      alert("Please fill in your full name, surname, and age before submitting.");
+      return;
+    }
+    const message = `I would like to become a re-seller of Avon and Justine.%0AName: ${name}%0ASurname: ${surname}%0AAge: ${age}`;
+    const waLink = `https://wa.me/27845272182?text=${message}`;
+    window.open(waLink, "_blank");
+  });
 });
 </script>
 
-<script src="script.js"></script>
 </body>
 </html>
