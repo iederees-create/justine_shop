@@ -8,8 +8,13 @@
   --border: rgba(255, 255, 255, 0.12);
   --border-2: rgba(255, 255, 255, 0.18);
   --accent: #E4007F; /* Avon pink */
+  --accent-dark: #b20062;
   --accent-ink: #000000;
   --frame: #ffffff;
+
+  /* new shared glow + timing */
+  --accent-glow: rgba(228, 0, 127, 0.4);
+  --transition-fast: 0.2s ease-in-out;
 }
 
 /* base */
@@ -35,7 +40,7 @@ body {
   background: var(--accent);
   color: var(--accent-ink);
   font-weight: 800;
-  transition: filter .2s, transform .08s;
+  transition: filter var(--transition-fast), transform .08s;
   border: 1px solid var(--accent);
 }
 .btn-secondary {
@@ -44,7 +49,7 @@ body {
   border-radius: 1rem;
   border: 1px solid var(--border-2);
   background: rgba(255, 255, 255, .06);
-  transition: background .2s, border-color .2s, transform .08s;
+  transition: background var(--transition-fast), border-color var(--transition-fast), transform .08s;
 }
 .btn-primary:hover { filter: brightness(95%); }
 .btn-secondary:hover {
@@ -107,7 +112,7 @@ body {
   color: var(--accent-ink);
   border-radius: .75rem;
   font-weight: 900;
-  transition: filter .2s, transform .08s;
+  transition: filter var(--transition-fast), transform .08s;
 }
 .add:hover { filter: brightness(96%); }
 .add:active { transform: translateY(1px); }
@@ -223,7 +228,7 @@ hr.sep {
   outline-offset: 2px;
 }
 
-/* ✅ NEW: video embed support */
+/* video embeds */
 .video-hero {
   width: 100%;
   height: 100%;
@@ -231,9 +236,17 @@ hr.sep {
   display: block;
   border-radius: 1.5rem;
 }
-
 @media (max-width: 768px) {
-  .video-hero {
-    object-position: center top;
-  }
+  .video-hero { object-position: center top; }
+}
+
+/* floating button glow */
+@keyframes glowPulse {
+  0% { box-shadow: 0 0 0 0 var(--accent-glow); }
+  50% { box-shadow: 0 0 15px 4px var(--accent-glow); }
+  100% { box-shadow: 0 0 0 0 var(--accent-glow); }
+}
+.btn-primary,
+.content-fab {
+  animation: glowPulse 4s infinite;
 }
