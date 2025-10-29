@@ -4,13 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Avon + Justine Shop — October Offers</title>
-  <meta name="description" content="Shop Avon and Justine — fragrances, skincare, bath & body, makeup, gifts. Fast checkout via WhatsApp." />
+  <meta name="description" content="Shop Avon and Justine — fragrances, skincare, bath & body, makeup, gifts. Fast checkout via WhatsApp. Explore our free Islamic Resource Hub for curated downloads." />
   <link rel="stylesheet" href="style.css" />
-  <!-- Tailwind (optional utility helpers) -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    :root {
+      --accent: #E4007F;
+      --accent-dark: #b20062;
+      --surface: #111;
+      --text-muted: rgba(255,255,255,0.7);
+    }
+
+    /* Floating Islamic Content Button */
+    .content-fab {
+      position: fixed;
+      left: 1rem;
+      bottom: 1.5rem;
+      background: var(--accent);
+      color: black;
+      font-weight: 700;
+      padding: 0.6rem 1rem;
+      border-radius: 999px;
+      box-shadow: 0 0 25px rgba(228,0,127,0.3);
+      border: 1px solid var(--accent-dark);
+      transition: transform .15s ease, background .2s ease;
+      z-index: 50;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .content-fab:hover {
+      background: var(--accent-dark);
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+    /* Responsive Fix */
+    html, body { overflow-x: hidden; scroll-behavior: smooth; }
+  </style>
 </head>
 
 <body class="bg-black text-white">
+
   <!-- Header -->
   <header class="sticky top-0 z-50 bg-black/85 backdrop-blur border-b border-white/10">
     <div class="container mx-auto px-4 py-3 flex items-center justify-between">
@@ -25,6 +60,7 @@
         <a href="#catalog" class="hover:text-[var(--accent)] transition">Shop</a>
         <a href="#how" class="hover:text-[var(--accent)] transition">How to order</a>
         <a href="#faq" class="hover:text-[var(--accent)] transition">FAQ</a>
+        <a href="https://iederees-create.github.io/iederees-downloads/" class="hover:text-[var(--accent)] transition">Islamic Content</a>
       </nav>
       <button id="cartButton" class="relative px-4 py-2 rounded-xl bg-[var(--accent)] text-black font-semibold">
         Cart <span id="cartCount" class="ml-1">0</span>
@@ -32,57 +68,38 @@
     </div>
   </header>
 
-
-<!-- Hero -->
-<section class="relative overflow-hidden border-b border-white/10">
-  <div class="container mx-auto px-4 py-10 md:py-16 grid md:grid-cols-2 gap-8 items-center">
-    <div>
-      <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">
-        Avon & Justine — this month’s full selection.
-        <br/>
-        <span class="text-[var(--accent)]">Fast checkout via WhatsApp.</span>
-      </h2>
-      <p class="mt-4 text-white/80 max-w-xl">
-        Browse every offer below — fragrances, Tissue Oil, skincare, makeup, men’s grooming & gifts. Tap a product to add to cart and complete your order in WhatsApp.
-      </p>
-      <div class="mt-6 flex flex-wrap gap-3">
-        <a href="#catalog" class="btn-primary">Shop October Deals</a>
-      </div>
-      <p class="mt-3 text-xs text-white/60">Prices based on October 2025 brochures. Subject to availability & change.</p>
-    </div>
-
- <!-- ✅ Become a Consultant Section -->
-      <div id="consultant" class="mt-8 p-5 rounded-2xl border border-white/15 bg-white/[0.03]">
-        <h3 class="text-lg font-bold mb-2 text-[var(--accent)]">Become a Consultant or Rep</h3>
-        <p class="text-sm text-white/80 mb-4">
-          Want to start your own Avon & Justine business? Join today and earn from beauty, skincare & fragrance sales.
-          Tap below to send your details via WhatsApp.
+  <!-- Hero -->
+  <section class="relative overflow-hidden border-b border-white/10">
+    <div class="container mx-auto px-4 py-10 md:py-16 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl md:text-5xl font-extrabold leading-tight">
+          Avon & Justine — this month’s full selection.
+          <br/>
+          <span class="text-[var(--accent)]">Fast checkout via WhatsApp.</span>
+        </h2>
+        <p class="mt-4 text-white/80 max-w-xl">
+          Browse every offer below — fragrances, skincare, makeup, men’s grooming & gifts.  
+          Tap a product to add to cart and complete your order in WhatsApp.
         </p>
-        <form id="consultForm" class="space-y-3">
-          <input id="repName" class="field" placeholder="Full name" required />
-          <input id="repSurname" class="field" placeholder="Surname" required />
-          <input id="repAge" type="number" class="field" placeholder="Age" required />
-          <button type="button" id="repSubmit" class="btn-primary w-full">Become a Rep via WhatsApp</button>
-        </form>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#catalog" class="btn-primary">Shop October Deals</a>
+          <a href="https://iederees-create.github.io/iederees-downloads/" class="btn-secondary border border-[var(--accent)] text-[var(--accent)] hover:bg-[var(--accent)] hover:text-black transition">Free Islamic Content</a>
+        </div>
+        <p class="mt-3 text-xs text-white/60">Prices based on October 2025 brochures. Subject to change.</p>
       </div>
 
-    
-    <!-- 🔁 Video replaces image here -->
-    <div class="relative">
-      <div class="aspect-[4/3] w-full rounded-3xl border border-white/10 overflow-hidden">
-        <video
-          src="images/Avon × Justine Product Showcase — Canva Video Brief Goal Drive WhatsApp orders for October offers (Avon + Justine). Audience Beauty & self-care shoppers in South Africa. Platforms Instagram Reels,.mp4"
-          autoplay
-          muted
-          loop
-          playsinline
-          class="w-full h-full object-cover">
-          Your browser does not support the video tag.
-        </video>
+      <!-- Hero Video -->
+      <div class="relative">
+        <div class="aspect-[4/3] w-full rounded-3xl border border-white/10 overflow-hidden">
+          <video autoplay muted loop playsinline class="w-full h-full object-cover">
+            <source src="images/Avon × Justine Product Showcase — Canva Video Brief.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
 
   <!-- Controls -->
   <section id="catalog" class="container mx-auto px-4 py-8">
