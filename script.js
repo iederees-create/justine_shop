@@ -27,11 +27,10 @@ const els = {
   custNotes: document.getElementById('custNotes'),
 };
 
-/** ===== LOAD BOTH DATASETS ===== **/
+/** ===== LOAD PRODUCT DATA (single file) ===== **/
 async function loadProducts() {
   const sources = [
-    { url: 'products.json', brand: 'Justine' },
-    { url: 'avon-products.json', brand: 'Avon' }
+    { url: 'products.json', brand: 'Avon + Justine' }
   ];
 
   const lists = [];
@@ -40,10 +39,11 @@ async function loadProducts() {
       const res = await fetch(src.url);
       if (!res.ok) throw new Error(`${src.url} not found`);
       const raw = await res.json();
-      const tagged = Array.isArray(raw) ? raw.map(r => ({ ...r, brand: r.brand || src.brand })) : [];
+      const tagged = Array.isArray(raw)
+        ? raw.map(r => ({ ...r, brand: r.brand || src.brand }))
+        : [];
       lists.push(tagged);
     } catch (e) {
-      // Non-fatal: missing file just means 0 items from that source
       console.warn('Load warning:', e.message);
     }
   }
@@ -55,8 +55,9 @@ async function loadProducts() {
   render();
 }
 
-function attachFilters(){
-  ['input','change'].forEach(ev=>{
+/** ===== FILTER EVENTS ===== **/
+function attachFilters() {
+  ['input', 'change'].forEach(ev => {
     els.search.addEventListener(ev, render);
     els.brand.addEventListener(ev, render);
     els.category.addEventListener(ev, render);
@@ -66,25 +67,19 @@ function attachFilters(){
 
 /** ===== SANITIZE ===== **/
 function sanitizeProducts(list) {
-  const normalized = list
-    .map(normalizeEntry)
-    .filter(validProduct);
-
-  // Dedupe by (brand + code) then by normalized name
+  const normalized = list.map(normalizeEntry).filter(validProduct);
   const seen = new Map();
+
   for (const p of normalized) {
     const key = p.code ? `${p.brand}|code:${p.code}` : `${p.brand}|name:${slug(p.name)}`;
     if (!seen.has(key)) {
       seen.set(key, p);
     } else {
       const existing = seen.get(key);
-      // keep lower (promo) price
       if (p.price < existing.price) seen.set(key, { ...existing, price: p.price });
-      // prefer specific category over "General"
       if (existing.category === 'General' && p.category !== 'General') {
         seen.set(key, { ...seen.get(key), category: p.category });
       }
-      // prefer image if missing
       if ((!existing.image || existing.image.includes('placeholder')) && p.image) {
         seen.set(key, { ...seen.get(key), image: p.image });
       }
@@ -92,7 +87,7 @@ function sanitizeProducts(list) {
   }
 
   const out = Array.from(seen.values());
-  out.sort((a,b) => a.name.localeCompare(b.name));
+  out.sort((a, b) => a.name.localeCompare(b.name));
   return out;
 }
 
@@ -101,7 +96,6 @@ function normalizeEntry(e) {
   let extractedCode = "";
   const codeMatch = originalName.match(/\bCode\s+(\d{4,8})\b/i);
   if (codeMatch) extractedCode = codeMatch[1];
-
   let code = (String(e.code || "").match(/^\d{3,10}$/) ? String(e.code) : "") || extractedCode;
 
   let name = originalName
@@ -115,15 +109,16 @@ function normalizeEntry(e) {
 
   let price = Number(e.price);
   if (!isFinite(price)) price = 0;
-  if (price >= 10000) price = Math.round(price) / 100; // bad importer numbers
+  if (price >= 10000) price = Math.round(price) / 100;
   if (price > 2000) price = 0;
 
-  // Category + brand
   const category = e.category && e.category !== 'General' ? e.category : guessCategory(name);
   const brand = (e.brand || '').trim() || guessBrand(name);
 
   const image = e.image && e.image.trim() ? e.image : "images/placeholder.svg";
-  const id = Number.isFinite(Number(e.id)) ? Number(e.id) : Math.abs(hashCode((brand||'') + (code||'') + name));
+  const id = Number.isFinite(Number(e.id))
+    ? Number(e.id)
+    : Math.abs(hashCode((brand || '') + (code || '') + name));
   const description = (e.description || "").trim();
 
   return { id, brand, name, code, price: round2(price), category, image, description };
@@ -157,16 +152,15 @@ function fixCasing(s) {
 function guessCategory(name) {
   const n = name.toLowerCase();
   if (/(eau de parfum|eau de toilette|cologne|deodorant spray|parfum)/i.test(n)) return "Fragrance";
-  if (/(serum|cream|spf|day cream|night cream|moisturi[sz]er|cleanser|toner|mask|eye cream|pigmentation|brightening|foundation|concealer|lip|mascara|eyeliner|brow|palette|blush|powder|nail)/i.test(n)) return "Makeup";
-  if (/(tissue oil|body (wash|butter|lotion|cr[eè]me)|shower cr[eè]me|intimate wash|cleansing bar|bath cr[eè]me|bubble bath)/i.test(n)) return "Bath & Body";
+  if (/(serum|cream|spf|day cream|night cream|moisturi[sz]er|cleanser|toner|mask|eye cream|foundation|concealer|lip|mascara|eyeliner|brow|palette|blush|powder|nail)/i.test(n)) return "Makeup";
+  if (/(tissue oil|body (wash|butter|lotion|cr[eè]me)|shower|bath|bubble)/i.test(n)) return "Bath & Body";
   if (/\bmen('|’)?s\b/.test(n)) return "Men's";
-  if (/(handbag|watch|earrings|necklace|bracelet|scarf|bag|weekender|pouch|wallet|jewellery|jewelry)/i.test(n)) return "Style Store";
-  if (/(derma roller|applicator|tool|brush|grooming set)/i.test(n)) return "Tools";
+  if (/(handbag|watch|earrings|necklace|bracelet|scarf|bag|wallet|jewellery|jewelry)/i.test(n)) return "Style Store";
+  if (/(tool|brush|grooming set)/i.test(n)) return "Tools";
   return "Skincare";
 }
 
 function guessBrand(name) {
-  // loose fallback if needed
   return /tissue oil|justine/i.test(name) ? "Justine" : "Avon";
 }
 
@@ -181,32 +175,27 @@ function validProduct(p) {
 }
 
 function slug(s) { return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""); }
-function round2(n){ return Math.round((Number(n)||0)*100)/100 }
-function hashCode(str){ let h=0; for(let i=0;i<str.length;i++){ h=((h<<5)-h)+str.charCodeAt(i); h|=0;} return h; }
+function round2(n) { return Math.round((Number(n) || 0) * 100) / 100 }
+function hashCode(str) { let h = 0; for (let i = 0; i < str.length; i++) { h = ((h << 5) - h) + str.charCodeAt(i); h |= 0; } return h; }
 
 /** ===== RENDER ===== **/
-function render(){
+function render() {
   const q = (els.search.value || "").trim().toLowerCase();
   const cat = els.category.value;
   const brand = els.brand.value;
-
   let items = [...state.products];
 
   if (brand && brand !== 'all') items = items.filter(p => p.brand === brand);
   if (cat && cat !== 'all') items = items.filter(p => p.category === cat);
-  if (q) {
-    items = items.filter(p =>
-      [p.name, p.code, p.description, p.brand].join(' ').toLowerCase().includes(q)
-    );
-  }
+  if (q) items = items.filter(p => [p.name, p.code, p.description, p.brand].join(' ').toLowerCase().includes(q));
 
   const sort = els.sort.value;
-  if (sort === 'price_asc') items.sort((a,b)=>a.price - b.price);
-  if (sort === 'price_desc') items.sort((a,b)=>b.price - a.price);
-  if (sort === 'alpha') items.sort((a,b)=>a.name.localeCompare(b.name));
+  if (sort === 'price_asc') items.sort((a, b) => a.price - b.price);
+  if (sort === 'price_desc') items.sort((a, b) => b.price - a.price);
+  if (sort === 'alpha') items.sort((a, b) => a.name.localeCompare(b.name));
 
   els.grid.innerHTML = '';
-  if (!items.length){
+  if (!items.length) {
     els.empty.classList.remove('hidden');
     return;
   } else {
@@ -241,7 +230,7 @@ function render(){
   });
 
   els.grid.querySelectorAll('.add').forEach(btn => {
-    btn.addEventListener('click', (e)=>{
+    btn.addEventListener('click', e => {
       const id = e.currentTarget.getAttribute('data-id');
       addToCart(Number(id));
     });
@@ -249,13 +238,11 @@ function render(){
 }
 
 function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, c =>
-    ({'&':'&','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c] || c
-  );
+  return String(s).replace(/[&<>"']/g, c => ({ '&': '&', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] || c));
 }
 
 /** ===== CART ===== **/
-function addToCart(id){
+function addToCart(id) {
   const p = state.products.find(x => Number(x.id) === Number(id));
   if (!p) return;
   const found = state.cart.find(x => x.id === p.id);
@@ -265,21 +252,21 @@ function addToCart(id){
   openCart();
 }
 
-function removeFromCart(id){
+function removeFromCart(id) {
   state.cart = state.cart.filter(x => x.id !== id);
   updateCart();
 }
 
-function updateQty(id, delta){
+function updateQty(id, delta) {
   const item = state.cart.find(x => x.id === id);
   if (!item) return;
   item.qty = Math.max(1, item.qty + delta);
   updateCart();
 }
 
-function money(n){ return `R${(Number(n)||0).toFixed(2)}` }
+function money(n) { return `R${(Number(n) || 0).toFixed(2)}` }
 
-function updateCart(){
+function updateCart() {
   els.cartItems.innerHTML = '';
   let subtotal = 0;
   state.cart.forEach(item => {
@@ -304,13 +291,13 @@ function updateCart(){
     els.cartItems.appendChild(row);
   });
   els.subtotal.textContent = money(subtotal);
-  els.cartCount.textContent = state.cart.reduce((s,x)=>s+x.qty,0);
+  els.cartCount.textContent = state.cart.reduce((s, x) => s + x.qty, 0);
 
-  els.cartItems.querySelectorAll('.remove').forEach(a=>{
-    a.addEventListener('click', (e)=>removeFromCart(Number(e.currentTarget.getAttribute('data-id'))));
+  els.cartItems.querySelectorAll('.remove').forEach(a => {
+    a.addEventListener('click', e => removeFromCart(Number(e.currentTarget.getAttribute('data-id'))));
   });
-  els.cartItems.querySelectorAll('.qty button').forEach(b=>{
-    b.addEventListener('click', (e)=>{
+  els.cartItems.querySelectorAll('.qty button').forEach(b => {
+    b.addEventListener('click', e => {
       const id = Number(e.currentTarget.getAttribute('data-id'));
       const delta = Number(e.currentTarget.getAttribute('data-delta'));
       updateQty(id, delta);
@@ -319,20 +306,20 @@ function updateCart(){
 }
 
 /** ===== CART UI ===== **/
-function openCart(){ els.cart.classList.add('open'); }
-function closeCart(){ els.cart.classList.remove('open'); }
+function openCart() { els.cart.classList.add('open'); }
+function closeCart() { els.cart.classList.remove('open'); }
 els.cartBtn.addEventListener('click', openCart);
 els.closeCart.addEventListener('click', closeCart);
 
 /** ===== CHECKOUT ===== **/
-function buildMessage(){
+function buildMessage() {
   const lines = [];
   lines.push(`*New Order — Avon + Justine Shop*`);
   lines.push('');
-  state.cart.forEach(i=>{
-    lines.push(`• ${i.brand ? `[${i.brand}] ` : ''}${i.name} ${i.code ? `(Code ${i.code}) ` : ''}× ${i.qty} — R${(i.price*i.qty).toFixed(2)}`);
+  state.cart.forEach(i => {
+    lines.push(`• ${i.brand ? `[${i.brand}] ` : ''}${i.name} ${i.code ? `(Code ${i.code}) ` : ''}× ${i.qty} — R${(i.price * i.qty).toFixed(2)}`);
   });
-  const total = state.cart.reduce((s,x)=>s+x.price*x.qty,0);
+  const total = state.cart.reduce((s, x) => s + x.price * x.qty, 0);
   lines.push('');
   lines.push(`*Subtotal:* R${total.toFixed(2)}`);
   lines.push('');
@@ -352,14 +339,14 @@ function buildMessage(){
   return encodeURIComponent(lines.join('\n'));
 }
 
-function sendWhatsApp(){
-  if (!state.cart.length){ alert('Your cart is empty.'); return; }
+function sendWhatsApp() {
+  if (!state.cart.length) { alert('Your cart is empty.'); return; }
   const url = WA_BASE + buildMessage();
   window.open(url, '_blank');
 }
 
-function sendEmail(){
-  if (!state.cart.length){ alert('Your cart is empty.'); return; }
+function sendEmail() {
+  if (!state.cart.length) { alert('Your cart is empty.'); return; }
   const to = ''; // optional: set your email
   const subject = encodeURIComponent("New Order — Avon + Justine Shop");
   const body = buildMessage();
@@ -369,5 +356,13 @@ function sendEmail(){
 els.waOrder.addEventListener('click', sendWhatsApp);
 els.emailOrder.addEventListener('click', sendEmail);
 
-/** ===== INIT ===== **/
+/** ===== INIT + HUB LINK TRACKING ===== **/
 loadProducts();
+document.addEventListener("DOMContentLoaded", () => {
+  const islamicLinks = document.querySelectorAll('a[href*="iederees-create.github.io/iederees-downloads"]');
+  islamicLinks.forEach(link => {
+    if (!link.href.includes("?src=shop")) {
+      link.href += link.href.includes("?") ? "&src=shop" : "?src=shop";
+    }
+  });
+});
