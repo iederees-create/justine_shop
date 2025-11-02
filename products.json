@@ -1,6 +1,25 @@
 [
 
   {
+  "product_id": "1547926",
+  "name": "Tebello Bangle",
+  "category": "Jewellery - Bangle",
+  "price": "R179.90",
+  "regular_price": "R249.90",
+  "promotion": "Save R70",
+  "discount": "≈28% off",
+  "description": "Chunky gold-toned bangle that’s size adjustable.",
+  "materials": "Gold-toned",
+  "sizes": {
+    "bangle": "6.5 cm x 5.2 cm",
+    "width": "2.2 cm"
+  },
+  "availability": "Black Friday Exclusive — valid 1–30 Nov 2025",
+  "image": "images/videos/8.mp4",
+  "video": "images/videos/8.mp4"
+}
+
+  {
   "product_id": "1478719",
   "name": "Latitia Jewellery Set",
   "category": "Jewellery - Set",
