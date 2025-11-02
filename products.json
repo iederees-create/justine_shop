@@ -57,23 +57,6 @@
   "video": "images/videos/6.mp4"
 },
 
-
-  {
-  "product_id": "1321389",
-  "name": "La Vie Eau de Parfum",
-  "volume": "50 ml",
-  "category": "Fragrance - Women",
-  "price": "R349.90",
-  "promotion": "BUY 1 FOR R349.90 & GET 1 FREE",
-  "discount": "Save 50%",
-  "description": "Hints of grapefruit, apple & pink pepper notes rest on a warm base of vanilla, jasmine & patchouli.",
-  "top_notes": ["Grapefruit", "Apple", "Pink Pepper"],
-  "base_notes": ["Vanilla", "Jasmine", "Patchouli"],
-  "availability": "Black Friday Offer",
-  "image": "images/products/la_vie_9x16.png",
-  "video": "videos/la-vie.mp4"
-},
-
   {
     "product_id": "1321389",
     "name": "La Vie Eau de Parfum",
