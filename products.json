@@ -2,6 +2,25 @@
 
 
   {
+  "product_id": "1475831",
+  "name": "Louella Ring",
+  "category": "Jewellery - Ring",
+  "price": "R149.90",
+  "regular_price": "R229.90",
+  "promotion": "Save R80",
+  "discount": "≈35% off vs R229.90",
+  "description": "Silver-toned & 18ct gold-plated ring with diamanté-encrusted surround.",
+  "materials": "Silver-toned & 18ct gold-plated; diamanté",
+  "sizes": {
+    "ring": "Size 8 (1.8 cm internal diameter)"
+  },
+  "availability": "Black Friday Exclusive — valid 1–30 Nov 2025",
+  "image": "",
+  "video": "images/videos/10.mp4"
+},
+
+
+  {
   "product_id": "1547925",
   "name": "Ntando Earrings",
   "category": "Jewellery - Earrings",
