@@ -1,6 +1,26 @@
 [
 
   {
+  "product_id": "1478719",
+  "name": "Latitia Jewellery Set",
+  "category": "Jewellery - Set",
+  "price": "R99.90",
+  "regular_price": "R209.90",
+  "promotion": "Save R110",
+  "discount": "≈52% off",
+  "description": "Gold-toned necklace with diamanté-encrusted link and matching hoop earrings.",
+  "materials": "Gold-toned",
+  "sizes": {
+    "necklace": "42 cm + 9 cm extender",
+    "pendant": "1.4 cm W × 4 cm L",
+    "earrings": "1.7 cm W × 3 cm L"
+  },
+  "availability": "Black Friday Exclusive — valid 1–30 Nov 2025",
+  "image": "images/products/latitia_9x16.png",
+  "video": "videos/latitia.mp4"
+}
+
+  {
   "product_id": "1494648",
   "name": "Portia Jewellery Set",
   "category": "Jewellery - Set",
