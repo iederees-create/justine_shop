@@ -1,31 +1,30 @@
-[
-  {
-    "product_id": "1321389",
-    "name": "La Vie Eau de Parfum",
-    "volume": "50 ml",
-    "category": "Fragrance - Women",
-    "price": "R349.90",
-    "promotion": "BUY 1 FOR R349.90 & GET 1 FREE",
-    "discount": "Save R349.90 (50%)",
-    "description": "Hints of grapefruit, apple & pink pepper notes rest on a warm base of vanilla, jasmine & patchouli.",
-    "top_notes": ["Grapefruit", "Apple", "Pink Pepper"],
-    "base_notes": ["Vanilla", "Jasmine", "Patchouli"],
-    "availability": "Black Friday Offer",
-    "video": "images/videos/Untitled design.mp4"
+{
+  "product_id": "1544096",
+  "name": "Tabasheer Eau de Parfum",
+  "volume": "50 ml",
+  "category": "Fragrance - Women",
+  "price": "R449.90",
+  "description": "A rich floral bouquet of rose, jasmine & lily of the valley with sensuous woody undertones of musk & patchouli.",
+  "notes": {
+    "top": ["Bergamot", "Citrus"],
+    "middle": ["Jasmine", "Rose"],
+    "base": ["Patchouli", "Cedarwood", "Musk"]
   },
-  {
-    "product_id": "1580179",
-    "name": "Gift with Love Pouch & Card",
-    "category": "Accessories — Limited Edition",
-    "price": "R129.90",
-    "promotion": "SAVE R70 (Regular Price R199.90)",
-    "discount": "R70 Off",
-    "description": "A beautifully designed canvas pouch featuring hand, heart and sunshine motifs, paired with a matching blank card — perfect for thoughtful gifting.",
-    "dimensions": {
-      "pouch": "19.5 cm L x 5.5 cm W x 15 cm H",
-      "card": "7 cm W x 11 cm H"
-    },
-    "availability": "Limited Edition",
-    "video": "images/videos/Untitled design2.mp4"
-  }
-]
+  "variants": [
+    { "volume": "30 ml",  "product_id": "1499865", "price": "R299.90" },
+    { "volume": "50 ml",  "product_id": "1544096", "price": "R449.90" },
+    { "volume": "100 ml", "product_id": "1544097", "price": "R599.90" }
+  ],
+  "bundle_offer": {
+    "title": "ALL 3 TABASHEER SET",
+    "price": "R399.90",
+    "save": "R162.80",
+    "order_code": "860478",
+    "includes": [
+      { "name": "Tabasheer Eau de Parfum", "volume": "50 ml", "product_id": "1544096" },
+      { "name": "Tabasheer Perfumed Body Lotion", "volume": "100 ml", "product_id": "1522145" },
+      { "name": "Tabasheer Anti-Perspirant Roll-On Deodorant", "volume": "50 ml", "product_id": "1574571" }
+    ]
+  },
+  "video": "videos/tabasheer-50ml.mp4"
+}
