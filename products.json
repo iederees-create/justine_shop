@@ -1,30 +1,28 @@
 {
-  "product_id": "1544096",
-  "name": "Tabasheer Eau de Parfum",
+  "product_id": "1546229",
+  "name": "Tabasheer Gold Eau de Parfum",
   "volume": "50 ml",
   "category": "Fragrance - Women",
   "price": "R449.90",
-  "description": "A rich floral bouquet of rose, jasmine & lily of the valley with sensuous woody undertones of musk & patchouli.",
+  "description": "Luxurious & opulent: an intoxicating blend of rose and freesia with red berry top notes, softening into seductive patchouli and vanilla.",
   "notes": {
-    "top": ["Bergamot", "Citrus"],
-    "middle": ["Jasmine", "Rose"],
-    "base": ["Patchouli", "Cedarwood", "Musk"]
+    "top": ["Red Berries"],
+    "middle": ["Rose", "Freesia"],
+    "base": ["Patchouli", "Vanilla"]
   },
   "variants": [
-    { "volume": "30 ml",  "product_id": "1499865", "price": "R299.90" },
-    { "volume": "50 ml",  "product_id": "1544096", "price": "R449.90" },
-    { "volume": "100 ml", "product_id": "1544097", "price": "R599.90" }
+    { "volume": "30 ml",  "product_id": "1465324", "price": "R299.90" },
+    { "name": "Tabasheer Gold Parfum Body Spray", "volume": "100 ml", "product_id": "1321391", "price": "R69.90" }
   ],
   "bundle_offer": {
-    "title": "ALL 3 TABASHEER SET",
-    "price": "R399.90",
-    "save": "R162.80",
-    "order_code": "860478",
+    "title": "BOTH FOR R249.90",
+    "price": "R249.90",
+    "save": "R119.90",
+    "order_code": "860479",
     "includes": [
-      { "name": "Tabasheer Eau de Parfum", "volume": "50 ml", "product_id": "1544096" },
-      { "name": "Tabasheer Perfumed Body Lotion", "volume": "100 ml", "product_id": "1522145" },
-      { "name": "Tabasheer Anti-Perspirant Roll-On Deodorant", "volume": "50 ml", "product_id": "1574571" }
+      { "name": "Tabasheer Gold Eau de Parfum", "volume": "30 ml", "product_id": "1465324" },
+      { "name": "Tabasheer Gold Parfum Body Spray", "volume": "100 ml", "product_id": "1321391" }
     ]
   },
-  "video": "images/videos/3.mp4"
+  "video": "videos/tabasheer-gold-50ml.mp4"
 }
