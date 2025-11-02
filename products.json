@@ -1,5 +1,23 @@
 [
 
+  {
+  "product_id": "1494648",
+  "name": "Portia Jewellery Set",
+  "category": "Jewellery - Set",
+  "price": "R149.90",
+  "promotion": "Save R50",
+  "discount": "≈25% off vs R199.90 regular",
+  "description": "Classic 18ct gold-plated link design necklace & earring set. Necklace: 42 cm + 9 cm extender. Earrings: 2.6 cm L x 1.6 cm W.",
+  "materials": "18ct gold-plated",
+  "sizes": {
+    "necklace": "42 cm + 9 cm extender",
+    "earrings": "2.6 cm L x 1.6 cm W"
+  },
+  "availability": "Black Friday Exclusive Deals — valid 1–30 Nov 2025",
+  "image": "images/products/portia_9x16.png",
+  "video": "images/videos/6.mp4"
+}
+
 
   {
   "product_id": "1321389",
