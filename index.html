@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Avon + Justine Shop — Current Offers</title>
   <meta name="description" content="Shop Avon and Justine — fragrances, skincare, gifts, and limited editions. View products, watch videos, and order directly via WhatsApp." />
-  <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
   <style>
@@ -15,76 +14,48 @@
       --surface: #111;
       --text-muted: rgba(255,255,255,0.7);
     }
-
     html, body {
       overflow-x: hidden;
       scroll-behavior: smooth;
       background: #000;
       color: #fff;
     }
-
-    /* Floating Islamic Content Button */
-    .content-fab {
-      position: fixed;
-      left: 1rem;
-      bottom: 1.5rem;
-      background: var(--accent);
-      color: black;
-      font-weight: 700;
-      padding: 0.6rem 1rem;
-      border-radius: 999px;
-      box-shadow: 0 0 25px rgba(228,0,127,0.3);
-      border: 1px solid var(--accent-dark);
-      transition: transform .15s ease, background .2s ease;
-      z-index: 50;
-      text-decoration: none;
-      font-size: 0.95rem;
-    }
-    .content-fab:hover {
-      background: var(--accent-dark);
-      color: #fff;
-      transform: translateY(-2px);
-    }
-
     /* Product cards */
-    .product-card {
-      background: #111;
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 1rem;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      transition: transform .2s ease, box-shadow .2s ease;
+    .product-card{
+      background:#111;
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:1rem;
+      overflow:hidden;
+      display:flex; flex-direction:column;
+      transition:transform .2s ease, box-shadow .2s ease;
     }
-    .product-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 0 20px rgba(255,255,255,0.1);
+    .product-card:hover{
+      transform:translateY(-4px);
+      box-shadow:0 0 20px rgba(255,255,255,.12);
+    }
+    /* Uncropped media area */
+    .product-media{
+      width:100%;
+      height:360px;              /* taller box so the whole frame fits */
+      background:#000;
+      display:flex;
+      align-items:center;
+      justify-content:center;
     }
     .product-media video,
-    .product-media img {
-      width: 100%;
-      height: 260px;
-      object-fit: cover;
-      display: block;
+    .product-media img{
+      width:100%;
+      height:100%;
+      object-fit:contain;        /* show the entire video/image (letterboxed if needed) */
+      display:block;
+      background:#000;
     }
-
-    /* Share Modal Animations */
-    #shareModal {
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.25s ease;
-    }
-    #shareModal.active {
-      opacity: 1;
-      pointer-events: auto;
-    }
-    #shareModal .modal-content {
-      transform: scale(0.95);
-      transition: transform 0.25s ease;
-    }
-    #shareModal.active .modal-content {
-      transform: scale(1);
-    }
+    /* Buttons */
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:.6rem 1rem;border-radius:.7rem;font-weight:700}
+    .btn-primary{background:var(--accent);color:#000}
+    .btn-primary:hover{background:var(--accent-dark);color:#fff}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,.2);color:#fff}
+    .btn-ghost:hover{background:rgba(255,255,255,.08)}
   </style>
 </head>
 
@@ -122,21 +93,21 @@
           <span class="text-[var(--accent)]">Fast checkout via WhatsApp.</span>
         </h2>
         <p class="mt-4 text-white/80 max-w-xl">
-          Browse every offer below — fragrances, skincare, makeup, men’s grooming & gifts.  
+          Browse every offer below — fragrances, skincare, makeup, men’s grooming & gifts.
           Tap a product to add to cart and complete your order in WhatsApp.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a href="#catalog" class="btn-primary bg-[var(--accent)] px-5 py-2 rounded-lg text-black font-semibold hover:bg-[var(--accent-dark)] transition">Shop Current Deals</a>
-          <a href="https://iederees-create.github.io/iederees-downloads/" class="btn-secondary border border-[var(--accent)] text-[var(--accent)] px-5 py-2 rounded-lg hover:bg-[var(--accent)] hover:text-black transition"> Islamic Content</a>
+          <a href="#catalog" class="btn btn-primary">Shop Current Deals</a>
+          <a href="https://iederees-create.github.io/iederees-downloads/" class="btn btn-ghost">Islamic Content</a>
         </div>
         <p class="mt-3 text-xs text-white/60">Prices based on current brochures. Subject to change.</p>
       </div>
 
-      <!-- Hero Video -->
+      <!-- Hero Video (can stay cover) -->
       <div class="relative">
         <div class="aspect-[4/3] w-full rounded-3xl border border-white/10 overflow-hidden">
           <video autoplay muted loop playsinline class="w-full h-full object-cover">
-            <source src="images/videos/Untitled design.mp4" type="video/mp4"/>
+            <source src="images/Avon × Justine Product Showcase.mp4" type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
         </div>
@@ -216,51 +187,78 @@
     </div>
   </footer>
 
-  <!-- Share Modal -->
-  <div id="shareModal" class="fixed inset-0 bg-black/70 z-50 hidden items-center justify-center">
-    <div class="modal-content bg-[#ffe6ef] rounded-2xl p-6 text-center max-w-sm mx-auto text-black shadow-2xl">
-      <h3 class="text-lg font-bold mb-3">Share this product</h3>
-      <p id="shareCaption" class="text-sm mb-4 text-gray-800 leading-relaxed"></p>
-      <div class="flex justify-center gap-5 mt-3">
-        <a id="shareTikTok" target="_blank" title="Share on TikTok">
-          <img src="icons/tiktok.svg" alt="TikTok" class="w-8 hover:scale-110 transition-transform">
-        </a>
-        <a id="shareInstagram" target="_blank" title="Share on Instagram">
-          <img src="icons/instagram.svg" alt="Instagram" class="w-8 hover:scale-110 transition-transform">
-        </a>
-        <a id="shareFacebook" target="_blank" title="Share on Facebook">
-          <img src="icons/facebook.svg" alt="Facebook" class="w-8 hover:scale-110 transition-transform">
-        </a>
-        <a id="shareWhatsApp" target="_blank" title="Share on WhatsApp">
-          <img src="icons/whatsapp.svg" alt="WhatsApp" class="w-8 hover:scale-110 transition-transform">
-        </a>
-      </div>
-      <button onclick="closeShareModal()" class="mt-6 px-5 py-2 bg-black text-white rounded-lg hover:bg-gray-900 transition">Close</button>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-
+  <!-- Inline script: load products (videos shown uncropped) -->
   <script>
-    function openShareModal(product) {
-      const modal = document.getElementById("shareModal");
-      const caption = document.getElementById("shareCaption");
+    function priceToNumber(p){ return parseFloat(String(p||"").replace(/[^\d.]/g,"")) || 0; }
 
-      caption.innerText = product.social?.caption || "";
-      modal.classList.remove("hidden");
-      modal.classList.add("flex", "active");
-
-      document.getElementById("shareTikTok").href = product.social?.share_links?.tiktok || "#";
-      document.getElementById("shareInstagram").href = product.social?.share_links?.instagram || "#";
-      document.getElementById("shareFacebook").href = product.social?.share_links?.facebook || "#";
-      document.getElementById("shareWhatsApp").href = product.social?.share_links?.whatsapp || "#";
+    async function fetchProducts(){
+      const res = await fetch("products.json", {cache:"no-store"});
+      const data = await res.json();
+      return Array.isArray(data) ? data : [data];
     }
 
-    function closeShareModal() {
-      const modal = document.getElementById("shareModal");
-      modal.classList.remove("flex", "active");
-      modal.classList.add("hidden");
+    function productMedia(p){
+      const src = p.image || p.video || "";
+      const isMp4 = /\.mp4(\?.*)?$/i.test(src);
+      if(isMp4){
+        return `
+          <div class="product-media">
+            <video autoplay loop muted playsinline>
+              <source src="${src}" type="video/mp4">
+            </video>
+          </div>`;
+      }
+      return `
+        <div class="product-media">
+          <img src="${src}" alt="${p.name}">
+        </div>`;
     }
+
+    function makeCard(p){
+      const el = document.createElement("div");
+      el.className = "product-card";
+      el.innerHTML = `
+        ${productMedia(p)}
+        <div class="p-4 flex flex-col grow">
+          <h3 class="font-semibold text-lg mb-1">${p.name}</h3>
+          ${p.description ? `<p class="text-sm text-white/70 mb-2">${p.description}</p>` : ""}
+          <div class="mt-auto">
+            ${p.price ? `<p class="font-bold text-[var(--accent)]">${p.price}</p>` : ""}
+            ${p.promotion ? `<p class="text-xs text-white/60">${p.promotion}</p>` : ""}
+          </div>
+          <div class="flex justify-end mt-4">
+            <button class="btn btn-primary text-sm">Add</button>
+          </div>
+        </div>
+      `;
+      return el;
+    }
+
+    async function render(){
+      const grid = document.getElementById("grid");
+      const empty = document.getElementById("empty");
+      const products = await fetchProducts();
+
+      const q = (document.getElementById("search").value || "").toLowerCase();
+      const sort = document.getElementById("sort").value;
+
+      let items = products.filter(p =>
+        (p.name||"").toLowerCase().includes(q) ||
+        (p.category||"").toLowerCase().includes(q)
+      );
+
+      if(sort==="price_asc") items.sort((a,b)=>priceToNumber(a.price)-priceToNumber(b.price));
+      if(sort==="price_desc") items.sort((a,b)=>priceToNumber(b.price)-priceToNumber(a.price));
+      if(sort==="alpha") items.sort((a,b)=>String(a.name).localeCompare(String(b.name)));
+
+      grid.innerHTML = "";
+      items.forEach(p=> grid.appendChild(makeCard(p)));
+      empty.classList.toggle("hidden", items.length>0);
+    }
+
+    document.getElementById("search").addEventListener("input", render);
+    document.getElementById("sort").addEventListener("change", render);
+    window.addEventListener("DOMContentLoaded", render);
   </script>
 </body>
 </html>
