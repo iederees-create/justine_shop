@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Avon + Justine Shop — October Offers</title>
-  <meta name="description" content="Shop Avon and Justine — fragrances, skincare, bath & body, makeup, gifts. Fast checkout via WhatsApp. Explore our free Islamic Resource Hub for curated downloads." />
+  <title>Avon + Justine Shop — Current Offers</title>
+  <meta name="description" content="Shop Avon and Justine — fragrances, skincare, gifts, and limited editions. View products, watch videos, and order directly via WhatsApp." />
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -14,6 +14,13 @@
       --accent-dark: #b20062;
       --surface: #111;
       --text-muted: rgba(255,255,255,0.7);
+    }
+
+    html, body {
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      background: #000;
+      color: #fff;
     }
 
     /* Floating Islamic Content Button */
@@ -39,12 +46,31 @@
       transform: translateY(-2px);
     }
 
-    /* Responsive Fix */
-    html, body { overflow-x: hidden; scroll-behavior: smooth; }
+    /* Product cards */
+    .product-card {
+      background: #111;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 1rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 20px rgba(255,255,255,0.1);
+    }
+    .product-media video,
+    .product-media img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      display: block;
+    }
   </style>
 </head>
 
-<body class="bg-black text-white">
+<body>
 
   <!-- Header -->
   <header class="sticky top-0 z-50 bg-black/85 backdrop-blur border-b border-white/10">
@@ -82,17 +108,17 @@
           Tap a product to add to cart and complete your order in WhatsApp.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a href="#catalog" class="btn-primary">Shop October Deals</a>
-          <a href="https://iederees-create.github.io/iederees-downloads/" class="btn-secondary border border-[var(--accent)] text-[var(--accent)] hover:bg-[var(--accent)] hover:text-black transition"> Islamic Content</a>
+          <a href="#catalog" class="btn-primary bg-[var(--accent)] px-5 py-2 rounded-lg text-black font-semibold hover:bg-[var(--accent-dark)] transition">Shop Current Deals</a>
+          <a href="https://iederees-create.github.io/iederees-downloads/" class="btn-secondary border border-[var(--accent)] text-[var(--accent)] px-5 py-2 rounded-lg hover:bg-[var(--accent)] hover:text-black transition"> Islamic Content</a>
         </div>
-        <p class="mt-3 text-xs text-white/60">Prices based on October 2025 brochures. Subject to change.</p>
+        <p class="mt-3 text-xs text-white/60">Prices based on current brochures. Subject to change.</p>
       </div>
 
       <!-- Hero Video -->
       <div class="relative">
         <div class="aspect-[4/3] w-full rounded-3xl border border-white/10 overflow-hidden">
           <video autoplay muted loop playsinline class="w-full h-full object-cover">
-            <source src="images/Avon × Justine Product Showcase — Canva Video Brief Goal Drive WhatsApp orders for October offers (Avon + Justine). Audience Beauty & self-care shoppers in South Africa. Platforms Instagram Reels,.mp4" type="video/mp4"/>
+            <source src="images/Avon × Justine Product Showcase.mp4" type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
         </div>
@@ -100,41 +126,15 @@
     </div>
   </section>
 
-
-  <!-- Controls -->
+  <!-- Catalog Controls -->
   <section id="catalog" class="container mx-auto px-4 py-8">
     <div class="flex flex-col md:flex-row md:items-end gap-4 md:gap-6">
       <div class="grow">
-        <label for="search" class="sr-only">Search</label>
-        <input id="search" type="search" placeholder="Search products, e.g. 'Attraction', 'Tissue Oil', 'Power Stay'..."
+        <input id="search" type="search" placeholder="Search products, e.g. 'La Vie', 'Tissue Oil', 'Hydro Plus'..."
                class="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/15 outline-none focus:ring-2 focus:ring-[var(--accent)]/60" />
       </div>
-
       <div>
-        <label for="brand" class="block text-xs uppercase tracking-wide text-white/60 mb-1">Brand</label>
-        <select id="brand" class="px-4 py-3 rounded-xl bg-white/10 border border-white/15">
-          <option value="all">All</option>
-          <option>Avon</option>
-          <option>Justine</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="category" class="block text-xs uppercase tracking-wide text-white/60 mb-1">Category</label>
-        <select id="category" class="px-4 py-3 rounded-xl bg-white/10 border border-white/15">
-          <option value="all">All</option>
-          <option>Fragrance</option>
-          <option>Skincare</option>
-          <option>Makeup</option>
-          <option>Bath & Body</option>
-          <option>Men's</option>
-          <option>Style Store</option>
-          <option>Tools</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="sort" class="block text-xs uppercase tracking-wide text-white/60 mb-1">Sort by</label>
+        <label class="block text-xs uppercase tracking-wide text-white/60 mb-1">Sort by</label>
         <select id="sort" class="px-4 py-3 rounded-xl bg-white/10 border border-white/15">
           <option value="featured">Featured</option>
           <option value="price_asc">Price: Low → High</option>
@@ -144,10 +144,8 @@
       </div>
     </div>
 
-    <!-- Product grid -->
+    <!-- Product Grid -->
     <div id="grid" class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"></div>
-
-    <!-- Empty state -->
     <div id="empty" class="hidden mt-10 text-center text-white/70">No products found.</div>
   </section>
 
@@ -164,12 +162,12 @@
         <p class="mt-4 text-sm text-white/60">Prefer email? Use the “Order via Email” button in the cart.</p>
       </div>
       <div class="rounded-2xl border border-white/10 p-6 bg-white/[0.03]">
-        <h4 class="font-semibold mb-2">October highlights</h4>
+        <h4 class="font-semibold mb-2">This Month’s Highlights</h4>
         <ul class="text-sm text-white/80 space-y-2">
           <li>Avon Attraction & TTA offers</li>
           <li>Justine Original Tissue Oil & Hydro Plus</li>
           <li>Power Stay makeup & gifting sets</li>
-          <li>Men’s grooming, Style Store accessories</li>
+          <li>Men’s grooming & festive bundles</li>
         </ul>
       </div>
     </div>
@@ -182,7 +180,7 @@
       <div class="mt-6 grid md:grid-cols-2 gap-6">
         <div class="rounded-2xl border border-white/10 p-5">
           <p class="font-semibold">Are prices fixed?</p>
-          <p class="text-white/80 mt-2">Prices reflect the October 2025 brochures. Promos change monthly; I’ll confirm totals on order.</p>
+          <p class="text-white/80 mt-2">Prices reflect the latest brochures. Promos change monthly; I’ll confirm totals on order.</p>
         </div>
         <div class="rounded-2xl border border-white/10 p-5">
           <p class="font-semibold">How do I pay?</p>
@@ -200,32 +198,20 @@
     </div>
   </footer>
 
-  <!-- Cart Drawer -->
-  <aside id="cart" class="cart-drawer">
-    <div class="flex items-center justify-between border-b border-white/10 p-4">
-      <h3 class="text-lg font-semibold">Your Cart</h3>
-      <button id="closeCart" class="text-white/70 hover:text-white">✕</button>
-    </div>
-    <div id="cartItems" class="p-4 space-y-4 overflow-y-auto grow"></div>
-    <div class="p-4 border-t border-white/10 space-y-3">
-      <div class="flex items-center justify-between">
-        <span class="text-white/70">Subtotal</span>
-        <span id="subtotal" class="font-semibold">R0.00</span>
+  <!-- Share Modal -->
+  <div id="shareModal" class="hidden fixed inset-0 bg-black/70 z-50 flex items-center justify-center">
+    <div class="bg-white rounded-xl p-6 text-center max-w-sm mx-auto text-black">
+      <h3 class="text-lg font-bold mb-3">Share this product</h3>
+      <p id="shareCaption" class="text-sm mb-4 text-gray-700"></p>
+      <div class="flex justify-center gap-4">
+        <a id="shareTikTok" target="_blank"><img src="icons/tiktok.svg" class="w-8"></a>
+        <a id="shareInstagram" target="_blank"><img src="icons/instagram.svg" class="w-8"></a>
+        <a id="shareFacebook" target="_blank"><img src="icons/facebook.svg" class="w-8"></a>
+        <a id="shareWhatsApp" target="_blank"><img src="icons/whatsapp.svg" class="w-8"></a>
       </div>
-      <details class="rounded-xl border border-white/10 p-3">
-        <summary class="cursor-pointer font-medium">Your details</summary>
-        <div class="grid grid-cols-1 gap-3 mt-3">
-          <input id="custName" class="field" placeholder="Full name" />
-          <input id="custPhone" class="field" placeholder="Phone number" />
-          <input id="custEmail" class="field" placeholder="Email (optional)" />
-          <input id="custAddress" class="field" placeholder="Delivery address (optional)" />
-          <textarea id="custNotes" class="field" placeholder="Notes (shade/scent preferences, etc.)"></textarea>
-        </div>
-      </details>
-      <button id="waOrder" class="btn-primary w-full">Order via WhatsApp</button>
-      <button id="emailOrder" class="btn-secondary w-full">Order via Email</button>
+      <button onclick="document.getElementById('shareModal').classList.add('hidden')" class="mt-5 px-4 py-2 bg-black text-white rounded-xl">Close</button>
     </div>
-  </aside>
+  </div>
 
   <script src="script.js"></script>
 </body>
