@@ -1,25 +1,26 @@
-{
-  "product_id": "1321389",
-  "name": "La Vie Eau de Parfum",
-  "volume": "50 ml",
-  "category": "Fragrance - Women",
-  "price": "R349.90",
-  "promotion": "BUY 1 FOR R349.90 & GET 1 FREE",
-  "discount": "Save R349.90 (50%)",
-  "description": "Hints of grapefruit, apple & pink pepper notes rest on a warm base of vanilla, jasmine & patchouli.",
-  "top_notes": ["Grapefruit", "Apple", "Pink Pepper"],
-  "base_notes": ["Vanilla", "Jasmine", "Patchouli"],
-  
-  "availability": "Black Friday Offer",
-  "image": "images/videos/Untitled design.mp4",
-  "social": {
-    "caption": "✨ Fall in love with the fragrance of confidence. La Vie Eau de Parfum — notes of grapefruit, apple & vanilla that make every moment unforgettable. 💕 #JustineBeauty #LaVie #BlackFridayDeal #PerfumeGoals #GiftWithLove",
-    "hashtags": ["#JustineBeauty", "#LaVie", "#PerfumeGoals", "#FragranceLover", "#GiftWithLove", "#BlackFridayDeal"],
-    "share_links": {
-      "tiktok": "https://www.tiktok.com/share?text=✨+Fall+in+love+with+the+fragrance+of+confidence...&url=https://yourshop.com/product/1321389",
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https://yourshop.com/product/1321389",
-      "instagram": "https://www.instagram.com/?url=https://yourshop.com/product/1321389",
-      "whatsapp": "https://wa.me/?text=✨+Fall+in+love+with+the+fragrance+of+confidence...+https://yourshop.com/product/1321389"
+[
+  {
+    "product_id": "1321389",
+    "name": "La Vie Eau de Parfum",
+    "volume": "50 ml",
+    "category": "Fragrance - Women",
+    "price": "R349.90",
+    "promotion": "BUY 1 FOR R349.90 & GET 1 FREE",
+    "discount": "Save R349.90 (50%)",
+    "description": "Hints of grapefruit, apple & pink pepper notes rest on a warm base of vanilla, jasmine & patchouli.",
+    "top_notes": ["Grapefruit", "Apple", "Pink Pepper"],
+    "base_notes": ["Vanilla", "Jasmine", "Patchouli"],
+    "availability": "Black Friday Offer",
+    "image": "images/videos/Untitled design.mp4",
+    "social": {
+      "caption": "✨ Fall in love with the fragrance of confidence. La Vie Eau de Parfum — notes of grapefruit, apple & vanilla that make every moment unforgettable. 💕 #JustineBeauty #LaVie #BlackFridayDeal #PerfumeGoals #GiftWithLove",
+      "hashtags": ["#JustineBeauty", "#LaVie", "#PerfumeGoals", "#FragranceLover", "#GiftWithLove", "#BlackFridayDeal"],
+      "share_links": {
+        "tiktok": "https://www.tiktok.com/share?text=✨+Fall+in+love+with+the+fragrance+of+confidence...&url=https://yourshop.com/product/1321389",
+        "facebook": "https://www.facebook.com/sharer/sharer.php?u=https://yourshop.com/product/1321389",
+        "instagram": "https://www.instagram.com/?url=https://yourshop.com/product/1321389",
+        "whatsapp": "https://wa.me/?text=✨+Fall+in+love+with+the+fragrance+of+confidence...+https://yourshop.com/product/1321389"
+      }
     }
   }
-}
+]
