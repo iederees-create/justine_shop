@@ -1,5 +1,25 @@
 [
 
+
+  {
+  "product_id": "1547925",
+  "name": "Ntando Earrings",
+  "category": "Jewellery - Earrings",
+  "price": "R149.90",
+  "regular_price": "R199.90",
+  "promotion": "Save R50",
+  "discount": "≈25% off",
+  "description": "Two sets of gold-toned heritage-style earrings with orange & black rope details.",
+  "materials": "Gold-toned",
+  "sizes": {
+    "orange": "2.7 cm x 2.7 cm",
+    "black": "2 cm x 2.9 cm"
+  },
+  "availability": "Black Friday Exclusive — valid 1–30 Nov 2025",
+  "image": "images/products/ntando_9x16.png",
+  "video": "images/videos/9.mp4"
+},
+
   {
   "product_id": "1547926",
   "name": "Tebello Bangle",
