@@ -11,16 +11,21 @@
     "top_notes": ["Grapefruit", "Apple", "Pink Pepper"],
     "base_notes": ["Vanilla", "Jasmine", "Patchouli"],
     "availability": "Black Friday Offer",
-    "image": "images/videos/Untitled design.mp4",
-    "social": {
-      "caption": "✨ Fall in love with the fragrance of confidence. La Vie Eau de Parfum — notes of grapefruit, apple & vanilla that make every moment unforgettable. 💕 #JustineBeauty #LaVie #BlackFridayDeal #PerfumeGoals #GiftWithLove",
-      "hashtags": ["#JustineBeauty", "#LaVie", "#PerfumeGoals", "#FragranceLover", "#GiftWithLove", "#BlackFridayDeal"],
-      "share_links": {
-        "tiktok": "https://www.tiktok.com/share?text=✨+Fall+in+love+with+the+fragrance+of+confidence...&url=https://yourshop.com/product/1321389",
-        "facebook": "https://www.facebook.com/sharer/sharer.php?u=https://yourshop.com/product/1321389",
-        "instagram": "https://www.instagram.com/?url=https://yourshop.com/product/1321389",
-        "whatsapp": "https://wa.me/?text=✨+Fall+in+love+with+the+fragrance+of+confidence...+https://yourshop.com/product/1321389"
-      }
-    }
+    "video": "images/videos/Untitled design.mp4"
+  },
+  {
+    "product_id": "1580179",
+    "name": "Gift with Love Pouch & Card",
+    "category": "Accessories — Limited Edition",
+    "price": "R129.90",
+    "promotion": "SAVE R70 (Regular Price R199.90)",
+    "discount": "R70 Off",
+    "description": "A beautifully designed canvas pouch featuring hand, heart and sunshine motifs, paired with a matching blank card — perfect for thoughtful gifting.",
+    "dimensions": {
+      "pouch": "19.5 cm L x 5.5 cm W x 15 cm H",
+      "card": "7 cm W x 11 cm H"
+    },
+    "availability": "Limited Edition",
+    "video": "videos/gift-with-love.mp4"
   }
 ]
