@@ -1,5 +1,20 @@
 [
 
+{
+  "product_id": "1555560",
+  "name": "Tarina Crossbody Bag",
+  "category": "Bags - Crossbody",
+  "price": "R229.90",
+  "regular_price": "R349.90",
+  "promotion": "Save R120",
+  "discount": "≈34% off",
+  "description": "Mustard-yellow crossbody with gold-toned chain and front pocket.",
+  "colour": "Mustard-yellow",
+  "dimensions": "22.5 cm L × 8.5 cm W × 15 cm H",
+  "availability": "Black Friday Exclusive — valid 1–30 Nov 2025",
+  "image": "",
+  "video": "images/videos/Untitled design.mp4"
+},
 
   {
   "product_id": "1475831",
