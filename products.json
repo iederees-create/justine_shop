@@ -1,5 +1,22 @@
 [
 
+
+  {
+  "product_id": "1555301",
+  "name": "Bonnie Cellphone Pouch",
+  "category": "Accessories - Cellphone Pouch",
+  "price": "R229.90",
+  "regular_price": "R329.90",
+  "promotion": "Save R100",
+  "discount": "≈30% off",
+  "description": "Lilac cellphone pouch with removable strap. Features front pocket & 12 card slots. (Contents not included.)",
+  "colour": "Lilac",
+  "dimensions": "21.5 cm L × 3 cm W × 12.5 cm H",
+  "availability": "Black Friday Exclusive — valid 1–30 Nov 2025",
+  "image": "",
+  "video": "images/videos/Untitled design(1).mp4"
+},
+
 {
   "product_id": "1555560",
   "name": "Tarina Crossbody Bag",
